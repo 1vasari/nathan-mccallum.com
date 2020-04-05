@@ -1,8 +1,8 @@
-# nathan-mccallum.com
+# Nathan-McCallum.com
+
+![Me](/assets/me.jpg)
 
 My personal portfolio site and blog.
-
-[See here](http://nathan-mccallum.com)
 
 # License
 
