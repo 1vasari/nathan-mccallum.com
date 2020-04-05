@@ -3,8 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: Welcome
 ---
-
-## Welcome
 
 <img src="/assets/me.jpg" title="Hello!" alt="Nathan McCallum" style="width: 50%; border-radius: 1em;">

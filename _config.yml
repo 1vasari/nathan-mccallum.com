@@ -32,8 +32,10 @@ encoding: utf-8
 lang: en
 rss: RSS
 
-github_username: 1vasari
-youtube_username: 1vasari
+minima:
+  social_profiles:
+    github: 1vasari
+    youtube: 1vasari
 
 # Build settings
 theme: minima
