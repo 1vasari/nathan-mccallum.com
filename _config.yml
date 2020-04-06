@@ -58,6 +58,7 @@ plugins:
   - jekyll-sitemap
 include:
   - CNAME
+  - robots.txt
 
 # Exclude from processing.
 # The following items will not be processed, by default.
