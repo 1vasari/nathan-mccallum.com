@@ -9,7 +9,8 @@ My personal portfolio site and blog.
 ```bash
 yarn install
 yarn run dev
-yarn run deploy
+yarn run build
+yarn run publish
 ```
 
 # License
