@@ -4,6 +4,7 @@
 
 layout: home
 title: Welcome
+list_title: Blog
 ---
 
-<img src="/assets/me.jpg" title="Hello!" alt="Nathan McCallum" style="width: 50%; border-radius: 1em;">
+<img src="/assets/me.jpg" title="Hello!" alt="Nathan McCallum" class="home-image">

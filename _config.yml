@@ -19,28 +19,41 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Nathan's Public Domicile
-author: Nathan McCallum
-email: nathan@1vas.me
+
+author:
+  name: Nathan McCallum
+  email: nathan@1vas.me
+
 description: >-
   Hi! I'm a web developer who specializes in Ruby, Rails, Node.js & frontend technologies such as
   React. In my spare time I like to play guitar and experiment with electronic music production.
-  I'm available for consulting work - please reach out to me via email!
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://nathan-mccallum.com" # the base hostname & protocol for your site, e.g. http://example.com
+#I'm available for consulting work - please reach out to me via email!
+
+baseurl: ""
+url: "http://nathan-mccallum.com"
 timezone: Australia/Brisbane
 encoding: utf-8
 lang: en
 rss: RSS
 
+header_pages:
+  - about.md
+  - projects.md
+  - resume.md
+
 minima:
-  social_profiles:
+  skin: solarized-dark
+  social_links:
     github: 1vasari
     youtube: 1vasari
+    instagram: 1vasari
+    linkedin: 1vasari
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
