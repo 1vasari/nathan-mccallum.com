@@ -4,13 +4,13 @@ permalink: /tags/
 layout: page
 ---
 
-{% for tag in site.tags %}
+{% assign tags = site.tags | sort %}
+{% for tag in tags %}
 
-{% capture tag_name %}{{ tag | first }}{% endcapture %}
+## {{ tag | first | replace: '-', ' ' | capitalize }}
 
-## {{ tag_name | replace: '-', ' ' | capitalize }}
-
-  {% for post in site.tags[tag_name] %}
-  - [{{post.title}}]({{ site.baseurl }}{{ post.url }})
+  {% assign posts = site.tags[tag_name] | sort %}
+  {% for post in posts %}
+  - [{{post.title}}]({% link post.url %})
   {% endfor %}
 {% endfor %}
