@@ -6,7 +6,7 @@ tags: musings
 ---
 
 It is a cool Sunday evening and I am once again experimenting with my personal site.
-Over the years I've run several different *"Hello, World - this is me"*-type sites and nothing has quite stuck.
+Over the years I've run several different *"Hello, World - this is me"*-type sites and nothing has quite stuck.<!--more-->
 Given the vast array of options, I've never settled on any one thing.
 I can at least remember trying Wordpress, Ghost, SquareSpace, as well as various things I've hacked together and hosted on GitHub Pages.
 
