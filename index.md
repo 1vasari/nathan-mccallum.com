@@ -11,5 +11,4 @@ list_title: Blog
 
 - [Projects](/projects)
 - [Resume](/resume)
-- [Posts](/tags)
 - [Buy My Music](http://1vasari.bandcamp.com)
