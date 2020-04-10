@@ -38,7 +38,6 @@ rss: RSS
 header_pages:
   - about.md
   - projects.md
-  - resume.md
   - topics.md
 
 minima:

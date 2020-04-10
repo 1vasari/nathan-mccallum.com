@@ -10,5 +10,4 @@ list_title: Blog
 <img src="/assets/me.jpg" title="Hello!" alt="Nathan McCallum" class="home-image">
 
 - [Projects](/projects)
-- [Resume](/resume)
 - [Buy My Music](http://1vasari.bandcamp.com)
