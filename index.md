@@ -7,7 +7,7 @@ title: Welcome
 list_title: Blog
 ---
 
-<img src="/assets/me.jpg" title="Hello!" alt="Nathan McCallum" class="home-image">
+![Hello - I'm Nathan McCallum](/assets/me.jpg)
 
 - [Projects](/projects)
 - [Buy My Music](http://1vasari.bandcamp.com)

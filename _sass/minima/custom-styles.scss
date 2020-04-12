@@ -1,10 +1,10 @@
-.home-image {
-  width: 50%;
-  border-radius: 1em;
-}
-
 img {
   opacity: 0.85;
+  border-radius: 1em;
+  width: auto;
+  max-height: 500px;
+  display: block;
+  margin: 0 auto;
 }
 
 ul.contact-list {
