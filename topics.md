@@ -1,5 +1,5 @@
 ---
-title: Topics
+title: Blog Topics
 permalink: /topics/
 layout: page
 ---
