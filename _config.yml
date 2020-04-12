@@ -28,6 +28,8 @@ description: >-
   Hi! I'm a web developer who specializes in Ruby, Rails, Node.js & frontend technologies such as
   React. In my spare time I like to play guitar and experiment with electronic music production.
 
+repo_url: http://github.com/1vasari/nathan-mccallum.com
+
 show_excerpts: true
 excerpt_separator: <!--more-->
 
