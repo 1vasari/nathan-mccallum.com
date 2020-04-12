@@ -34,6 +34,10 @@ layout: default
     {{ content }}
   </div>
 
+  <div>
+    View this post <a href="{{ site.repo_url }}/blob/master/{{ page.path }}" target="_blank" rel="noopener noreferrer">on GitHub</a>
+  </div>
+
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}
