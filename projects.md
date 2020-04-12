@@ -10,6 +10,8 @@ permalink: /projects/
 
 Speed of thought micro-blogging platform, built with Rails ([source code](http://github.com/1vasari/TinyBlog))
 
+![TinyBlog screenshot](/assets/projects/tinyblog.png)
+
 You can try it out at [tinyblog.app](http://tinyblog.app)
 
 ## GitHub Notes
@@ -18,17 +20,23 @@ You can try it out at [tinyblog.app](http://tinyblog.app)
 
 Minimal note-taking using Github, Markdown and Node.js ([source code](http://github.com/1vasari/gh-notes))
 
+![Github notes screenshot](/assets/projects/github_notes.png)
+
 ## SongDown
 
 > August 2016 - Present
 
 A web app for storing chord charts ([source code](http://github.com/1vasari/rails-songdown))
 
+![SongDown screenshot](/assets/projects/songdown.png)
+
 You can try it out at [songdown.app](http://songdown.app)
 
 ## The Grants Hub
 
 > August 2019 - Present
+
+![The Grants Hub](/assets/projects/the_grants_hub.png)
 
 The Grants Hub is an online directory for finding grants funding.
 They also provide resources for applying for grants, networking opportunities and grant writing.
@@ -39,7 +47,7 @@ I am currently working at The Grants Hub as their web developer.
 
 > February 2019 - October 2019
 
-[Global platforms, one hub](https://platformhub.com.a)
+![Global platforms, one hub](/assets/projects/platform_hub.png)
 
 Platform Hub is an integrations core for streamlining Upvise-based systems.
 While I was working at Billow Software I was the lead developer on the project.
