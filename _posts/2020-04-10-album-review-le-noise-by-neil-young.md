@@ -20,6 +20,8 @@ My favorite tracks:
 
 ### 1. Walk With Me
 
+{% youtube "https://www.youtube.com/watch?v=XUGej_ofcAQ" %}
+
 *Walk With Me* opens the album, introducing the distorted guitar sound and heavily delayed vocals that we hear through most of the album.
 The song itself is fairly simple, Neil's vocals sounding as good as ever.
 The thing that made the song for me however was the lovely ambient electronic breakdown at the end.
