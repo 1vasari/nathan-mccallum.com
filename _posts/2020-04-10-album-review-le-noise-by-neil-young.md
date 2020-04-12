@@ -29,6 +29,8 @@ As if to give us a peep into some other world
 
 ### 2. Love and War
 
+{% youtube "https://www.youtube.com/watch?v=skJddbSJQjA" %}
+
 Fourth track on the album and we finally get a different texture, acoustic guitar and voice.
 On first listening it felt like a long time coming, but well worth it.
 The song is a wonderful ballad, mournful but somewhat hopeful.
@@ -40,6 +42,8 @@ Particularity the usage of `D7` (the `V` of `G`) resolving to `Am` instead.
 Music theorists would call this a deceptive resolution but to me it just feels like we're going back down into the trenches.
 
 ### 3. Peaceful Valley Boulevard
+
+{% youtube "https://www.youtube.com/watch?v=4UffjWGMiBQ" %}
 
 Lovely, mournful, really nice song.
 
