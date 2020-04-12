@@ -331,12 +331,20 @@ table td { border: 1px solid #586e75; }
 /** Grid helpers */
 @media screen and (min-width: 800px) { .one-half { width: calc(50% - (30px / 2)); } }
 
-.home-image { width: 50%; border-radius: 1em; opacity: 0.85; }
+img { opacity: 0.85; border-radius: 1em; width: auto; max-height: 500px; display: block; margin: 0 auto; }
 
 ul.contact-list { text-align: center; }
 
 a, a:visited, a:hover { color: #b58900; }
 
 .feed-subscribe { display: none; }
+
+.block { display: block; }
+
+.text-center { text-align: center; }
+
+.embed-container { margin: 1em 0; }
+
+.post-content h1, .post-content h2, .post-content h3 { margin-top: 1.5em; }
 
 /*# sourceMappingURL=style.css.map */
