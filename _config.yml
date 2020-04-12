@@ -39,7 +39,6 @@ lang: en
 rss: RSS
 
 header_pages:
-  - about.md
   - projects.md
   - topics.md
 
