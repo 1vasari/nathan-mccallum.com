@@ -41,6 +41,7 @@ lang: en
 rss: RSS
 
 header_pages:
+  - consulting.md
   - projects.md
   - topics.md
 

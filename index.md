@@ -9,6 +9,7 @@ list_title: Blog
 
 ![Hello - I'm Nathan McCallum](/assets/me.jpg)
 
+- [Consulting](/consulting)
 - [Projects](/projects)
 - [Blog Topics](/topics)
 - [Buy My Music](http://1vasari.bandcamp.com)
