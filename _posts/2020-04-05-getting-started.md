@@ -3,6 +3,7 @@ layout: post
 title:  "Getting Started"
 date:   2020-04-05 18:19:00 +1000
 tags: musings
+author: Nathan McCallum
 ---
 
 It is a cool Sunday evening and I am once again experimenting with my personal site.
