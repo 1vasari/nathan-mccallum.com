@@ -2,6 +2,7 @@
 title: The Myth of Isolation Productivity
 layout: post
 author: Nathan McCallum
+date: 2020-04-18 18:00:00 +1000
 ---
 
 I don't need to cover the story so far. COVID-19 is happening and it's bad.<!--more-->
@@ -53,10 +54,5 @@ _**TL;DR**_
 Productivity is hard.
 
 Make sure to set reasonable goals for yourself.
-
-But most importantly --
-If you can, that's great.
-But if you can't, that's okay too.
-It's enough to make it through the day.
 
 Stay safe out there everyone.
