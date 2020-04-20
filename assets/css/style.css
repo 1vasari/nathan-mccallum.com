@@ -331,7 +331,7 @@ table td { border: 1px solid #586e75; }
 /** Grid helpers */
 @media screen and (min-width: 800px) { .one-half { width: calc(50% - (30px / 2)); } }
 
-img { opacity: 0.85; border-radius: 1em; width: auto; max-height: 500px; display: block; margin: 0 auto; }
+img { opacity: 0.85; border-radius: 1em; width: auto; height: auto; max-height: 500px; display: block; margin: 0 auto; }
 
 ul.contact-list { text-align: center; }
 
