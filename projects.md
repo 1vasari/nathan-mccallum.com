@@ -10,7 +10,7 @@ permalink: /projects/
 
 Speed of thought micro-blogging platform, built with Rails ([source code](http://github.com/1vasari/TinyBlog))
 
-![TinyBlog screenshot](/assets/projects/tinyblog.png)
+{% image {"src":"projects/tinyblog.png", "alt":"TinyBlog screenshot"} %}
 
 You can try it out at [tinyblog.app](http://tinyblog.app)
 
@@ -20,7 +20,7 @@ You can try it out at [tinyblog.app](http://tinyblog.app)
 
 Minimal note-taking using Github, Markdown and Node.js ([source code](http://github.com/1vasari/gh-notes))
 
-![Github notes screenshot](/assets/projects/github_notes.png)
+{% image {"src":"projects/github_notes.png", "alt":"Github Notes screenshot"} %}
 
 ## SongDown
 
@@ -28,7 +28,7 @@ Minimal note-taking using Github, Markdown and Node.js ([source code](http://git
 
 A web app for storing chord charts ([source code](http://github.com/1vasari/rails-songdown))
 
-![SongDown screenshot](/assets/projects/songdown.png)
+{% image {"src":"projects/songdown.png", "alt":"SongDown screenshot"} %}
 
 You can try it out at [songdown.app](http://songdown.app)
 
@@ -36,7 +36,7 @@ You can try it out at [songdown.app](http://songdown.app)
 
 > August 2019 - Present
 
-![The Grants Hub](/assets/projects/the_grants_hub.png)
+{% image {"src":"projects/the_grants_hub.png", "alt":"The Grants Hub"} %}
 
 The Grants Hub is an online directory for finding grants funding.
 They also provide resources for applying for grants, networking opportunities and grant writing.
@@ -47,7 +47,7 @@ I am currently working at The Grants Hub as their web developer.
 
 > February 2019 - October 2019
 
-![Global platforms, one hub](/assets/projects/platform_hub.png)
+{% image {"src":"projects/platform_hub.png", "alt":"Global platforms, one hub"} %}
 
 Platform Hub is an integrations core for streamlining Upvise-based systems.
 While I was working at Billow Software I was the lead developer on the project.
@@ -64,7 +64,7 @@ Automation tools for playing The Lacuna Expanse
 
 The Lacuna Expanse is a region of space with millions of habitable worlds. You can play with or compete against thousands of players as you build your empire, fight off spies in a battle for cold war supremacy, form alliances, search the expanse for lost ancient artifacts, and more.
 
-![Lacuna Expanse screenshot](https://raw.githubusercontent.com/plainblack/Lacuna-Web-Client/reboot/docs/img/screenshot.png)
+{% image {"src":"projects/tle.png", "alt":"Lacuna Expanse screenshot"} %}
 
 My work on TLE was centered around the web client.
 Originally it was built with YUI2 however I introduced React and unidirectional state management.

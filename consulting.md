@@ -4,7 +4,7 @@ permalink: /consulting/
 layout: page
 ---
 
-![1vasari arts & media logo](/assets/1vas-logo-white.png)
+{% image {"src":"1vas-logo-white.png", "alt":"1vasari arts & media logo"} %}
 
 I am available for consulting through my sole trader *"1vasari arts & media"* either remotely or on site in Brisbane, Australia.
 You can see some of my projects [here](/projects/) as well as my [GitHub profile](http://github.com/1vasari).

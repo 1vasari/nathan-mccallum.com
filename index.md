@@ -7,7 +7,7 @@ title: Welcome
 list_title: Blog
 ---
 
-![Hello - I'm Nathan McCallum](/assets/me.jpg)
+{% image {"src":"me.jpg", "alt":"Hi - I'm Nathan McCallum"} %}
 
 - [Consulting](/consulting)
 - [Projects](/projects)
