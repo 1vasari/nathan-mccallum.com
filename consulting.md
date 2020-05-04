@@ -16,7 +16,7 @@ I can help you build your next:
 - React frontend, with Bootstrap, Semantic UI, Foundation or others
 - Node.js API, using Express and ES6 JavaScript
 
-I also experience with the MySQL and MongoDB databases as well as extensive experience maintaning legacy code.
+I have experience with the MySQL and MongoDB databases as well as extensive experience maintaning legacy code.
 
 I can reduce your technical debt, rescue an old system, or start a brand new one.
 
