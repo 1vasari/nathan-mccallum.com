@@ -24,8 +24,8 @@ layout: default
             {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
       {%- endif -%}
-      {%- if page.tags.length -%}
-        &nbsp;• {{ page.tags | join: ',' }}
+      {%- if page.tags and page.tags[0] -%}
+        &nbsp;•&nbsp;{{ page.tags | first | replace: '-', ' ' | capitalize }}
       {%- endif -%}
     </p>
   </header>
