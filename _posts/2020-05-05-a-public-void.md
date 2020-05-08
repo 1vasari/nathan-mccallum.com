@@ -12,23 +12,25 @@ The recording for this song began in early 2018.
 I was starting out as a music student at QUT and was keen to be working on new music.
 <!--more-->
 
-This song came chorus first.
+This particular song came chorus first.
 Sometime in 2017 I was playing piano with a friend on bass and I stumbled across what became the main vocal line of the chorus.
 The friend and I jammed on it for a while and then I recorded it as a voice memo on my phone.
-I later found the voice memo and decided to sing it and then add harmonies.
+I later found the recording and decided to sing it and fill the spaces with harmonies.
 
-The challenge then was to fill out the rest of the song, which is to take it from a glorified chorus to being a whole statement of its own.
+At this point I had no idea where the song was coming from or going.
+So that was the next challenge.
+Fill out the rest of the song, taking it from a glorified chorus to a whole statement of its own.
 I continued reaching into the past through my voice memos and found a recording of my school's bell sound.
-This was then used to make the 'riff' that you hear at the start of the song.
+I used this to make the intro melody that you hear while all the ambient effects were building up.
 
-All of this added up to an almost complete song, comprising an intro, chorus, chord progression, harmonies.
+All of this added up to an almost complete song, comprising an intro, chorus, chord progression, and harmonies.
 What remained was to come up with a verse and then work out the final structure.
-I came up with a verse melody and ultimately decided on a structure of Intro, Verse, Chorus, Solo, Verse, Chorus, Solo, Outtro.
+I came up with a verse melody and ultimately decided on a structure of intro, verse, chorus, solo, verse, chorus, solo, outtro.
 
-And in this state the song remained for a month or two.
+In this state the song remained for a month or two.
 
-In April 2018 my family went away for a week and I stayed home to have some time to do "assignments".
-In this week I did the solos, lyrics, lead vocal and filmed the video.
+Fast forward to April 2018, my family went away for a week and I stayed home to have some time to work.
+During this week I did the solos, lyrics, lead vocal and filmed the video.
 
 {% image {"src":"posts/a-public-void/ableton.png", "alt":"The finished Ableton session"} %}
 
