@@ -1,27 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://nathan-mccallum.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://nathan-mccallum.com/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-05-05T13:40:15+10:00</updated><id>http://nathan-mccallum.com/feed.xml</id><title type="html">Nathan’s Public Domicile</title><subtitle>Hi! I'm a web developer who specializes in Ruby, Rails, Node.js &amp; frontend technologies such as React. In my spare time I like to play guitar and experiment with electronic music production.</subtitle><author><name>Nathan McCallum</name><email>nathan@1vas.me</email></author><entry><title type="html">A Public Void</title><link href="http://nathan-mccallum.com/2020/05/05/a-public-void.html" rel="alternate" type="text/html" title="A Public Void" /><published>2020-05-05T13:39:00+10:00</published><updated>2020-05-05T13:39:00+10:00</updated><id>http://nathan-mccallum.com/2020/05/05/a-public-void</id><content type="html" xml:base="http://nathan-mccallum.com/2020/05/05/a-public-void.html">&lt;style&gt;.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }&lt;/style&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://nathan-mccallum.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://nathan-mccallum.com/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-05-08T13:15:00+10:00</updated><id>http://nathan-mccallum.com/feed.xml</id><title type="html">Nathan’s Public Domicile</title><subtitle>Hi! I'm a web developer who specializes in Ruby, Rails, Node.js &amp; frontend technologies such as React. In my spare time I like to play guitar and experiment with electronic music production.</subtitle><author><name>Nathan McCallum</name><email>nathan@1vas.me</email></author><entry><title type="html">A Public Void</title><link href="http://nathan-mccallum.com/2020/05/05/a-public-void.html" rel="alternate" type="text/html" title="A Public Void" /><published>2020-05-05T13:39:00+10:00</published><updated>2020-05-05T13:39:00+10:00</updated><id>http://nathan-mccallum.com/2020/05/05/a-public-void</id><content type="html" xml:base="http://nathan-mccallum.com/2020/05/05/a-public-void.html">&lt;style&gt;.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }&lt;/style&gt;
 &lt;div class=&quot;embed-container&quot;&gt;    &lt;iframe title=&quot;YouTube video player&quot; width=&quot;640&quot; height=&quot;390&quot; src=&quot;//www.youtube.com/embed/5NbKaZNvsHI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
 
 &lt;p&gt;The recording for this song began in early 2018.
 I was starting out as a music student at QUT and was keen to be working on new music.
 &lt;!--more--&gt;&lt;/p&gt;
 
-&lt;p&gt;This song came chorus first.
+&lt;p&gt;This particular song came chorus first.
 Sometime in 2017 I was playing piano with a friend on bass and I stumbled across what became the main vocal line of the chorus.
 The friend and I jammed on it for a while and then I recorded it as a voice memo on my phone.
-I later found the voice memo and decided to sing it and then add harmonies.&lt;/p&gt;
+I later found the recording and decided to sing it and fill the spaces with harmonies.&lt;/p&gt;
 
-&lt;p&gt;The challenge then was to fill out the rest of the song, which is to take it from a glorified chorus to being a whole statement of its own.
+&lt;p&gt;At this point I had no idea where the song was coming from or going.
+So that was the next challenge.
+Fill out the rest of the song, taking it from a glorified chorus to a whole statement of its own.
 I continued reaching into the past through my voice memos and found a recording of my school’s bell sound.
-This was then used to make the ‘riff’ that you hear at the start of the song.&lt;/p&gt;
+I used this to make the intro melody that you hear while all the ambient effects were building up.&lt;/p&gt;
 
-&lt;p&gt;All of this added up to an almost complete song, comprising an intro, chorus, chord progression, harmonies.
+&lt;p&gt;All of this added up to an almost complete song, comprising an intro, chorus, chord progression, and harmonies.
 What remained was to come up with a verse and then work out the final structure.
-I came up with a verse melody and ultimately decided on a structure of Intro, Verse, Chorus, Solo, Verse, Chorus, Solo, Outtro.&lt;/p&gt;
+I came up with a verse melody and ultimately decided on a structure of intro, verse, chorus, solo, verse, chorus, solo, outtro.&lt;/p&gt;
 
-&lt;p&gt;And in this state the song remained for a month or two.&lt;/p&gt;
+&lt;p&gt;In this state the song remained for a month or two.&lt;/p&gt;
 
-&lt;p&gt;In April 2018 my family went away for a week and I stayed home to have some time to do “assignments”.
-In this week I did the solos, lyrics, lead vocal and filmed the video.&lt;/p&gt;
+&lt;p&gt;Fast forward to April 2018, my family went away for a week and I stayed home to have some time to work.
+During this week I did the solos, lyrics, lead vocal and filmed the video.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/posts/a-public-void/ableton.png&quot; alt=&quot;The finished Ableton session&quot; width=&quot;2682&quot; height=&quot;1972&quot; /&gt;&lt;/p&gt;
 
