@@ -1,0 +1,74 @@
+---
+layout: page
+title: Books I've Read
+permalink: /books/
+---
+
+- Albert Camus, The Outsider
+- Amy Orr-Ewing, Why Trust the Bible?
+- Andy Weir, The Martian
+- Arthur C. Clarke, 2001: A Space Odyssey
+- Arthur C. Clarke, 2010
+- Arthur C. Clarke, 2061: Odyssey Three
+- Arthur C. Clarke, 3001: The Final Odyssey
+- Arthur C. Clarke, Garden of Rama
+- Arthur C. Clarke, Rama II
+- Arthur C. Clarke, Rama Revealed
+- Arthur C. Clarke, Rendezvous with Rama
+- Brandon Stanton, Humans of New York
+- Bryan Davis, Eye of the Oracle
+- Carl Sagan, Contact
+- Chris Ryan, Twister
+- Chris Taylor, How Star Wars Conquored the Universe
+- Daniel Keyes, Flowers for Algernon
+- Daniel Suarez, Daemon
+- Daniel Suarez, Freedom
+- Dave Eggers, The Circle
+- Dean Burnett, The Idiot Brain
+- Dominic Streatfield, A History of the World Since 9/11
+- Fleur Beale, Slide the Corner
+- Floyd McClung Jr., The Father Heart of God
+- Gary Gibson, Seatling Light
+- George Orwell, Nineteen Eighty Four
+- Harper Lee, To Kill a Mockingbird
+- Hugh Howey, Dust
+- Hugh Howey, Shift
+- Hugh Howey, Wool
+- J.K. Rowling, Harry Potter and the Camber of Secrets
+- J.K. Rowling, Harry Potter and the Deathly Hallows
+- J.K. Rowling, Harry Potter and the Goblet of Fire
+- J.K. Rowling, Harry Potter and the Half-Blood Prince
+- J.K. Rowling, Harry Potter and the Order of the Phoenix
+- J.K. Rowling, Harry Potter and the Philosopher's Stone
+- J.K. Rowling, Harry Potter and the Prisoner of Azakban
+- J.R.R Tolkien, The Hobbit
+- J.R.R Tolkien, The Lord of the Rings
+- J.R.R Tolkien, The Silmarillion
+- Jane Austin, Pride and Prejudice
+- John Green, Looking for Alaska
+- Json Roberts, A Sense of the World: How a Blind Man Became History's Greatest Traveller
+- Karen M McManus, One of Us is Lying
+- Kevin & Alex Malarkey, lhe Boy Who Came Back From Heaven
+- Kevin J Anderson, Star Wars: Tales of the Bounty Hunters
+- Linda Buckley-Archer, Gideon the Cutpurse
+- Mary Shelley, Frankenstein
+- Neil Young, Waging Heavy Peace
+- Oscar Wilde, The Picture of Dorian Gray
+- Richard Dawkins, The Magic of Reality
+- Robert Jordan, Eye of the World
+- Robert Louis Stevenson, The Strange Case of Dr. Jekyll and Hyde
+- Rupi Kaur, The Sun and Her Flowers
+- S.E. Hinton, The Outsiders
+- Stephen Baxter, Stone Spring
+- Stuart Turton, The Seven Deaths of Evelyn Hardcastle
+- Sulway, Dying in the First Person
+- Suzanne Collins, Hunger Games: Catching Fire
+- Suzanne Collins, Hunger Games: Mockingjay
+- Suzanne Collins, The Hunger Games
+- Traci Harding, An Echo in Time
+- Traci Harding, Masters of Reality
+- Traci Harding, The Ancient Future
+- Walter Isaacson, Steve Jobs
+- Wayne Thomas Batson & Christopher Hopper, Curse of the Spider King
+- Whose Life is it Anyway?
+- Yuval Noah Harari, Sapiens: A Brief History of Humankind

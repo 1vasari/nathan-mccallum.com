@@ -1,0 +1,269 @@
+---
+title: Movies I've Watched
+layout: page
+permalink: /movies/
+---
+
+- 12 Angry Men
+- 2 Fast 2 Furious
+- 2001: A Space Odyssey
+- 2012
+- A Beautiful Mind
+- A Bug's Life
+- A Few Good Men
+- Ad Astra
+- Aladdin
+- Alien
+- Aliens
+- Aliens in the Attic
+- Alvin and the Chipmunks
+- Ant-Man
+- Ant-Man and the Wasp
+- Antz
+- Apollo 13
+- Avatar
+- Back to the Future
+- Back to the Future 2
+- Back to the Future 3
+- Batman v Superman
+- Batman: Begins
+- Batman: The Dark Knight
+- Batman: The Dark Knight Rises
+- Battleship
+- Beauty and the Beast (Emma Watson)
+- Ben Hur (animated)
+- Big Hero 6
+- Birdman
+- Black Panther
+- Bolt
+- Brave
+- Brick
+- Bride and Prejudice
+- Bridge to Terabithia
+- Buzz Light-year of Star Command: The Adventure Begins
+- Captain America - Civil War
+- Captain America - The First Avenger
+- Captain America - The Winter Soldier
+- Captain Marvel
+- Captain Phillips
+- Cars
+- Chappie
+- Charlie and the Chocolate Factory
+- Charlotte's Web
+- Chicken Run
+- City of Ember
+- Close Encounters of the Third Kind
+- Cloudy with a Chance of Meatballs
+- Coco
+- Day After Tomorrow
+- Dead Poet's Society
+- Deadpool
+- Deadpool 2
+- Die Hard
+- Dispicable Me
+- Dispicable Me 2
+- Doctor Strange
+- Doubt
+- E.T. The Extra-Terrestrial
+- Edge of Tomorrow
+- Fantastic Beasts and Where to Find Them
+- Fantastic Beasts: The Crimes of Grindlewald
+- Fast & Furious 4
+- Ferris Bueller's Day Off
+- Fight Club
+- Finding Nemo
+- Flushed Away
+- Forest Gump
+- Free Willy
+- Frozen
+- G-Force
+- Garfield
+- Gattaca
+- Get Smart
+- Ghost
+- Godzilla
+- Gran Torino
+- Gravity
+- Groundhog day
+- Guardians of the Galaxy
+- Guardians of the Galaxy Vol. 2
+- Happy Feet
+- Harry Potter and the Chamber of Secrets
+- Harry Potter and the Deathly Hallows Part 1
+- Harry Potter and the Deathly Hallows Part 2
+- Harry Potter and the Goblet of Fire
+- Harry Potter and the Half-Blood Prince
+- Harry Potter and the Prizoner of Azakaban
+- Harry Potter and the Sourcer's Stone
+- Hidden Figures
+- How the Grinch Stole Christmas
+- How to Train Your Dragon
+- Igor
+- Inception
+- Incredibles 2
+- Independence Day
+- Independence Day: Resurgance
+- Indiana Jones: Raiders of the Lost Ark
+- Inside Out
+- Interstellar
+- Iron Man
+- Iron Man 2
+- Iron Man 3
+- James Bond: For Your Eyes Only
+- James Bond: License to Kill
+- James Bond: Spectre
+- James Bond: The Spy Who Loved Me
+- John Wick
+- Joker
+- Jumanji
+- Jumanji: The Next Level
+- Jupiter Ascending
+- Jurassic Park
+- Jurassic World
+- Kill Bill: Vol 1
+- Kung-Fu Panda
+- La La Land
+- Lady Bird
+- Looper
+- Man of Steel
+- Mary Poppins
+- Megamind
+- Men in Black
+- Men in Black 2
+- Miss Peregrins Home for Peculiar Children
+- Mission Impossible
+- Moana
+- Monster's Inc
+- Monsters vs Aliens
+- Monty Python and the Holy Grail
+- Non-Stop
+- Now You See Me
+- Ocean's 11
+- Ocean's 12
+- Ocean's 13
+- One Flew Over the Cuckoo's Nest
+- Open Season
+- Over the Hedge
+- Pacific Rim
+- Passengers
+- Pirates of the Caribbean: At Worlds End
+- Pirates of the Caribbean: Curse of the Black Pearl
+- Pirates of the Caribbean: Dead Man's Chest
+- Pirates of the Caribbean: On Stranger Tides
+- Pride and Prejudice
+- Prometheus
+- Pulp Fiction
+- Ratatouille
+- Ready Player One
+- Red Dog
+- Richie Rich
+- Robbin Hood: Men in Tights
+- Robots
+- Se7en
+- Selma
+- Sherlock Holmes (Robert)
+- Shrek
+- Shrek 2
+- Shrek Forever After
+- Shrek the Third
+- Solo: A Star Wars Story
+- Space Chimps
+- Spaceballs
+- Speed
+- Speed Racer
+- Spider-Man (Toby Maguire)
+- Spider-Man 2 (Toby Maguire)
+- Spider-Man 3 (Toby Maguire)
+- Spider-Man Far From Home
+- Spider-Man Homecoming
+- Spider-Man: Into the Spiderverse
+- Spy Kids
+- Star Trek (2009)
+- Star Trek: Into Darkness
+- Star Wars: A New Hope
+- Star Wars: Attack of the Clones
+- Star Wars: Return of the Jedi
+- Star Wars: Revenge of the Sith
+- Star Wars: Rise of Skywalker
+- Star Wars: The Empire Strikes Back
+- Star Wars: The Force Awakens
+- Star Wars: The Last Jedi
+- Star Wars: The Phantom Menace
+- Sully
+- Superman (Christopher Reeve - all 4 of them)
+- Taken
+- Taken 2
+- Taken 3
+- Tangled
+- Teenage Mutant Ninja Turtles
+- Terminator
+- Terminator 2: Judgement Day
+- The Avengers
+- The Avengers - Age of Ultron
+- The Avengers - Endgame
+- The Avengers - Infinity War
+- The BFG
+- The Big Short
+- The Black Hole
+- The Blues Brothers
+- The Breakfast Club
+- The Cat in the Hat
+- The Commuter
+- The Crucible
+- The Day the Earth Stood Still (2008)
+- The Dictator
+- The Dish
+- The Dressmaker
+- The Fast and The Furious
+- The Fast and the Furious: Tokyo Drift
+- The Firm
+- The great Gatsby
+- The Hunger Games
+- The Hunger Games: Catching Fire
+- The Hunger Games: Mockingjay Part 1
+- The Imitation Game
+- The Importance of Being Earnest
+- The Incredible Hulk
+- The Incredibles
+- The Intouchables
+- The Invention of Lying
+- The Irishman
+- The Island
+- The Martian
+- The Matrix
+- The Never Ending Story
+- The Pianist
+- The Polar Express
+- The Post
+- The Prince of Eqypt
+- The Princess Diaries
+- The Princess Diaries 2: Royal Engagement
+- The Room
+- The Secret Life of Walter Mitty
+- The Shape of Water
+- The Shawshank Redemption
+- The Social Network
+- The Sound of Music
+- The Terminal
+- The Truman Show
+- The Wizard of Oz
+- The Wolf of Wall Street
+- Thor
+- Thor - Ragnarok
+- Thor - The Dark World
+- Thunderbirds
+- To Kill a Mockingbird (Gregory Peck)
+- Toy Story
+- Toy Story 2
+- Toy Story 3
+- Toy Story 4
+- Tron: Legacy (2010)
+- Underdog
+- Underworld
+- Up
+- WALL-E
+- War of the Worlds
+- Whiplash
+- Willy Wonka and the Chocolate Factory
+- Wonder Woman (Gal Gadot)
+- Zathura: A Space Adventure
