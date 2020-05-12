@@ -29,7 +29,7 @@ permalink: /books/
 - Dominic Streatfield, A History of the World Since 9/11
 - Fleur Beale, Slide the Corner
 - Floyd McClung Jr., The Father Heart of God
-- Gary Gibson, Seatling Light
+- Gary Gibson, Stealing Light
 - George Orwell, Nineteen Eighty Four
 - Harper Lee, To Kill a Mockingbird
 - Hugh Howey, Dust
@@ -49,13 +49,14 @@ permalink: /books/
 - John Green, Looking for Alaska
 - Json Roberts, A Sense of the World: How a Blind Man Became History's Greatest Traveller
 - Karen M McManus, One of Us is Lying
-- Kevin & Alex Malarkey, lhe Boy Who Came Back From Heaven
+- Kevin & Alex Malarkey, The Boy Who Came Back From Heaven
 - Kevin J Anderson, Star Wars: Tales of the Bounty Hunters
 - Linda Buckley-Archer, Gideon the Cutpurse
 - Mark Manson, The Subtle Art of not Giving a Fuck
 - Mark Manson, Everything is Fucked: A Book About Hope
 - Mary Shelley, Frankenstein
 - Neil Young, Waging Heavy Peace
+- Nike Sulway, Dying in the First Person
 - Oscar Wilde, The Picture of Dorian Gray
 - Richard Dawkins, The Magic of Reality
 - Robert Jordan, Eye of the World
@@ -64,7 +65,6 @@ permalink: /books/
 - S.E. Hinton, The Outsiders
 - Stephen Baxter, Stone Spring
 - Stuart Turton, The Seven Deaths of Evelyn Hardcastle
-- Sulway, Dying in the First Person
 - Suzanne Collins, Hunger Games: Catching Fire
 - Suzanne Collins, Hunger Games: Mockingjay
 - Suzanne Collins, The Hunger Games
