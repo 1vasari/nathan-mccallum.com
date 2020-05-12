@@ -15,11 +15,15 @@ permalink: /books/
 - Arthur C. Clarke, Rama II
 - Arthur C. Clarke, Rama Revealed
 - Arthur C. Clarke, Rendezvous with Rama
+- Arthur Miller, Death of a Salesman
+- Arthur Miller, The Crucible
 - Brandon Stanton, Humans of New York
 - Bryan Davis, Eye of the Oracle
 - Carl Sagan, Contact
 - Chris Ryan, Twister
 - Chris Taylor, How Star Wars Conquored the Universe
+- Christopher Hitchens, Mortality
+- C.S. Lewis, The Lion, the Witch and the Wardrobe
 - Daniel Keyes, Flowers for Algernon
 - Daniel Suarez, Daemon
 - Daniel Suarez, Freedom
@@ -27,14 +31,22 @@ permalink: /books/
 - Dave Leser, Women, Men and the Whole Damn Thing
 - Dean Burnett, The Idiot Brain
 - Dominic Streatfield, A History of the World Since 9/11
+- Douglas Adams, The Hitchhiker's Guide to the Galaxy
+- Douglas Adams, The Restaurant at the End of the Universe
+- Douglas Adams, Life, the Universe and Everything
+- Douglas Adams, So Long and Thanks for all the Fish
+- Douglas Adams, Mostly Harmless
+- Ernest Cline, Ready Player One
 - Fleur Beale, Slide the Corner
 - Floyd McClung Jr., The Father Heart of God
 - Gary Gibson, Stealing Light
+- George Orwell, Animal Farm
 - George Orwell, Nineteen Eighty Four
 - Harper Lee, To Kill a Mockingbird
 - Hugh Howey, Dust
 - Hugh Howey, Shift
 - Hugh Howey, Wool
+- J. B. Priestley - An Inspector Calls
 - J.K. Rowling, Harry Potter and the Camber of Secrets
 - J.K. Rowling, Harry Potter and the Deathly Hallows
 - J.K. Rowling, Harry Potter and the Goblet of Fire
@@ -43,21 +55,27 @@ permalink: /books/
 - J.K. Rowling, Harry Potter and the Philosopher's Stone
 - J.K. Rowling, Harry Potter and the Prisoner of Azakban
 - J.R.R Tolkien, The Hobbit
-- J.R.R Tolkien, The Lord of the Rings
+- J.R.R Tolkien, The Lord of the Rings: The Fellowship of the Ring
+- J.R.R Tolkien, The Lord of the Rings: The Two Towers
+- J.R.R Tolkien, The Lord of the Rings: The Return of the King
 - J.R.R Tolkien, The Silmarillion
 - Jane Austin, Pride and Prejudice
 - John Green, Looking for Alaska
+- John Green, Turtles all the Way Down
 - Json Roberts, A Sense of the World: How a Blind Man Became History's Greatest Traveller
 - Karen M McManus, One of Us is Lying
 - Kevin & Alex Malarkey, The Boy Who Came Back From Heaven
 - Kevin J Anderson, Star Wars: Tales of the Bounty Hunters
+- Lance Armstrong, It's Not About the Bike
 - Linda Buckley-Archer, Gideon the Cutpurse
 - Mark Manson, The Subtle Art of not Giving a Fuck
 - Mark Manson, Everything is Fucked: A Book About Hope
 - Mary Shelley, Frankenstein
 - Neil Young, Waging Heavy Peace
 - Nike Sulway, Dying in the First Person
+- Oscar Wilde, The Importance of Being Earnest
 - Oscar Wilde, The Picture of Dorian Gray
+- Paulo Coelo, The Alchemist
 - Richard Dawkins, The Magic of Reality
 - Robert Jordan, Eye of the World
 - Robert Louis Stevenson, The Strange Case of Dr. Jekyll and Hyde
@@ -65,13 +83,19 @@ permalink: /books/
 - S.E. Hinton, The Outsiders
 - Stephen Baxter, Stone Spring
 - Stuart Turton, The Seven Deaths of Evelyn Hardcastle
+- Sun Tzu, The Art of War
 - Suzanne Collins, Hunger Games: Catching Fire
 - Suzanne Collins, Hunger Games: Mockingjay
 - Suzanne Collins, The Hunger Games
+- Terry Pratchett, Equal Rites
 - Traci Harding, An Echo in Time
 - Traci Harding, Masters of Reality
 - Traci Harding, The Ancient Future
 - Walter Isaacson, Steve Jobs
 - Wayne Thomas Batson & Christopher Hopper, Curse of the Spider King
 - Whose Life is it Anyway?
+- William Golding, Lord of the Flies
+- William Shakespeare, Romero and Juliet
+- William Shakespeare, Macbeth
+- William Shakespeare, The Merchant of Venice
 - Yuval Noah Harari, Sapiens: A Brief History of Humankind
