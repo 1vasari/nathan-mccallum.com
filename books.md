@@ -24,6 +24,7 @@ permalink: /books/
 - Daniel Suarez, Daemon
 - Daniel Suarez, Freedom
 - Dave Eggers, The Circle
+- Dave Leser, Women, Men and the Whole Damn Thing
 - Dean Burnett, The Idiot Brain
 - Dominic Streatfield, A History of the World Since 9/11
 - Fleur Beale, Slide the Corner
@@ -51,6 +52,8 @@ permalink: /books/
 - Kevin & Alex Malarkey, lhe Boy Who Came Back From Heaven
 - Kevin J Anderson, Star Wars: Tales of the Bounty Hunters
 - Linda Buckley-Archer, Gideon the Cutpurse
+- Mark Manson, The Subtle Art of not Giving a Fuck
+- Mark Manson, Everything is Fucked: A Book About Hope
 - Mary Shelley, Frankenstein
 - Neil Young, Waging Heavy Peace
 - Oscar Wilde, The Picture of Dorian Gray
