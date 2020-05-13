@@ -1,0 +1,84 @@
+---
+layout: page
+title: Albums I Like
+permalink: /albums/
+---
+
+- Aberdeen, Downpour
+- Adele, 21
+- Alice in Chains, Unplugged
+- Ben Folds Five, Whatever and Ever Amen
+- Bill Laurance, Cables
+- Bill Laurance, Swift
+- Billy Joel, Storm Front
+- Bob Reynolds, Guitar Band
+- Bob Reynolds, Runway
+- Bon Iver, Bon Iver
+- Bon Iver, For Emma, Forever Ago
+- Brian Eno, Apollo
+- Cat Stevans, Tea for the Tillerman
+- Chad LB & Sonic Magic, Chad LB & Sonic Magic
+- Coldplay, Everyday Life
+- Coldplay, Parachutes
+- Crowded House, Platinum
+- CSNY, Deja Vu
+- Daft Punk, Rankdom Access Memories
+- Dave Brubeck Quartet, Time Out
+- Dave Matthews Band, Before These Crowded Streets
+- Dave Matthews Band, Crash
+- David Bowie, Blackstar
+- David Bowie, Hunky Dory
+- David Bowie, The Man Who Sold the World
+- David Bowie, The Rise and Fall of Ziggy Stardust and the Spiders from Mars
+- Dire Straits, Love Over Gold
+- Fleetwood Mac, Rumours
+- Hans Zimmer, Interstellar
+- Herbie Hancock, Head Hunters
+- Hiromi, Spectrum
+- Jacob Collier, Djesse Vol 1
+- Jacob Collier, Djesse Vol 2
+- Jacob Collier, In My Room
+- John Butler Trio, Flesh and Blood
+- John Mayer, Where the Light Is: Live in Los Angeles
+- Jon Hopkins, Opalescent
+- Jon Hopkins, Singularity
+- Lyle Mays, Lyle Mays
+- Mark Lettieri, Spark & Echo
+- Massive Attack, Mezzanine
+- Max Cooper, Yearning for the Infinite
+- Meatloaf, Bat Out of Hell
+- Michael Hedges, Platinum & Gold Collection
+- Miles Davis, Kind of Blue
+- Neil Diamond, Hot August Night
+- Neil Young, Harvest
+- Nonberk, Nonberk
+- Of Monsters and Men, My Head is an Animal
+- Pat Metheny, Bright Size Life
+- Pat Metheny, From This Place
+- Pat Metheny/Lyle Mays, As Falls Wichita, So Falls Wichita Falls
+- Paul Simon, Graceland
+- Phil Collins, Hits
+- Pink Floyd, Dark Side of the Moon
+- Pink Floyd, Wish You Were Here
+- Plini, Handmade Cities
+- Queen, A Night at the Opera
+- R.E.M., Automatic for the People
+- Radiohead, OK Computer
+- Simon & Garfunkel, Bridge Over Troubled Water
+- Snarky Puppy, groundUP
+- Snarky Puppy, Immigrance
+- Snarky Puppy, We Like it Here
+- Steely Dan, Aja
+- Steely Dan, Can't Buy a Thrill
+- Steely Dan, Gaucho
+- Steely Dan, Pretzel Logic
+- Steve Reich, Different Trains
+- Steve Reich, Music for 18 Musicians
+- Stevie Wonder, Songs in the Key of Life
+- Sungazer, Sungazer, Vol. 1
+- Sungazer, Sungazer, Vol. 2
+- The Beach Boys, Pet Sounds
+- The Doors, L.A. Woman
+- The Doors, The Doors
+- Thirsty Merc, Acoustic Anniversary Album
+- Tool, Fear Inoculum
