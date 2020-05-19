@@ -5,6 +5,7 @@ permalink: /books/
 ---
 
 - Albert Camus, The Outsider
+- Allison Green, Ask a Manager
 - Amy Orr-Ewing, Why Trust the Bible?
 - Andy Weir, The Martian
 - Arthur C. Clarke, 2001: A Space Odyssey
