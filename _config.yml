@@ -1,3 +1,4 @@
+show_excerpts: true
 excerpt_separator: <!--more-->
 
 baseurl: ""
