@@ -1,13 +1,12 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 title: Welcome
-list_title: Blog
 ---
 
 {% image {"src":"me.jpg", "alt":"Hi - I'm Nathan McCallum"} %}
+
+Hi - I'm a web developer who specializes in Ruby, Rails, Node.js & frontend technologies such as React.
+In my spare time I like to play guitar and experiment with electronic music production.
 
 - [Consulting](/consulting)
 - [Projects](/projects)

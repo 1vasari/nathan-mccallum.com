@@ -1,20 +1,57 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  {%- include head.html -%}
+    <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/normalize.css" type="text/css">
+    <link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura.css" type="text/css">
+    <link type="text/plain" rel="author" href="/humans.txt">
+
+    <style>
+      img {
+        border-radius: 1em;
+        width: auto;
+        height: auto;
+        max-height: 500px;
+        display: block;
+        margin: 0 auto;
+      }
+      ul.contact-list { text-align: center; }
+      .block { display: block; }
+      .text-center { text-align: center; }
+      .embed-container { margin: 1em 0; }
+    </style>
+  </head>
 
   <body>
+    <h1>Nathan's Public Domicile</h1>
 
-    {%- include header.html -%}
+    <a href="/">Home</a> |
+    <a href="/consulting">Consulting</a> |
+    <a href="/projects">Projects</a> |
+    <a href="/topics">Blog Topics</a>
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
+    {{ content }}
+<!--
+    <hr />
+    <p>
+      <ul>
+        <li><a href="http://github.com/1vasari" rel="noopener noreferrer" target="_blank">GitHub</a></li>
+        <li><a href="http://instagram.com/1vasari" rel="noopener noreferrer" target="_blank">Instagram</a></li>
+        <li><a href="http://linkedin.com//in/1vasari" rel="noopener noreferrer" target="_blank">LinkedIn</a></li>
+        <li><a href="http://youtube.com/1vasari" rel="noopener noreferrer" target="_blank">YouTube</a></li>
+        <li><a href="http://twitter.com/1vasari" rel="noopener noreferrer" target="_blank">Twitter</a></li>
+      </ul>
+    </p> -->
 
-    {%- include footer.html -%}
-
+    <!-- <p class="text-center">
+      This site is built with Jekyll and uses the Sakura css library (<a
+        href="http://github.com/1vasari/nathan-mccallum.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >source code</a>)
+    </p> -->
   </body>
-
 </html>
