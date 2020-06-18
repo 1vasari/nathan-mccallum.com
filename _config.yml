@@ -46,12 +46,14 @@ header_pages:
   - topics.html
 
 minima:
-  skin: solarized-dark
   social_links:
     github: 1vasari
     youtube: 1vasari
     instagram: 1vasari
     linkedin: 1vasari
+    twitter: 1vasari
+
+theme: minima
 
 # Build settings
 plugins:
