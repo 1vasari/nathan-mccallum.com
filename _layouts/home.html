@@ -24,6 +24,7 @@ layout: default
     {%- if site.show_excerpts -%}
       {{ post.excerpt }}
     {%- endif -%}
+    <a href="{{ post.url | relative_url }}">Read more &rarr;</a>
   {%- endfor -%}
 
   {% if site.paginate %}
