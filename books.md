@@ -19,6 +19,7 @@ permalink: /books/
 - Arthur Miller, Death of a Salesman
 - Arthur Miller, The Crucible
 - Brandon Stanton, Humans of New York
+- Brian Dumaine, Bezonomics
 - Bryan Davis, Eye of the Oracle
 - Carl Sagan, Contact
 - Chris Ryan, Twister
@@ -83,6 +84,7 @@ permalink: /books/
 - Rupi Kaur, The Sun and Her Flowers
 - S.E. Hinton, The Outsiders
 - Stephen Baxter, Stone Spring
+- Steven Levy, Facebook: The Inside Story
 - Stuart Turton, The Seven Deaths of Evelyn Hardcastle
 - Sun Tzu, The Art of War
 - Suzanne Collins, Hunger Games: Catching Fire
