@@ -35,6 +35,7 @@ permalink: /movies/
 - Big Hero 6
 - Birdman
 - Black Panther
+- Bohemian Rhapsody
 - Bolt
 - Brave
 - Brick
@@ -130,6 +131,7 @@ permalink: /movies/
 - Megamind
 - Men in Black
 - Men in Black 2
+- Michael Clayton
 - Miss Peregrins Home for Peculiar Children
 - Mission Impossible
 - Moana
@@ -191,6 +193,7 @@ permalink: /movies/
 - Star Wars: The Phantom Menace
 - Sully
 - Superman (Christopher Reeve - all 4 of them)
+- Swiss Army Man
 - Taken
 - Taken 2
 - Taken 3
@@ -258,6 +261,7 @@ permalink: /movies/
 - Toy Story 3
 - Toy Story 4
 - Tron: Legacy (2010)
+- Uncut Gems
 - Underdog
 - Underworld
 - Up
