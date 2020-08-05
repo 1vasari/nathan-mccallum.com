@@ -4,10 +4,11 @@ title:  "Getting Started"
 date:   2020-04-05 18:19:00 +1000
 tags: musings
 author: Nathan McCallum
+preview: 'On getting started with new projects. Moving from zero to one with blogging and personal projects.'
 ---
 
 It is a cool Sunday evening and I am once again experimenting with my personal site.
-Over the years I've run several different *"Hello, World - this is me"*-type sites and nothing has quite stuck.<!--more-->
+Over the years I've run several different *"Hello, World - this is me"*-type sites and nothing has quite stuck.
 Given the vast array of options, I've never settled on any one thing.
 I can at least remember trying Wordpress, Ghost, SquareSpace, as well as various things I've hacked together and hosted on GitHub Pages.
 

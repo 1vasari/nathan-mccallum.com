@@ -4,13 +4,13 @@ title: A Public Void
 author: Nathan McCallum
 tags: my-music
 date: 2020-05-05 13:39:00 +1000
+preview: Read about how I wrote, recorded and produced my first song
 ---
 
 {% youtube "https://www.youtube.com/watch?v=5NbKaZNvsHI" %}
 
 The recording for this song began in early 2018.
 I was starting out as a music student at QUT and was keen to be working on new music.
-<!--more-->
 
 This particular song came chorus first.
 Sometime in 2017 I was playing piano with a friend on bass and I stumbled across what became the main vocal line of the chorus.

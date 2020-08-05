@@ -4,9 +4,10 @@ layout: post
 author: Nathan McCallum
 date: 2020-04-18 18:00:00 +1000
 tags: musings
+preview: COVID-19 has been bad. Toxic nonsense is worse.
 ---
 
-I don't need to cover the story so far. COVID-19 is happening and it's bad.<!--more-->
+I don't need to cover the story so far. COVID-19 is happening and it's bad.
 Many are sick, many have lost their lives. Many are scared.
 We are seeing tremendous unity whilst also being at our most isolated.
 Stories of triumph and survival immediately followed by news of more storms.

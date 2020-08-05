@@ -4,9 +4,10 @@ title: "Album Review: Le Noise by Neil Young"
 date: 2020-04-10 12:52:00 +1000
 tags: album-reviews
 author: Nathan McCallum
+preview: Reviewing Neil Young's 2010 release
 ---
 
-Recently I've been reading *Waging Heavy Pace* (Neil Young's autobiography) and a natural part of such a process is to listen to the music that's mentioned along the way.<!--more-->
+Recently I've been reading *Waging Heavy Pace* (Neil Young's autobiography) and a natural part of such a process is to listen to the music that's mentioned along the way.
 I'd already heard a lot of the classics so we don't need to go there, but *Le Noise* got my attention because it's pretty different.
 
 The instrumentation for the whole album is deceptively simple:

@@ -1,6 +1,3 @@
-show_excerpts: true
-excerpt_separator: <!--more-->
-
 baseurl: ""
 url: "http://nathan-mccallum.com"
 timezone: Australia/Brisbane

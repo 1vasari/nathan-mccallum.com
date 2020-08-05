@@ -4,11 +4,11 @@ layout: post
 author: Nathan McCallum
 tags: technology
 date: 2020-06-19
+preview: GitHub made a technical change due to political issues. I had some thoughts.
 ---
 
 Two days ago GitHub changed their default branch name from `master` to `main`.
 Though this was not mentioned on their [blog](https://github.blog/) or [changelog](https://github.blog/changelog/) it was [reported on](https://www.bbc.com/news/technology-53050955) fairly widely.
-<!--more-->
 It reached [Hacker News](https://news.ycombinator.com/item?id=23531032) wherein many discussions occurred.
 Many response articles have been written, which are worth a read if you're interested.
 
