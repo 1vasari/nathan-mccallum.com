@@ -1,13 +1,13 @@
 /* TEAM */
 
   Developer: Nathan McCallum
-  Site: nathan@1vas.me
+  Site: hey@nathan-mccallum.com
   Location: Brisbane, Australia
 
 /* SITE */
 
   Last update: April, 2020
   Standards: HTML5, CSS3, No-JavaScript
-  Components: Jekyll, Minima, Solarized Dark theme, Ubuntu font
+  Components: Jekyll, Sakura.css
   Software: VS Code, macOS Catalina, git, GitHub Pages
   Source code: http://github.com/1vasari/nathan-mccallum.com
