@@ -5,9 +5,8 @@ layout: default
 <h2>{{ page.title | escape }}</h2>
 
 <p>
-  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
   <time datetime="{{ page.date | date_to_xmlschema }}">
-    {{ page.date | date: date_format }}
+    {{ page.date | date: "%b %-d, %Y" }}
   </time>
   {%- if page.author -%}
     •&nbsp;{{ page.author }}</span>
