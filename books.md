@@ -5,6 +5,7 @@ permalink: /books/
 ---
 
 - Albert Camus, The Outsider
+- Aldous Huxley, Brave New World
 - Allison Green, Ask a Manager
 - Amy Orr-Ewing, Why Trust the Bible?
 - Andy Weir, The Martian
