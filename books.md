@@ -64,6 +64,7 @@ permalink: /books/
 - J.R.R Tolkien, The Silmarillion
 - Jane Austin, Pride and Prejudice
 - John Green, Looking for Alaska
+- John Green, The Fault in Our Stars
 - John Green, Turtles all the Way Down
 - Json Roberts, A Sense of the World: How a Blind Man Became History's Greatest Traveller
 - Karen M McManus, One of Us is Lying
