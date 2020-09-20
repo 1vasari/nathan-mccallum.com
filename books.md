@@ -77,6 +77,7 @@ permalink: /books/
 | Mark Manson | The Subtle Art of not Giving a Fuck
 | Mark Manson | Everything is Fucked: A Book About Hope
 | Mary Shelley | Frankenstein
+| Neil deGrasse Tyson | Letters From an Astrophysicist
 | Neil Young | Waging Heavy Peace
 | Nike Sulway | Dying in the First Person
 | Oscar Wilde | The Importance of Being Earnest
