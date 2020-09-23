@@ -2,7 +2,7 @@
 title: GitHub Default Branch
 layout: post
 author: Nathan McCallum
-tags: technology
+tags: programming
 date: 2020-06-19
 preview: GitHub made a technical change due to political issues. I had some thoughts.
 ---
