@@ -13,7 +13,7 @@ Every so often I look back and think about whether I'm okay with how things are 
 
 Some issues came up and I ended up merging my journalling app functionality into another personal project.
 The application code was really simple but of course the old entries needed to get moved across as well.
-So the objective was the get the entries out of the old Postgres database and into a new one.
+So the objective was to get the entries out of the old Postgres database and into a new one.
 Along the way one column needed to be renamed as well.
 
 *How hard can it be?*
