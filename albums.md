@@ -8,6 +8,7 @@ permalink: /albums/
 - Adele, 21
 - Alice in Chains, Unplugged
 - Ben Folds Five, Whatever and Ever Amen
+- Big Wreck, In Loving Memory Of
 - Bill Laurance, Cables
 - Bill Laurance, Swift
 - Billy Joel, Storm Front
@@ -22,6 +23,7 @@ permalink: /albums/
 - Coldplay, Parachutes
 - Crowded House, Platinum
 - CSNY, Deja Vu
+- Daft Punk, Random Access Memories
 - Daft Punk, Rankdom Access Memories
 - Dave Brubeck Quartet, Time Out
 - Dave Matthews Band, Before These Crowded Streets
@@ -38,10 +40,12 @@ permalink: /albums/
 - Jacob Collier, Djesse Vol 1
 - Jacob Collier, Djesse Vol 2
 - Jacob Collier, In My Room
+- Jeff Buckley, Grace
 - John Butler Trio, Flesh and Blood
 - John Mayer, Where the Light Is: Live in Los Angeles
 - Jon Hopkins, Opalescent
 - Jon Hopkins, Singularity
+- Joshua Lee Turner, Public Life
 - Lyle Mays, Lyle Mays
 - Mark Lettieri, Spark & Echo
 - Massive Attack, Mezzanine
@@ -53,6 +57,7 @@ permalink: /albums/
 - Neil Young, Harvest
 - Nonberk, Nonberk
 - Of Monsters and Men, My Head is an Animal
+- Pat Metheny Group, The Way Up
 - Pat Metheny, Bright Size Life
 - Pat Metheny, From This Place
 - Pat Metheny/Lyle Mays, As Falls Wichita, So Falls Wichita Falls
@@ -61,13 +66,18 @@ permalink: /albums/
 - Pink Floyd, Dark Side of the Moon
 - Pink Floyd, Wish You Were Here
 - Plini, Handmade Cities
+- Prince, Purple Rain
+- Punch Brothers, The Phosphorescent Blues
 - Queen, A Night at the Opera
 - R.E.M., Automatic for the People
 - Radiohead, OK Computer
 - Simon & Garfunkel, Bridge Over Troubled Water
+- Sir & Lydia, This Mystery
 - Snarky Puppy, groundUP
 - Snarky Puppy, Immigrance
+- Snarky Puppy, Live at the Royal Albert Hall
 - Snarky Puppy, We Like it Here
+- Stars Of The Lid, And Their Refinement of the Decline
 - Steely Dan, Aja
 - Steely Dan, Can't Buy a Thrill
 - Steely Dan, Gaucho
@@ -81,4 +91,5 @@ permalink: /albums/
 - The Doors, L.A. Woman
 - The Doors, The Doors
 - Thirsty Merc, Acoustic Anniversary Album
+- Tigran Hamasyan, The Call Within
 - Tool, Fear Inoculum
