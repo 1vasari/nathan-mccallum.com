@@ -5,6 +5,7 @@ img {
   max-height: 500px;
   display: block;
   margin: 0 auto;
+  background-color: #d0d0d0;
 }
 ul.contact-list { text-align: center; }
 .block { display: block; }

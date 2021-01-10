@@ -25,7 +25,7 @@ module Jekyll
     end
 
     def render(context)
-      %Q{<img src="#{@src}" alt="#{@alt}" width="#{@width}" height="#{@height}">}
+      %Q{<img src="#{@src}" alt="#{@alt}" width="#{@width}" height="#{@height}" loading="lazy">}
     end
   end
 end
