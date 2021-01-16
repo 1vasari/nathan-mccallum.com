@@ -22,4 +22,4 @@ I can reduce your technical debt, rescue an old system, or start a brand new one
 
 I speak English and have the right to work in Australia.
 
-If you're interested, please reach out to me via [consulting@nathan-mccallum.com](mailto:consulting@nathan-mccallum.com).
+If you're interested, please reach out to me via [hey@nathan-mccallum.com](mailto:hey@nathan-mccallum.com).
