@@ -7,11 +7,13 @@
     <link type="text/plain" rel="author" href="/humans.txt">
     <title>{{ page.title }} | Nathan McCallum</title>
     {% capture styles %}
-      {% include css/normalize.css %}
-      {% include css/sakura.css %}
-      {% include css/styles.css %}
+      {% include css/normalize.scss %}
+      {% include css/sakura.scss %}
+      {% include css/styles.scss %}
     {% endcapture %}
-    <style>{{ styles | scssify | strip_newlines }}</style>
+    <style>
+    {{ styles | scssify }}
+    </style>
   </head>
 
   <body>

@@ -1,9 +1,12 @@
-/* Sakura.css v1.3.0
-* ================
-* Minimal css theme.
-* Project: https://github.com/oxalorg/sakura/
-*/
-/* Body */
+// Sakura.css v1.3.0, with minor customizations
+// ================
+// Minimal css theme.
+// Project: https://github.com/oxalorg/sakura/
+//
+
+//
+// Body
+//
 html {
   font-size: 62.5%;
   font-family: "Segoe UI", Roboto, "Helvetica Neue", sans-serif, Arial, "Noto Sans";
@@ -97,7 +100,9 @@ img {
   margin-top: 0px;
   margin-bottom: 2.5rem; }
 
-/* Pre and Code */
+//
+// Pre and Code
+//
 pre {
   background-color: #373737ad;
   display: block;
@@ -117,7 +122,9 @@ pre > code {
   background-color: transparent;
   white-space: pre; }
 
-/* Tables */
+//
+// Tables
+//
 table {
   text-align: justify;
   width: 100%;
