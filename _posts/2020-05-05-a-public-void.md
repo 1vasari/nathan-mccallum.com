@@ -5,7 +5,7 @@ author: Nathan McCallum
 tags: my-music
 date: 2020-05-05 13:39:00 +1000
 preview: Read about how I wrote, recorded and produced my first song
-permalink: /a-public-void
+permalink: /a-public-void/
 ---
 
 {% youtube "https://www.youtube.com/watch?v=5NbKaZNvsHI" %}
