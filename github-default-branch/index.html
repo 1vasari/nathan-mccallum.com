@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link type="text/plain" rel="author" href="/humans.txt">
-    <title>Welcome | Nathan McCallum</title>
+    <title>GitHub Default Branch | Nathan McCallum</title>
     
     <style>
     html { line-height: 1.15; -webkit-text-size-adjust: 100%; }
@@ -147,30 +147,65 @@ ul.contact-list { text-align: center; }
     <a href="/projects">Projects</a> |
     <a href="/topics">Blog Topics</a>
 
-    <h1>Welcome</h1><p><img src="/assets/me.webp" alt="Hi - I'm Nathan McCallum" width="1024" height="1024" loading="lazy" /></p>
+    <h2>GitHub Default Branch</h2>
 
-<p>Hi - I’m a web developer who specializes in Ruby, Rails, Node.js &amp; frontend technologies such as React.
-In my spare time I like to play guitar and experiment with electronic music production.</p>
+<p>
+  <time datetime="2020-06-19T00:00:00+10:00">
+    Jun 19, 2020
+  </time>•&nbsp;Nathan McCallum</span>&nbsp;•&nbsp;Programming</p>
+
+<p>Two days ago GitHub changed their default branch name from <code class="language-plaintext highlighter-rouge">master</code> to <code class="language-plaintext highlighter-rouge">main</code>.
+Though this was not mentioned on their <a href="https://github.blog/">blog</a> or <a href="https://github.blog/changelog/">changelog</a> it was <a href="https://www.bbc.com/news/technology-53050955">reported on</a> fairly widely.
+It reached <a href="https://news.ycombinator.com/item?id=23531032">Hacker News</a> wherein many discussions occurred.
+Many response articles have been written, which are worth a read if you’re interested.</p>
+
+<p>I think there are two questions at play: <em>Why</em> should it be changed? and <em>What</em> should it be changed to?</p>
+
+<p>The question of <em>What</em> is fairly simple, just pick one. I would suggest one of the following:</p>
 
 <ul>
-  <li><a href="/consulting">Consulting</a></li>
-  <li><a href="/projects">Projects</a></li>
-  <li><a href="/topics">Blog Topics</a></li>
-  <li><a href="http://1vasari.bandcamp.com">Buy My Music</a></li>
+  <li>trunk</li>
+  <li>main</li>
+  <li>home</li>
+  <li>root</li>
 </ul>
 
+<p>The question of <em>Why</em> is the real source of controversy.</p>
 
-<h2>Blog</h2><h3><a href="/to-import/">To Import, or Perhaps Not?</a></h3>
-    <p><em>Sep 23, 2020</em>: What do you get when you try and move a tiny bit of data from one db to another? Read on to find out.</p><h3><a href="/github-default-branch/">GitHub Default Branch</a></h3>
-    <p><em>Jun 19, 2020</em>: GitHub made a technical change due to political issues. I had some thoughts.</p><h3><a href="/a-public-void/">A Public Void</a></h3>
-    <p><em>May 5, 2020</em>: Read about how I wrote, recorded and produced my first song</p><h3><a href="/isolation-productivity/">The Myth of Isolation Productivity</a></h3>
-    <p><em>Apr 18, 2020</em>: COVID-19 has been bad. Toxic nonsense is worse.</p><h3><a href="/la-noise/">Album Review: Le Noise by Neil Young</a></h3>
-    <p><em>Apr 10, 2020</em>: Reviewing Neil Young's 2010 release</p><h3><a href="/tv/">TV Shows I&#39;ve Seen</a></h3>
-    <p><em>Apr 6, 2020</em>: A list of TV Shows I've seen</p><h3><a href="/quotes/">Quotes I Like</a></h3>
-    <p><em>Apr 6, 2020</em>: A list of quotes I like</p><h3><a href="/movies/">Movies I&#39;ve Seen</a></h3>
-    <p><em>Apr 6, 2020</em>: A list of movies I've seen</p><h3><a href="/books/">Books I&#39;ve Read</a></h3>
-    <p><em>Apr 6, 2020</em>: A list of books I've read</p><h3><a href="/albums/">Albums I&#39;ve Listened To</a></h3>
-    <p><em>Apr 6, 2020</em>: A list of albums I've heard</p><h3><a href="/getting-started/">Getting Started</a></h3>
-    <p><em>Apr 5, 2020</em>: On getting started with new projects. Moving from zero to one with blogging and personal projects.</p>
+<p><em>Is anyone actually offended by this language?</em> I don’t know.</p>
+
+<p><em>Does this language actually carry the master/slave connotation that is being claimed?</em> Many feel not.</p>
+
+<p><em>Is it easier to do nothing?</em> Certainly.</p>
+
+<p>My reading from the discussions is that many are seeing the change of the default name as a signal that they now have to change the <code class="language-plaintext highlighter-rouge">master</code> branch on all of their existing repositories.
+Which is a legitimate hassle.
+Many are seeing this as a slippery slope - who can tell where it leads?</p>
+
+<p>Here’s what I think.
+The programming community is diverse and it’s hard to know for certain whether terms are offensive (or even just <em>‘a little bit off’</em>).
+The database community has already had this discussion and the action taken was to rename <code class="language-plaintext highlighter-rouge">master</code>/<code class="language-plaintext highlighter-rouge">slave</code> to <code class="language-plaintext highlighter-rouge">primary</code>/<code class="language-plaintext highlighter-rouge">replica</code>.
+If the term “master branch” has any semblance of the same dichotomy (which it can), then the best course is to change the term.</p>
+
+<p>Renaming the branch will break some tools.
+It can be a pain in the ass.
+But if this use of terminology is making the development work of anyone more difficult than it needs to be, then I’m all for it.</p>
+
+<p>I have recently contributed to a script for automatically making this change: <a href="https://github.com/mheap/github-default-branch">github-default-branch</a>.
+It can scan through your user account or organisation to rename <code class="language-plaintext highlighter-rouge">master</code> to <code class="language-plaintext highlighter-rouge">main</code> (or any other name you specify) automatically.
+It also updates references in Pull Requests, changes certain references in text files, and fixes branch protection rules.
+I had this issue fixed for all of my repositories in an evening (including needing to fix a bug in the script).</p>
+
+<p>As for where this is going, all I can say is ‘somewhere’.
+There were several references to Newspeak in the aforementioned discussions, which I find to be bland and ignorant.
+Words fucking matter.
+And they matter differently to different individuals.</p>
+
+<p>The idea that you can make references to Orwell and think you’re clever is flippant and misses the point of this discussion.
+Which is that to create a system that is reasonably fair, reasonably safe, and reasonably usable, you must be willing to make changes.</p>
+
+<p>P.S. Today is Juneteenth. Black Lives Matter. Defund the Police. Have a nice day :)</p>
+
+
   </body>
 </html>

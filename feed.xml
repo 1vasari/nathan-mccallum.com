@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://nathan-mccallum.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://nathan-mccallum.com/" rel="alternate" type="text/html" hreflang="en" /><updated>2021-01-16T10:54:46+10:00</updated><id>http://nathan-mccallum.com/feed.xml</id><entry><title type="html">To Import, or Perhaps Not?</title><link href="http://nathan-mccallum.com/2020/09/23/to-import-or-perhaps-not.html" rel="alternate" type="text/html" title="To Import, or Perhaps Not?" /><published>2020-09-23T00:00:00+10:00</published><updated>2020-09-23T00:00:00+10:00</updated><id>http://nathan-mccallum.com/2020/09/23/to-import-or-perhaps-not</id><content type="html" xml:base="http://nathan-mccallum.com/2020/09/23/to-import-or-perhaps-not.html">&lt;p&gt;I keep a journal using a little Rails app I built. Nothing super fancy.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://nathan-mccallum.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://nathan-mccallum.com/" rel="alternate" type="text/html" hreflang="en" /><updated>2021-02-22T00:07:33+10:00</updated><id>http://nathan-mccallum.com/feed.xml</id><entry><title type="html">To Import, or Perhaps Not?</title><link href="http://nathan-mccallum.com/to-import/" rel="alternate" type="text/html" title="To Import, or Perhaps Not?" /><published>2020-09-23T00:00:00+10:00</published><updated>2020-09-23T00:00:00+10:00</updated><id>http://nathan-mccallum.com/to-import-or-perhaps-not</id><content type="html" xml:base="http://nathan-mccallum.com/to-import/">&lt;p&gt;I keep a journal using a little Rails app I built. Nothing super fancy.
 It’s just so I can write what I’m thinking and feeling throughout the day.
 Every so often I look back and think about whether I’m okay with how things are going.&lt;/p&gt;
 
@@ -15,7 +15,7 @@ Along the way one column needed to be renamed as well.&lt;/p&gt;
 Soon afterward, I discovered that it doesn’t have an import function.
 So it was possible to download the entries but not import them into the new database.&lt;/p&gt;
 
-&lt;p&gt;Next I tried to use &lt;a href=&quot;https://www.pgadmin.org/&quot;&gt;pgAdmin&lt;/a&gt; to export the entries as some kind of &lt;code class=&quot;highlighter-rouge&quot;&gt;csv&lt;/code&gt; file and then import them into the new database.
+&lt;p&gt;Next I tried to use &lt;a href=&quot;https://www.pgadmin.org/&quot;&gt;pgAdmin&lt;/a&gt; to export the entries as some kind of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;csv&lt;/code&gt; file and then import them into the new database.
 Was I able to get this to work? Nope!
 The import always failed because of something wrong with the date format in the source file.&lt;/p&gt;
 
@@ -26,10 +26,10 @@ The import always failed because of something wrong with the date format in the 
 &lt;p&gt;Okay, here we go:&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;Download a &lt;code class=&quot;highlighter-rouge&quot;&gt;json&lt;/code&gt; file of the entires using Rails Admin&lt;/li&gt;
+  &lt;li&gt;Download a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;json&lt;/code&gt; file of the entires using Rails Admin&lt;/li&gt;
   &lt;li&gt;Edit the file to make the column changes that were required&lt;/li&gt;
   &lt;li&gt;Upload the file to a private Github Gist&lt;/li&gt;
-  &lt;li&gt;Run the following Ruby code in the &lt;code class=&quot;highlighter-rouge&quot;&gt;rails console&lt;/code&gt; of the destination app:&lt;/li&gt;
+  &lt;li&gt;Run the following Ruby code in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rails console&lt;/code&gt; of the destination app:&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'json'&lt;/span&gt;
@@ -49,7 +49,7 @@ The import always failed because of something wrong with the date format in the 
 
 &lt;p&gt;This worked but I’m convinced that there was a better way eluding me.&lt;/p&gt;
 
-&lt;p&gt;‘Till next time, I guess.&lt;/p&gt;</content><author><name>Nathan McCallum</name></author><category term="programming" /><summary type="html">I keep a journal using a little Rails app I built. Nothing super fancy. It’s just so I can write what I’m thinking and feeling throughout the day. Every so often I look back and think about whether I’m okay with how things are going.</summary></entry><entry><title type="html">GitHub Default Branch</title><link href="http://nathan-mccallum.com/2020/06/19/github-default-branch.html" rel="alternate" type="text/html" title="GitHub Default Branch" /><published>2020-06-19T00:00:00+10:00</published><updated>2020-06-19T00:00:00+10:00</updated><id>http://nathan-mccallum.com/2020/06/19/github-default-branch</id><content type="html" xml:base="http://nathan-mccallum.com/2020/06/19/github-default-branch.html">&lt;p&gt;Two days ago GitHub changed their default branch name from &lt;code class=&quot;highlighter-rouge&quot;&gt;master&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;main&lt;/code&gt;.
+&lt;p&gt;‘Till next time, I guess.&lt;/p&gt;</content><author><name>Nathan McCallum</name></author><category term="programming" /><summary type="html">I keep a journal using a little Rails app I built. Nothing super fancy. It’s just so I can write what I’m thinking and feeling throughout the day. Every so often I look back and think about whether I’m okay with how things are going.</summary></entry><entry><title type="html">GitHub Default Branch</title><link href="http://nathan-mccallum.com/github-default-branch/" rel="alternate" type="text/html" title="GitHub Default Branch" /><published>2020-06-19T00:00:00+10:00</published><updated>2020-06-19T00:00:00+10:00</updated><id>http://nathan-mccallum.com/github-default-branch</id><content type="html" xml:base="http://nathan-mccallum.com/github-default-branch/">&lt;p&gt;Two days ago GitHub changed their default branch name from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;master&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;main&lt;/code&gt;.
 Though this was not mentioned on their &lt;a href=&quot;https://github.blog/&quot;&gt;blog&lt;/a&gt; or &lt;a href=&quot;https://github.blog/changelog/&quot;&gt;changelog&lt;/a&gt; it was &lt;a href=&quot;https://www.bbc.com/news/technology-53050955&quot;&gt;reported on&lt;/a&gt; fairly widely.
 It reached &lt;a href=&quot;https://news.ycombinator.com/item?id=23531032&quot;&gt;Hacker News&lt;/a&gt; wherein many discussions occurred.
 Many response articles have been written, which are worth a read if you’re interested.&lt;/p&gt;
@@ -73,13 +73,13 @@ Many response articles have been written, which are worth a read if you’re int
 
 &lt;p&gt;&lt;em&gt;Is it easier to do nothing?&lt;/em&gt; Certainly.&lt;/p&gt;
 
-&lt;p&gt;My reading from the discussions is that many are seeing the change of the default name as a signal that they now have to change the &lt;code class=&quot;highlighter-rouge&quot;&gt;master&lt;/code&gt; branch on all of their existing repositories.
+&lt;p&gt;My reading from the discussions is that many are seeing the change of the default name as a signal that they now have to change the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;master&lt;/code&gt; branch on all of their existing repositories.
 Which is a legitimate hassle.
 Many are seeing this as a slippery slope - who can tell where it leads?&lt;/p&gt;
 
 &lt;p&gt;Here’s what I think.
 The programming community is diverse and it’s hard to know for certain whether terms are offensive (or even just &lt;em&gt;‘a little bit off’&lt;/em&gt;).
-The database community has already had this discussion and the action taken was to rename &lt;code class=&quot;highlighter-rouge&quot;&gt;master&lt;/code&gt;/&lt;code class=&quot;highlighter-rouge&quot;&gt;slave&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;primary&lt;/code&gt;/&lt;code class=&quot;highlighter-rouge&quot;&gt;replica&lt;/code&gt;.
+The database community has already had this discussion and the action taken was to rename &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;master&lt;/code&gt;/&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;slave&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;primary&lt;/code&gt;/&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;replica&lt;/code&gt;.
 If the term “master branch” has any semblance of the same dichotomy (which it can), then the best course is to change the term.&lt;/p&gt;
 
 &lt;p&gt;Renaming the branch will break some tools.
@@ -87,7 +87,7 @@ It can be a pain in the ass.
 But if this use of terminology is making the development work of anyone more difficult than it needs to be, then I’m all for it.&lt;/p&gt;
 
 &lt;p&gt;I have recently contributed to a script for automatically making this change: &lt;a href=&quot;https://github.com/mheap/github-default-branch&quot;&gt;github-default-branch&lt;/a&gt;.
-It can scan through your user account or organisation to rename &lt;code class=&quot;highlighter-rouge&quot;&gt;master&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;main&lt;/code&gt; (or any other name you specify) automatically.
+It can scan through your user account or organisation to rename &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;master&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;main&lt;/code&gt; (or any other name you specify) automatically.
 It also updates references in Pull Requests, changes certain references in text files, and fixes branch protection rules.
 I had this issue fixed for all of my repositories in an evening (including needing to fix a bug in the script).&lt;/p&gt;
 
@@ -99,7 +99,7 @@ And they matter differently to different individuals.&lt;/p&gt;
 &lt;p&gt;The idea that you can make references to Orwell and think you’re clever is flippant and misses the point of this discussion.
 Which is that to create a system that is reasonably fair, reasonably safe, and reasonably usable, you must be willing to make changes.&lt;/p&gt;
 
-&lt;p&gt;P.S. Today is Juneteenth. Black Lives Matter. Defund the Police. Have a nice day :)&lt;/p&gt;</content><author><name>Nathan McCallum</name></author><category term="programming" /><summary type="html">Two days ago GitHub changed their default branch name from master to main. Though this was not mentioned on their blog or changelog it was reported on fairly widely. It reached Hacker News wherein many discussions occurred. Many response articles have been written, which are worth a read if you’re interested.</summary></entry><entry><title type="html">A Public Void</title><link href="http://nathan-mccallum.com/2020/05/05/a-public-void.html" rel="alternate" type="text/html" title="A Public Void" /><published>2020-05-05T13:39:00+10:00</published><updated>2020-05-05T13:39:00+10:00</updated><id>http://nathan-mccallum.com/2020/05/05/a-public-void</id><content type="html" xml:base="http://nathan-mccallum.com/2020/05/05/a-public-void.html">&lt;style&gt;.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }&lt;/style&gt;
+&lt;p&gt;P.S. Today is Juneteenth. Black Lives Matter. Defund the Police. Have a nice day :)&lt;/p&gt;</content><author><name>Nathan McCallum</name></author><category term="programming" /><summary type="html">Two days ago GitHub changed their default branch name from master to main. Though this was not mentioned on their blog or changelog it was reported on fairly widely. It reached Hacker News wherein many discussions occurred. Many response articles have been written, which are worth a read if you’re interested.</summary></entry><entry><title type="html">A Public Void</title><link href="http://nathan-mccallum.com/a-public-void/" rel="alternate" type="text/html" title="A Public Void" /><published>2020-05-05T13:39:00+10:00</published><updated>2020-05-05T13:39:00+10:00</updated><id>http://nathan-mccallum.com/a-public-void</id><content type="html" xml:base="http://nathan-mccallum.com/a-public-void/">&lt;style&gt;.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }&lt;/style&gt;
 &lt;div class=&quot;embed-container&quot;&gt;    &lt;iframe title=&quot;YouTube video player&quot; width=&quot;640&quot; height=&quot;390&quot; src=&quot;//www.youtube.com/embed/5NbKaZNvsHI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
 
 &lt;p&gt;The recording for this song began in early 2018.
@@ -183,7 +183,7 @@ Uploaded at about 4:30am.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/posts/a-public-void/dead.jpg&quot; alt=&quot;Me, dead&quot; width=&quot;720&quot; height=&quot;1278&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;I then laid on the floor till the sun came up.&lt;/p&gt;</content><author><name>Nathan McCallum</name></author><category term="my-music" /><summary type="html"></summary></entry><entry><title type="html">The Myth of Isolation Productivity</title><link href="http://nathan-mccallum.com/2020/04/18/the-myth-of-isolation-productivity.html" rel="alternate" type="text/html" title="The Myth of Isolation Productivity" /><published>2020-04-18T18:00:00+10:00</published><updated>2020-04-18T18:00:00+10:00</updated><id>http://nathan-mccallum.com/2020/04/18/the-myth-of-isolation-productivity</id><content type="html" xml:base="http://nathan-mccallum.com/2020/04/18/the-myth-of-isolation-productivity.html">&lt;p&gt;I don’t need to cover the story so far. COVID-19 is happening and it’s bad.
+&lt;p&gt;I then laid on the floor till the sun came up.&lt;/p&gt;</content><author><name>Nathan McCallum</name></author><category term="my-music" /><summary type="html"></summary></entry><entry><title type="html">The Myth of Isolation Productivity</title><link href="http://nathan-mccallum.com/isolation-productivity/" rel="alternate" type="text/html" title="The Myth of Isolation Productivity" /><published>2020-04-18T18:00:00+10:00</published><updated>2020-04-18T18:00:00+10:00</updated><id>http://nathan-mccallum.com/the-myth-of-isolation-productivity</id><content type="html" xml:base="http://nathan-mccallum.com/isolation-productivity/">&lt;p&gt;I don’t need to cover the story so far. COVID-19 is happening and it’s bad.
 Many are sick, many have lost their lives. Many are scared.
 We are seeing tremendous unity whilst also being at our most isolated.
 Stories of triumph and survival immediately followed by news of more storms.
@@ -235,7 +235,7 @@ You just have to keep going.&lt;/p&gt;
 
 &lt;p&gt;Make sure to set reasonable goals for yourself.&lt;/p&gt;
 
-&lt;p&gt;Stay safe out there everyone.&lt;/p&gt;</content><author><name>Nathan McCallum</name></author><category term="musings" /><summary type="html">I don’t need to cover the story so far. COVID-19 is happening and it’s bad. Many are sick, many have lost their lives. Many are scared. We are seeing tremendous unity whilst also being at our most isolated. Stories of triumph and survival immediately followed by news of more storms. The future cost to us mentally, economically and socially is yet to be determined.</summary></entry><entry><title type="html">Album Review: Le Noise by Neil Young</title><link href="http://nathan-mccallum.com/2020/04/10/album-review-le-noise-by-neil-young.html" rel="alternate" type="text/html" title="Album Review: Le Noise by Neil Young" /><published>2020-04-10T12:52:00+10:00</published><updated>2020-04-10T12:52:00+10:00</updated><id>http://nathan-mccallum.com/2020/04/10/album-review-le-noise-by-neil-young</id><content type="html" xml:base="http://nathan-mccallum.com/2020/04/10/album-review-le-noise-by-neil-young.html">&lt;p&gt;Recently I’ve been reading &lt;em&gt;Waging Heavy Pace&lt;/em&gt; (Neil Young’s autobiography) and a natural part of such a process is to listen to the music that’s mentioned along the way.
+&lt;p&gt;Stay safe out there everyone.&lt;/p&gt;</content><author><name>Nathan McCallum</name></author><category term="musings" /><summary type="html">I don’t need to cover the story so far. COVID-19 is happening and it’s bad. Many are sick, many have lost their lives. Many are scared. We are seeing tremendous unity whilst also being at our most isolated. Stories of triumph and survival immediately followed by news of more storms. The future cost to us mentally, economically and socially is yet to be determined.</summary></entry><entry><title type="html">Album Review: Le Noise by Neil Young</title><link href="http://nathan-mccallum.com/la-noise/" rel="alternate" type="text/html" title="Album Review: Le Noise by Neil Young" /><published>2020-04-10T12:52:00+10:00</published><updated>2020-04-10T12:52:00+10:00</updated><id>http://nathan-mccallum.com/album-review-le-noise-by-neil-young</id><content type="html" xml:base="http://nathan-mccallum.com/la-noise/">&lt;p&gt;Recently I’ve been reading &lt;em&gt;Waging Heavy Pace&lt;/em&gt; (Neil Young’s autobiography) and a natural part of such a process is to listen to the music that’s mentioned along the way.
 I’d already heard a lot of the classics so we don’t need to go there, but &lt;em&gt;Le Noise&lt;/em&gt; got my attention because it’s pretty different.&lt;/p&gt;
 
 &lt;p&gt;The instrumentation for the whole album is deceptively simple:&lt;/p&gt;
@@ -271,7 +271,7 @@ Admitting a lack of knowledge, despite seeing a lot. Hoping for things to be bet
 
 &lt;p&gt;I really enjoyed the nice touches with the harmony through the piece.
 The verses are in A minor and choruses in G, with some interesting interplay between the two.
-Particularity the usage of &lt;code class=&quot;highlighter-rouge&quot;&gt;D7&lt;/code&gt; (the &lt;code class=&quot;highlighter-rouge&quot;&gt;V&lt;/code&gt; of &lt;code class=&quot;highlighter-rouge&quot;&gt;G&lt;/code&gt;) resolving to &lt;code class=&quot;highlighter-rouge&quot;&gt;Am&lt;/code&gt; instead.
+Particularity the usage of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;D7&lt;/code&gt; (the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;V&lt;/code&gt; of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;G&lt;/code&gt;) resolving to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Am&lt;/code&gt; instead.
 Music theorists would call this a deceptive resolution but to me it just feels like we’re going back down into the trenches.&lt;/p&gt;
 
 &lt;h3 id=&quot;3-peaceful-valley-boulevard&quot;&gt;3. Peaceful Valley Boulevard&lt;/h3&gt;
@@ -282,12 +282,12 @@ Music theorists would call this a deceptive resolution but to me it just feels l
 &lt;p&gt;Lovely, mournful, really nice song.&lt;/p&gt;
 
 &lt;p&gt;When learning this it took me quite a while to realize what was going on in the chorus.
-At first I thought it was an &lt;code class=&quot;highlighter-rouge&quot;&gt;Ebm7b5&lt;/code&gt; and was trying to find a voicing that matched what I was hearing.
-In the end I worked out that it was actually an even more dissonant &lt;code class=&quot;highlighter-rouge&quot;&gt;Ebdim7&lt;/code&gt; chord.&lt;/p&gt;
+At first I thought it was an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ebm7b5&lt;/code&gt; and was trying to find a voicing that matched what I was hearing.
+In the end I worked out that it was actually an even more dissonant &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ebdim7&lt;/code&gt; chord.&lt;/p&gt;
 
 &lt;p&gt;Also the break to F major took me right back to &lt;em&gt;Starman&lt;/em&gt; by David Bowie.
 It only goes for 30 seconds but the effect was immense.
-And the deceptive resolution (there’s the term again!) back to &lt;code class=&quot;highlighter-rouge&quot;&gt;Em&lt;/code&gt; felt like it all just died and faded away into memory.&lt;/p&gt;
+And the deceptive resolution (there’s the term again!) back to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Em&lt;/code&gt; felt like it all just died and faded away into memory.&lt;/p&gt;
 
 &lt;h3 id=&quot;things-i-didnt-like&quot;&gt;Things I didn’t like&lt;/h3&gt;
 
@@ -298,50 +298,892 @@ This was followed by &lt;em&gt;Someone’s Gonna Rescue You&lt;/em&gt; and it to
 
 &lt;p&gt;And in fact that’s the main gripe I have: except for &lt;em&gt;Walk With Me&lt;/em&gt;, the electric tracks all feel the same.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;My overall rating:&lt;/strong&gt; 6/10&lt;/p&gt;</content><author><name>Nathan McCallum</name></author><category term="album-reviews" /><summary type="html">Recently I’ve been reading Waging Heavy Pace (Neil Young’s autobiography) and a natural part of such a process is to listen to the music that’s mentioned along the way. I’d already heard a lot of the classics so we don’t need to go there, but Le Noise got my attention because it’s pretty different.</summary></entry><entry><title type="html">Getting Started</title><link href="http://nathan-mccallum.com/2020/04/05/getting-started.html" rel="alternate" type="text/html" title="Getting Started" /><published>2020-04-05T18:19:00+10:00</published><updated>2020-04-05T18:19:00+10:00</updated><id>http://nathan-mccallum.com/2020/04/05/getting-started</id><content type="html" xml:base="http://nathan-mccallum.com/2020/04/05/getting-started.html">&lt;p&gt;It is a cool Sunday evening and I am once again experimenting with my personal site.
-Over the years I’ve run several different &lt;em&gt;“Hello, World - this is me”&lt;/em&gt;-type sites and nothing has quite stuck.
-Given the vast array of options, I’ve never settled on any one thing.
-I can at least remember trying Wordpress, Ghost, SquareSpace, as well as various things I’ve hacked together and hosted on GitHub Pages.&lt;/p&gt;
-
-&lt;p&gt;This current iteration is a Jekyll site hosted for free on GitHub Pages.
-And I think it’s going to work.
-Why?
-Because I changed my expectation.
-I realized I was chasing a “perfect” option when instead I just needed to find “my” option.
-I’m even using the default Jekyll theme right now.
-Because it doesn’t actually matter.
-I’ve seen many (more successful) blogs that look worse than this.&lt;/p&gt;
-
-&lt;p&gt;I’ve been pondering recently why I am resistant to change.
-My thoughts so far have been that when I am presented with a new situation, I see an infinity of possibilities, or none at all.
-For instance, I often look at an empty Ableton Live session and feel that I could make any music I want.
-But I do nothing because I can’t find &lt;strong&gt;the thing&lt;/strong&gt; (musical, lyrical, emotional, or otherwise) that I’m trying to express.
-In 2016 I tried to start a blog, but never wrote a single post because I felt like I had nothing at all to say.&lt;/p&gt;
-
-&lt;p&gt;I am reminded of a quote from Winston Churchill:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“To improve is to change; to be perfect is to change often.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Perhaps there’s a middle ground between the two extremes of &lt;code class=&quot;highlighter-rouge&quot;&gt;Infinity&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt;?
-A state where one can keep moving without losing track of what’s important?&lt;/p&gt;
-
-&lt;p&gt;My answer is &lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;If there’s too many possibilities, reduce them down until you’re left with one.
-If you have no possibilities, do something stupid until something comes up.&lt;/p&gt;
-
-&lt;p&gt;In the case of my personal blog, it doesn’t actually really matter whether I use SquareSpace, Ghost, or something I hacked together.
-I’ve been enjoying my Rails work at &lt;a href=&quot;http://thegrantshub.com&quot;&gt;The Grants Hub&lt;/a&gt; so I chose a Ruby-based static site generator.
-But it could have been anything.
-The point was that I chose.&lt;/p&gt;
-
-&lt;p&gt;In the case of my music, I’ve found that I can get better results by writing guitar parts instead of getting stuck in the details of synthesizer design, mixing or drum programming.
-I can then swap the guitars with other sounds or get other people to play the parts, all of which can potentially serve the music better.
-However I wouldn’t have gotten there had I not gone back and reduced the possibilities.&lt;/p&gt;
-
-&lt;p&gt;Right now we’re experiencing a pandemic of unprecedented scale.
-On social media I’m seeing many posts saying “use the isolation time to learn new skills”.
-I don’t buy it though. I feel like I’ve got enough going on with reading, music and work.
-But perhaps this is another instance of me seeing &lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt; instead of &lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt;?&lt;/p&gt;</content><author><name>Nathan McCallum</name></author><category term="musings" /><summary type="html">It is a cool Sunday evening and I am once again experimenting with my personal site. Over the years I’ve run several different “Hello, World - this is me”-type sites and nothing has quite stuck. Given the vast array of options, I’ve never settled on any one thing. I can at least remember trying Wordpress, Ghost, SquareSpace, as well as various things I’ve hacked together and hosted on GitHub Pages.</summary></entry></feed>
+&lt;p&gt;&lt;strong&gt;My overall rating:&lt;/strong&gt; 6/10&lt;/p&gt;</content><author><name>Nathan McCallum</name></author><category term="album-reviews" /><summary type="html">Recently I’ve been reading Waging Heavy Pace (Neil Young’s autobiography) and a natural part of such a process is to listen to the music that’s mentioned along the way. I’d already heard a lot of the classics so we don’t need to go there, but Le Noise got my attention because it’s pretty different.</summary></entry><entry><title type="html">Albums I’ve Listened To</title><link href="http://nathan-mccallum.com/albums/" rel="alternate" type="text/html" title="Albums I’ve Listened To" /><published>2020-04-06T00:00:00+10:00</published><updated>2020-04-06T00:00:00+10:00</updated><id>http://nathan-mccallum.com/albums</id><content type="html" xml:base="http://nathan-mccallum.com/albums/">&lt;ul&gt;
+  &lt;li&gt;Aberdeen, Downpour&lt;/li&gt;
+  &lt;li&gt;Adele, 21&lt;/li&gt;
+  &lt;li&gt;Alice in Chains, Unplugged&lt;/li&gt;
+  &lt;li&gt;Ben Folds Five, Whatever and Ever Amen&lt;/li&gt;
+  &lt;li&gt;Big Wreck, In Loving Memory Of&lt;/li&gt;
+  &lt;li&gt;Bill Laurance, Cables&lt;/li&gt;
+  &lt;li&gt;Bill Laurance, Swift&lt;/li&gt;
+  &lt;li&gt;Billy Joel, Storm Front&lt;/li&gt;
+  &lt;li&gt;Bob Reynolds, Guitar Band&lt;/li&gt;
+  &lt;li&gt;Bob Reynolds, Runway&lt;/li&gt;
+  &lt;li&gt;Bon Iver, Bon Iver&lt;/li&gt;
+  &lt;li&gt;Bon Iver, For Emma, Forever Ago&lt;/li&gt;
+  &lt;li&gt;Brian Eno, Apollo&lt;/li&gt;
+  &lt;li&gt;Cat Stevans, Tea for the Tillerman&lt;/li&gt;
+  &lt;li&gt;Chad LB &amp;amp; Sonic Magic, Chad LB &amp;amp; Sonic Magic&lt;/li&gt;
+  &lt;li&gt;Coldplay, Everyday Life&lt;/li&gt;
+  &lt;li&gt;Coldplay, Parachutes&lt;/li&gt;
+  &lt;li&gt;Crowded House, Platinum&lt;/li&gt;
+  &lt;li&gt;CSNY, Deja Vu&lt;/li&gt;
+  &lt;li&gt;Daft Punk, Random Access Memories&lt;/li&gt;
+  &lt;li&gt;Daft Punk, Rankdom Access Memories&lt;/li&gt;
+  &lt;li&gt;Dave Brubeck Quartet, Time Out&lt;/li&gt;
+  &lt;li&gt;Dave Matthews Band, Before These Crowded Streets&lt;/li&gt;
+  &lt;li&gt;Dave Matthews Band, Crash&lt;/li&gt;
+  &lt;li&gt;David Bowie, Blackstar&lt;/li&gt;
+  &lt;li&gt;David Bowie, Hunky Dory&lt;/li&gt;
+  &lt;li&gt;David Bowie, The Man Who Sold the World&lt;/li&gt;
+  &lt;li&gt;David Bowie, The Rise and Fall of Ziggy Stardust and the Spiders from Mars&lt;/li&gt;
+  &lt;li&gt;Dire Straits, Love Over Gold&lt;/li&gt;
+  &lt;li&gt;Fleetwood Mac, Rumours&lt;/li&gt;
+  &lt;li&gt;Hans Zimmer, Interstellar&lt;/li&gt;
+  &lt;li&gt;Herbie Hancock, Head Hunters&lt;/li&gt;
+  &lt;li&gt;Hiromi, Spectrum&lt;/li&gt;
+  &lt;li&gt;Jacob Collier, Djesse Vol 1&lt;/li&gt;
+  &lt;li&gt;Jacob Collier, Djesse Vol 2&lt;/li&gt;
+  &lt;li&gt;Jacob Collier, In My Room&lt;/li&gt;
+  &lt;li&gt;Jeff Buckley, Grace&lt;/li&gt;
+  &lt;li&gt;John Butler Trio, Flesh and Blood&lt;/li&gt;
+  &lt;li&gt;John Mayer, Where the Light Is: Live in Los Angeles&lt;/li&gt;
+  &lt;li&gt;Jon Hopkins, Opalescent&lt;/li&gt;
+  &lt;li&gt;Jon Hopkins, Singularity&lt;/li&gt;
+  &lt;li&gt;Joshua Lee Turner, Public Life&lt;/li&gt;
+  &lt;li&gt;Lyle Mays, Lyle Mays&lt;/li&gt;
+  &lt;li&gt;Mark Lettieri, Spark &amp;amp; Echo&lt;/li&gt;
+  &lt;li&gt;Massive Attack, Mezzanine&lt;/li&gt;
+  &lt;li&gt;Max Cooper, Yearning for the Infinite&lt;/li&gt;
+  &lt;li&gt;Meatloaf, Bat Out of Hell&lt;/li&gt;
+  &lt;li&gt;Michael Hedges, Platinum &amp;amp; Gold Collection&lt;/li&gt;
+  &lt;li&gt;Miles Davis, Kind of Blue&lt;/li&gt;
+  &lt;li&gt;Neil Diamond, Hot August Night&lt;/li&gt;
+  &lt;li&gt;Neil Young, Harvest&lt;/li&gt;
+  &lt;li&gt;Nonberk, Nonberk&lt;/li&gt;
+  &lt;li&gt;Of Monsters and Men, My Head is an Animal&lt;/li&gt;
+  &lt;li&gt;Pat Metheny Group, The Way Up&lt;/li&gt;
+  &lt;li&gt;Pat Metheny, Bright Size Life&lt;/li&gt;
+  &lt;li&gt;Pat Metheny, From This Place&lt;/li&gt;
+  &lt;li&gt;Pat Metheny/Lyle Mays, As Falls Wichita, So Falls Wichita Falls&lt;/li&gt;
+  &lt;li&gt;Paul Simon, Graceland&lt;/li&gt;
+  &lt;li&gt;Phil Collins, Hits&lt;/li&gt;
+  &lt;li&gt;Pink Floyd, Dark Side of the Moon&lt;/li&gt;
+  &lt;li&gt;Pink Floyd, Wish You Were Here&lt;/li&gt;
+  &lt;li&gt;Plini, Handmade Cities&lt;/li&gt;
+  &lt;li&gt;Prince, Purple Rain&lt;/li&gt;
+  &lt;li&gt;Punch Brothers, The Phosphorescent Blues&lt;/li&gt;
+  &lt;li&gt;Queen, A Night at the Opera&lt;/li&gt;
+  &lt;li&gt;R.E.M., Automatic for the People&lt;/li&gt;
+  &lt;li&gt;Radiohead, OK Computer&lt;/li&gt;
+  &lt;li&gt;Simon &amp;amp; Garfunkel, Bridge Over Troubled Water&lt;/li&gt;
+  &lt;li&gt;Sir &amp;amp; Lydia, This Mystery&lt;/li&gt;
+  &lt;li&gt;Snarky Puppy, groundUP&lt;/li&gt;
+  &lt;li&gt;Snarky Puppy, Immigrance&lt;/li&gt;
+  &lt;li&gt;Snarky Puppy, Live at the Royal Albert Hall&lt;/li&gt;
+  &lt;li&gt;Snarky Puppy, We Like it Here&lt;/li&gt;
+  &lt;li&gt;Stars Of The Lid, And Their Refinement of the Decline&lt;/li&gt;
+  &lt;li&gt;Steely Dan, Aja&lt;/li&gt;
+  &lt;li&gt;Steely Dan, Can’t Buy a Thrill&lt;/li&gt;
+  &lt;li&gt;Steely Dan, Gaucho&lt;/li&gt;
+  &lt;li&gt;Steely Dan, Pretzel Logic&lt;/li&gt;
+  &lt;li&gt;Steve Reich, Different Trains&lt;/li&gt;
+  &lt;li&gt;Steve Reich, Music for 18 Musicians&lt;/li&gt;
+  &lt;li&gt;Stevie Wonder, Songs in the Key of Life&lt;/li&gt;
+  &lt;li&gt;Sungazer, Sungazer, Vol. 1&lt;/li&gt;
+  &lt;li&gt;Sungazer, Sungazer, Vol. 2&lt;/li&gt;
+  &lt;li&gt;The Beach Boys, Pet Sounds&lt;/li&gt;
+  &lt;li&gt;The Doors, L.A. Woman&lt;/li&gt;
+  &lt;li&gt;The Doors, The Doors&lt;/li&gt;
+  &lt;li&gt;Thirsty Merc, Acoustic Anniversary Album&lt;/li&gt;
+  &lt;li&gt;Tigran Hamasyan, The Call Within&lt;/li&gt;
+  &lt;li&gt;Tool, Fear Inoculum&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Nathan McCallum</name></author><category term="lists" /><summary type="html">Aberdeen, Downpour Adele, 21 Alice in Chains, Unplugged Ben Folds Five, Whatever and Ever Amen Big Wreck, In Loving Memory Of Bill Laurance, Cables Bill Laurance, Swift Billy Joel, Storm Front Bob Reynolds, Guitar Band Bob Reynolds, Runway Bon Iver, Bon Iver Bon Iver, For Emma, Forever Ago Brian Eno, Apollo Cat Stevans, Tea for the Tillerman Chad LB &amp;amp; Sonic Magic, Chad LB &amp;amp; Sonic Magic Coldplay, Everyday Life Coldplay, Parachutes Crowded House, Platinum CSNY, Deja Vu Daft Punk, Random Access Memories Daft Punk, Rankdom Access Memories Dave Brubeck Quartet, Time Out Dave Matthews Band, Before These Crowded Streets Dave Matthews Band, Crash David Bowie, Blackstar David Bowie, Hunky Dory David Bowie, The Man Who Sold the World David Bowie, The Rise and Fall of Ziggy Stardust and the Spiders from Mars Dire Straits, Love Over Gold Fleetwood Mac, Rumours Hans Zimmer, Interstellar Herbie Hancock, Head Hunters Hiromi, Spectrum Jacob Collier, Djesse Vol 1 Jacob Collier, Djesse Vol 2 Jacob Collier, In My Room Jeff Buckley, Grace John Butler Trio, Flesh and Blood John Mayer, Where the Light Is: Live in Los Angeles Jon Hopkins, Opalescent Jon Hopkins, Singularity Joshua Lee Turner, Public Life Lyle Mays, Lyle Mays Mark Lettieri, Spark &amp;amp; Echo Massive Attack, Mezzanine Max Cooper, Yearning for the Infinite Meatloaf, Bat Out of Hell Michael Hedges, Platinum &amp;amp; Gold Collection Miles Davis, Kind of Blue Neil Diamond, Hot August Night Neil Young, Harvest Nonberk, Nonberk Of Monsters and Men, My Head is an Animal Pat Metheny Group, The Way Up Pat Metheny, Bright Size Life Pat Metheny, From This Place Pat Metheny/Lyle Mays, As Falls Wichita, So Falls Wichita Falls Paul Simon, Graceland Phil Collins, Hits Pink Floyd, Dark Side of the Moon Pink Floyd, Wish You Were Here Plini, Handmade Cities Prince, Purple Rain Punch Brothers, The Phosphorescent Blues Queen, A Night at the Opera R.E.M., Automatic for the People Radiohead, OK Computer Simon &amp;amp; Garfunkel, Bridge Over Troubled Water Sir &amp;amp; Lydia, This Mystery Snarky Puppy, groundUP Snarky Puppy, Immigrance Snarky Puppy, Live at the Royal Albert Hall Snarky Puppy, We Like it Here Stars Of The Lid, And Their Refinement of the Decline Steely Dan, Aja Steely Dan, Can’t Buy a Thrill Steely Dan, Gaucho Steely Dan, Pretzel Logic Steve Reich, Different Trains Steve Reich, Music for 18 Musicians Stevie Wonder, Songs in the Key of Life Sungazer, Sungazer, Vol. 1 Sungazer, Sungazer, Vol. 2 The Beach Boys, Pet Sounds The Doors, L.A. Woman The Doors, The Doors Thirsty Merc, Acoustic Anniversary Album Tigran Hamasyan, The Call Within Tool, Fear Inoculum</summary></entry><entry><title type="html">Books I’ve Read</title><link href="http://nathan-mccallum.com/books/" rel="alternate" type="text/html" title="Books I’ve Read" /><published>2020-04-06T00:00:00+10:00</published><updated>2020-04-06T00:00:00+10:00</updated><id>http://nathan-mccallum.com/books</id><content type="html" xml:base="http://nathan-mccallum.com/books/">&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Author&lt;/th&gt;
+      &lt;th&gt;Title&lt;/th&gt;
+      &lt;th&gt;Rating&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Albert Camus&lt;/td&gt;
+      &lt;td&gt;The Outsider&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Aldous Huxley&lt;/td&gt;
+      &lt;td&gt;Brave New World&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Allison Green&lt;/td&gt;
+      &lt;td&gt;Ask a Manager&lt;/td&gt;
+      &lt;td&gt;6/10&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Amy Orr-Ewing&lt;/td&gt;
+      &lt;td&gt;Why Trust the Bible?&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Andy Weir&lt;/td&gt;
+      &lt;td&gt;The Martian&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Arthur C. Clarke&lt;/td&gt;
+      &lt;td&gt;2001: A Space Odyssey&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Arthur C. Clarke&lt;/td&gt;
+      &lt;td&gt;2010&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Arthur C. Clarke&lt;/td&gt;
+      &lt;td&gt;2061: Odyssey Three&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Arthur C. Clarke&lt;/td&gt;
+      &lt;td&gt;3001: The Final Odyssey&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Arthur C. Clarke&lt;/td&gt;
+      &lt;td&gt;Garden of Rama&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Arthur C. Clarke&lt;/td&gt;
+      &lt;td&gt;Rama II&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Arthur C. Clarke&lt;/td&gt;
+      &lt;td&gt;Rama Revealed&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Arthur C. Clarke&lt;/td&gt;
+      &lt;td&gt;Rendezvous with Rama&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Arthur Miller&lt;/td&gt;
+      &lt;td&gt;Death of a Salesman&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Arthur Miller&lt;/td&gt;
+      &lt;td&gt;The Crucible&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Brandon Stanton&lt;/td&gt;
+      &lt;td&gt;Humans of New York&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Brian Dumaine&lt;/td&gt;
+      &lt;td&gt;Bezonomics&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Bryan Davis&lt;/td&gt;
+      &lt;td&gt;Eye of the Oracle&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Carl Sagan&lt;/td&gt;
+      &lt;td&gt;Contact&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Chris Ryan&lt;/td&gt;
+      &lt;td&gt;Twister&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Chris Taylor&lt;/td&gt;
+      &lt;td&gt;How Star Wars Conquored the Universe&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Christopher Hitchens&lt;/td&gt;
+      &lt;td&gt;Mortality&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;C.S. Lewis&lt;/td&gt;
+      &lt;td&gt;The Lion, the Witch and the Wardrobe&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Daniel Keyes&lt;/td&gt;
+      &lt;td&gt;Flowers for Algernon&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Daniel Suarez&lt;/td&gt;
+      &lt;td&gt;Daemon&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Daniel Suarez&lt;/td&gt;
+      &lt;td&gt;Freedom&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Dave Eggers&lt;/td&gt;
+      &lt;td&gt;The Circle&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Dave Leser&lt;/td&gt;
+      &lt;td&gt;Women, Men and the Whole Damn Thing&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Dean Burnett&lt;/td&gt;
+      &lt;td&gt;The Idiot Brain&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Dominic Streatfield&lt;/td&gt;
+      &lt;td&gt;A History of the World Since 9/11&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Douglas Adams&lt;/td&gt;
+      &lt;td&gt;The Hitchhiker’s Guide to the Galaxy&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Douglas Adams&lt;/td&gt;
+      &lt;td&gt;The Restaurant at the End of the Universe&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Douglas Adams&lt;/td&gt;
+      &lt;td&gt;Life, the Universe and Everything&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Douglas Adams&lt;/td&gt;
+      &lt;td&gt;So Long and Thanks for all the Fish&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Douglas Adams&lt;/td&gt;
+      &lt;td&gt;Mostly Harmless&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ernest Cline&lt;/td&gt;
+      &lt;td&gt;Ready Player One&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Fleur Beale&lt;/td&gt;
+      &lt;td&gt;Slide the Corner&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Floyd McClung Jr.&lt;/td&gt;
+      &lt;td&gt;The Father Heart of God&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Gary Gibson&lt;/td&gt;
+      &lt;td&gt;Stealing Light&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;George Orwell&lt;/td&gt;
+      &lt;td&gt;Animal Farm&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;George Orwell&lt;/td&gt;
+      &lt;td&gt;Nineteen Eighty Four&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Harper Lee&lt;/td&gt;
+      &lt;td&gt;To Kill a Mockingbird&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Hugh Howey&lt;/td&gt;
+      &lt;td&gt;Dust&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Hugh Howey&lt;/td&gt;
+      &lt;td&gt;Shift&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Hugh Howey&lt;/td&gt;
+      &lt;td&gt;Wool&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;J. B. Priestley&lt;/td&gt;
+      &lt;td&gt;An Inspector Calls&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;J.K. Rowling&lt;/td&gt;
+      &lt;td&gt;Harry Potter and the Camber of Secrets&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;J.K. Rowling&lt;/td&gt;
+      &lt;td&gt;Harry Potter and the Deathly Hallows&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;J.K. Rowling&lt;/td&gt;
+      &lt;td&gt;Harry Potter and the Goblet of Fire&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;J.K. Rowling&lt;/td&gt;
+      &lt;td&gt;Harry Potter and the Half-Blood Prince&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;J.K. Rowling&lt;/td&gt;
+      &lt;td&gt;Harry Potter and the Order of the Phoenix&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;J.K. Rowling&lt;/td&gt;
+      &lt;td&gt;Harry Potter and the Philosopher’s Stone&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;J.K. Rowling&lt;/td&gt;
+      &lt;td&gt;Harry Potter and the Prisoner of Azakban&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;J.R.R Tolkien&lt;/td&gt;
+      &lt;td&gt;The Hobbit&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;J.R.R Tolkien&lt;/td&gt;
+      &lt;td&gt;The Lord of the Rings: The Fellowship of the Ring&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;J.R.R Tolkien&lt;/td&gt;
+      &lt;td&gt;The Lord of the Rings: The Two Towers&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;J.R.R Tolkien&lt;/td&gt;
+      &lt;td&gt;The Lord of the Rings: The Return of the King&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;J.R.R Tolkien&lt;/td&gt;
+      &lt;td&gt;The Silmarillion&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Jane Austin&lt;/td&gt;
+      &lt;td&gt;Pride and Prejudice&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;John Green&lt;/td&gt;
+      &lt;td&gt;Looking for Alaska&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;John Green&lt;/td&gt;
+      &lt;td&gt;The Fault in Our Stars&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;John Green&lt;/td&gt;
+      &lt;td&gt;Turtles all the Way Down&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Json Roberts&lt;/td&gt;
+      &lt;td&gt;A Sense of the World: How a Blind Man Became History’s Greatest Traveller&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Karen M McManus&lt;/td&gt;
+      &lt;td&gt;One of Us is Lying&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Kevin &amp;amp; Alex Malarkey&lt;/td&gt;
+      &lt;td&gt;The Boy Who Came Back From Heaven&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Kevin J Anderson&lt;/td&gt;
+      &lt;td&gt;Star Wars: Tales of the Bounty Hunters&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Lance Armstrong&lt;/td&gt;
+      &lt;td&gt;It’s Not About the Bike&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Linda Buckley-Archer&lt;/td&gt;
+      &lt;td&gt;Gideon the Cutpurse&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Mark Manson&lt;/td&gt;
+      &lt;td&gt;The Subtle Art of not Giving a Fuck&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Mark Manson&lt;/td&gt;
+      &lt;td&gt;Everything is Fucked: A Book About Hope&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Mary Shelley&lt;/td&gt;
+      &lt;td&gt;Frankenstein&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Neil deGrasse Tyson&lt;/td&gt;
+      &lt;td&gt;Letters From an Astrophysicist&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Neil Young&lt;/td&gt;
+      &lt;td&gt;Waging Heavy Peace&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Nike Sulway&lt;/td&gt;
+      &lt;td&gt;Dying in the First Person&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Oscar Wilde&lt;/td&gt;
+      &lt;td&gt;The Importance of Being Earnest&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Oscar Wilde&lt;/td&gt;
+      &lt;td&gt;The Picture of Dorian Gray&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Paulo Coelo&lt;/td&gt;
+      &lt;td&gt;The Alchemist&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Richard Dawkins&lt;/td&gt;
+      &lt;td&gt;The Magic of Reality&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Robert Jordan&lt;/td&gt;
+      &lt;td&gt;Eye of the World&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Robert Louis Stevenson&lt;/td&gt;
+      &lt;td&gt;The Strange Case of Dr. Jekyll and Hyde&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Rupi Kaur&lt;/td&gt;
+      &lt;td&gt;The Sun and Her Flowers&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;S.E. Hinton&lt;/td&gt;
+      &lt;td&gt;The Outsiders&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Stephen Baxter&lt;/td&gt;
+      &lt;td&gt;Stone Spring&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Steven Levy&lt;/td&gt;
+      &lt;td&gt;Facebook: The Inside Story&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Stuart Turton&lt;/td&gt;
+      &lt;td&gt;The Seven Deaths of Evelyn Hardcastle&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Sun Tzu&lt;/td&gt;
+      &lt;td&gt;The Art of War&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Suzanne Collins&lt;/td&gt;
+      &lt;td&gt;Hunger Games: Catching Fire&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Suzanne Collins&lt;/td&gt;
+      &lt;td&gt;Hunger Games: Mockingjay&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Suzanne Collins&lt;/td&gt;
+      &lt;td&gt;The Hunger Games&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Terry Pratchett&lt;/td&gt;
+      &lt;td&gt;Equal Rites&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Traci Harding&lt;/td&gt;
+      &lt;td&gt;An Echo in Time&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Traci Harding&lt;/td&gt;
+      &lt;td&gt;Masters of Reality&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Traci Harding&lt;/td&gt;
+      &lt;td&gt;The Ancient Future&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Walter Isaacson&lt;/td&gt;
+      &lt;td&gt;Steve Jobs&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Wayne Thomas Batson &amp;amp; Christopher Hopper&lt;/td&gt;
+      &lt;td&gt;Curse of the Spider King&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;TODO&lt;/td&gt;
+      &lt;td&gt;Whose Life is it Anyway?&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;William Golding&lt;/td&gt;
+      &lt;td&gt;Lord of the Flies&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;William Shakespeare&lt;/td&gt;
+      &lt;td&gt;Romero and Juliet&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;William Shakespeare&lt;/td&gt;
+      &lt;td&gt;Macbeth&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;William Shakespeare&lt;/td&gt;
+      &lt;td&gt;The Merchant of Venice&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Yuval Noah Harari&lt;/td&gt;
+      &lt;td&gt;Sapiens: A Brief History of Humankind&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name>Nathan McCallum</name></author><category term="lists" /><summary type="html">Author Title Rating Albert Camus The Outsider   Aldous Huxley Brave New World   Allison Green Ask a Manager 6/10 Amy Orr-Ewing Why Trust the Bible?   Andy Weir The Martian   Arthur C. Clarke 2001: A Space Odyssey   Arthur C. Clarke 2010   Arthur C. Clarke 2061: Odyssey Three   Arthur C. Clarke 3001: The Final Odyssey   Arthur C. Clarke Garden of Rama   Arthur C. Clarke Rama II   Arthur C. Clarke Rama Revealed   Arthur C. Clarke Rendezvous with Rama   Arthur Miller Death of a Salesman   Arthur Miller The Crucible   Brandon Stanton Humans of New York   Brian Dumaine Bezonomics   Bryan Davis Eye of the Oracle   Carl Sagan Contact   Chris Ryan Twister   Chris Taylor How Star Wars Conquored the Universe   Christopher Hitchens Mortality   C.S. Lewis The Lion, the Witch and the Wardrobe   Daniel Keyes Flowers for Algernon   Daniel Suarez Daemon   Daniel Suarez Freedom   Dave Eggers The Circle   Dave Leser Women, Men and the Whole Damn Thing   Dean Burnett The Idiot Brain   Dominic Streatfield A History of the World Since 9/11   Douglas Adams The Hitchhiker’s Guide to the Galaxy   Douglas Adams The Restaurant at the End of the Universe   Douglas Adams Life, the Universe and Everything   Douglas Adams So Long and Thanks for all the Fish   Douglas Adams Mostly Harmless   Ernest Cline Ready Player One   Fleur Beale Slide the Corner   Floyd McClung Jr. The Father Heart of God   Gary Gibson Stealing Light   George Orwell Animal Farm   George Orwell Nineteen Eighty Four   Harper Lee To Kill a Mockingbird   Hugh Howey Dust   Hugh Howey Shift   Hugh Howey Wool   J. B. Priestley An Inspector Calls   J.K. Rowling Harry Potter and the Camber of Secrets   J.K. Rowling Harry Potter and the Deathly Hallows   J.K. Rowling Harry Potter and the Goblet of Fire   J.K. Rowling Harry Potter and the Half-Blood Prince   J.K. Rowling Harry Potter and the Order of the Phoenix   J.K. Rowling Harry Potter and the Philosopher’s Stone   J.K. Rowling Harry Potter and the Prisoner of Azakban   J.R.R Tolkien The Hobbit   J.R.R Tolkien The Lord of the Rings: The Fellowship of the Ring   J.R.R Tolkien The Lord of the Rings: The Two Towers   J.R.R Tolkien The Lord of the Rings: The Return of the King   J.R.R Tolkien The Silmarillion   Jane Austin Pride and Prejudice   John Green Looking for Alaska   John Green The Fault in Our Stars   John Green Turtles all the Way Down   Json Roberts A Sense of the World: How a Blind Man Became History’s Greatest Traveller   Karen M McManus One of Us is Lying   Kevin &amp;amp; Alex Malarkey The Boy Who Came Back From Heaven   Kevin J Anderson Star Wars: Tales of the Bounty Hunters   Lance Armstrong It’s Not About the Bike   Linda Buckley-Archer Gideon the Cutpurse   Mark Manson The Subtle Art of not Giving a Fuck   Mark Manson Everything is Fucked: A Book About Hope   Mary Shelley Frankenstein   Neil deGrasse Tyson Letters From an Astrophysicist   Neil Young Waging Heavy Peace   Nike Sulway Dying in the First Person   Oscar Wilde The Importance of Being Earnest   Oscar Wilde The Picture of Dorian Gray   Paulo Coelo The Alchemist   Richard Dawkins The Magic of Reality   Robert Jordan Eye of the World   Robert Louis Stevenson The Strange Case of Dr. Jekyll and Hyde   Rupi Kaur The Sun and Her Flowers   S.E. Hinton The Outsiders   Stephen Baxter Stone Spring   Steven Levy Facebook: The Inside Story   Stuart Turton The Seven Deaths of Evelyn Hardcastle   Sun Tzu The Art of War   Suzanne Collins Hunger Games: Catching Fire   Suzanne Collins Hunger Games: Mockingjay   Suzanne Collins The Hunger Games   Terry Pratchett Equal Rites   Traci Harding An Echo in Time   Traci Harding Masters of Reality   Traci Harding The Ancient Future   Walter Isaacson Steve Jobs   Wayne Thomas Batson &amp;amp; Christopher Hopper Curse of the Spider King   TODO Whose Life is it Anyway?   William Golding Lord of the Flies   William Shakespeare Romero and Juliet   William Shakespeare Macbeth   William Shakespeare The Merchant of Venice   Yuval Noah Harari Sapiens: A Brief History of Humankind  </summary></entry><entry><title type="html">Movies I’ve Seen</title><link href="http://nathan-mccallum.com/movies/" rel="alternate" type="text/html" title="Movies I’ve Seen" /><published>2020-04-06T00:00:00+10:00</published><updated>2020-04-06T00:00:00+10:00</updated><id>http://nathan-mccallum.com/movies</id><content type="html" xml:base="http://nathan-mccallum.com/movies/">&lt;ul&gt;
+  &lt;li&gt;12 Angry Men&lt;/li&gt;
+  &lt;li&gt;2 Fast 2 Furious&lt;/li&gt;
+  &lt;li&gt;2001: A Space Odyssey&lt;/li&gt;
+  &lt;li&gt;2012&lt;/li&gt;
+  &lt;li&gt;A Beautiful Mind&lt;/li&gt;
+  &lt;li&gt;A Bug’s Life&lt;/li&gt;
+  &lt;li&gt;A Few Good Men&lt;/li&gt;
+  &lt;li&gt;Ad Astra&lt;/li&gt;
+  &lt;li&gt;Aladdin&lt;/li&gt;
+  &lt;li&gt;Alien&lt;/li&gt;
+  &lt;li&gt;Aliens&lt;/li&gt;
+  &lt;li&gt;Aliens in the Attic&lt;/li&gt;
+  &lt;li&gt;Alvin and the Chipmunks&lt;/li&gt;
+  &lt;li&gt;Ant-Man&lt;/li&gt;
+  &lt;li&gt;Ant-Man and the Wasp&lt;/li&gt;
+  &lt;li&gt;Antz&lt;/li&gt;
+  &lt;li&gt;Apollo 13&lt;/li&gt;
+  &lt;li&gt;Avatar&lt;/li&gt;
+  &lt;li&gt;Back to the Future&lt;/li&gt;
+  &lt;li&gt;Back to the Future 2&lt;/li&gt;
+  &lt;li&gt;Back to the Future 3&lt;/li&gt;
+  &lt;li&gt;Batman v Superman&lt;/li&gt;
+  &lt;li&gt;Batman: Begins&lt;/li&gt;
+  &lt;li&gt;Batman: The Dark Knight&lt;/li&gt;
+  &lt;li&gt;Batman: The Dark Knight Rises&lt;/li&gt;
+  &lt;li&gt;Battleship&lt;/li&gt;
+  &lt;li&gt;Beauty and the Beast (Emma Watson)&lt;/li&gt;
+  &lt;li&gt;Ben Hur (animated)&lt;/li&gt;
+  &lt;li&gt;Big Hero 6&lt;/li&gt;
+  &lt;li&gt;Birdman&lt;/li&gt;
+  &lt;li&gt;Black Panther&lt;/li&gt;
+  &lt;li&gt;Bohemian Rhapsody&lt;/li&gt;
+  &lt;li&gt;Bolt&lt;/li&gt;
+  &lt;li&gt;Brave&lt;/li&gt;
+  &lt;li&gt;Brick&lt;/li&gt;
+  &lt;li&gt;Bride and Prejudice&lt;/li&gt;
+  &lt;li&gt;Bridge to Terabithia&lt;/li&gt;
+  &lt;li&gt;Buzz Light-year of Star Command: The Adventure Begins&lt;/li&gt;
+  &lt;li&gt;Captain America - Civil War&lt;/li&gt;
+  &lt;li&gt;Captain America - The First Avenger&lt;/li&gt;
+  &lt;li&gt;Captain America - The Winter Soldier&lt;/li&gt;
+  &lt;li&gt;Captain Marvel&lt;/li&gt;
+  &lt;li&gt;Captain Phillips&lt;/li&gt;
+  &lt;li&gt;Cars&lt;/li&gt;
+  &lt;li&gt;Chappie&lt;/li&gt;
+  &lt;li&gt;Charlie and the Chocolate Factory&lt;/li&gt;
+  &lt;li&gt;Charlotte’s Web&lt;/li&gt;
+  &lt;li&gt;Chicken Run&lt;/li&gt;
+  &lt;li&gt;City of Ember&lt;/li&gt;
+  &lt;li&gt;Close Encounters of the Third Kind&lt;/li&gt;
+  &lt;li&gt;Cloudy with a Chance of Meatballs&lt;/li&gt;
+  &lt;li&gt;Coco&lt;/li&gt;
+  &lt;li&gt;Day After Tomorrow&lt;/li&gt;
+  &lt;li&gt;Dead Poet’s Society&lt;/li&gt;
+  &lt;li&gt;Deadpool&lt;/li&gt;
+  &lt;li&gt;Deadpool 2&lt;/li&gt;
+  &lt;li&gt;Die Hard&lt;/li&gt;
+  &lt;li&gt;Dispicable Me&lt;/li&gt;
+  &lt;li&gt;Dispicable Me 2&lt;/li&gt;
+  &lt;li&gt;Doctor Strange&lt;/li&gt;
+  &lt;li&gt;Doubt&lt;/li&gt;
+  &lt;li&gt;E.T. The Extra-Terrestrial&lt;/li&gt;
+  &lt;li&gt;Edge of Tomorrow&lt;/li&gt;
+  &lt;li&gt;Fantastic Beasts and Where to Find Them&lt;/li&gt;
+  &lt;li&gt;Fantastic Beasts: The Crimes of Grindlewald&lt;/li&gt;
+  &lt;li&gt;Fast &amp;amp; Furious 4&lt;/li&gt;
+  &lt;li&gt;Ferris Bueller’s Day Off&lt;/li&gt;
+  &lt;li&gt;Fight Club&lt;/li&gt;
+  &lt;li&gt;Finding Nemo&lt;/li&gt;
+  &lt;li&gt;Flushed Away&lt;/li&gt;
+  &lt;li&gt;Forest Gump&lt;/li&gt;
+  &lt;li&gt;Free Willy&lt;/li&gt;
+  &lt;li&gt;Frozen&lt;/li&gt;
+  &lt;li&gt;G-Force&lt;/li&gt;
+  &lt;li&gt;Garfield&lt;/li&gt;
+  &lt;li&gt;Gattaca&lt;/li&gt;
+  &lt;li&gt;Get Smart&lt;/li&gt;
+  &lt;li&gt;Ghost&lt;/li&gt;
+  &lt;li&gt;Godzilla&lt;/li&gt;
+  &lt;li&gt;Gran Torino&lt;/li&gt;
+  &lt;li&gt;Gravity&lt;/li&gt;
+  &lt;li&gt;Groundhog day&lt;/li&gt;
+  &lt;li&gt;Guardians of the Galaxy&lt;/li&gt;
+  &lt;li&gt;Guardians of the Galaxy Vol. 2&lt;/li&gt;
+  &lt;li&gt;Happy Feet&lt;/li&gt;
+  &lt;li&gt;Harry Potter and the Chamber of Secrets&lt;/li&gt;
+  &lt;li&gt;Harry Potter and the Deathly Hallows Part 1&lt;/li&gt;
+  &lt;li&gt;Harry Potter and the Deathly Hallows Part 2&lt;/li&gt;
+  &lt;li&gt;Harry Potter and the Goblet of Fire&lt;/li&gt;
+  &lt;li&gt;Harry Potter and the Half-Blood Prince&lt;/li&gt;
+  &lt;li&gt;Harry Potter and the Prizoner of Azakaban&lt;/li&gt;
+  &lt;li&gt;Harry Potter and the Sourcer’s Stone&lt;/li&gt;
+  &lt;li&gt;Hidden Figures&lt;/li&gt;
+  &lt;li&gt;How the Grinch Stole Christmas&lt;/li&gt;
+  &lt;li&gt;How to Train Your Dragon&lt;/li&gt;
+  &lt;li&gt;Igor&lt;/li&gt;
+  &lt;li&gt;Inception&lt;/li&gt;
+  &lt;li&gt;Incredibles 2&lt;/li&gt;
+  &lt;li&gt;Independence Day&lt;/li&gt;
+  &lt;li&gt;Independence Day: Resurgance&lt;/li&gt;
+  &lt;li&gt;Indiana Jones: Raiders of the Lost Ark&lt;/li&gt;
+  &lt;li&gt;Inside Out&lt;/li&gt;
+  &lt;li&gt;Interstellar&lt;/li&gt;
+  &lt;li&gt;Iron Man&lt;/li&gt;
+  &lt;li&gt;Iron Man 2&lt;/li&gt;
+  &lt;li&gt;Iron Man 3&lt;/li&gt;
+  &lt;li&gt;James Bond: For Your Eyes Only&lt;/li&gt;
+  &lt;li&gt;James Bond: License to Kill&lt;/li&gt;
+  &lt;li&gt;James Bond: Spectre&lt;/li&gt;
+  &lt;li&gt;James Bond: The Spy Who Loved Me&lt;/li&gt;
+  &lt;li&gt;John Wick&lt;/li&gt;
+  &lt;li&gt;Joker&lt;/li&gt;
+  &lt;li&gt;Jumanji&lt;/li&gt;
+  &lt;li&gt;Jumanji: The Next Level&lt;/li&gt;
+  &lt;li&gt;Jupiter Ascending&lt;/li&gt;
+  &lt;li&gt;Jurassic Park&lt;/li&gt;
+  &lt;li&gt;Jurassic World&lt;/li&gt;
+  &lt;li&gt;Kill Bill: Vol 1&lt;/li&gt;
+  &lt;li&gt;Kung-Fu Panda&lt;/li&gt;
+  &lt;li&gt;La La Land&lt;/li&gt;
+  &lt;li&gt;Lady Bird&lt;/li&gt;
+  &lt;li&gt;Looper&lt;/li&gt;
+  &lt;li&gt;Man of Steel&lt;/li&gt;
+  &lt;li&gt;Mary Poppins&lt;/li&gt;
+  &lt;li&gt;Megamind&lt;/li&gt;
+  &lt;li&gt;Men in Black&lt;/li&gt;
+  &lt;li&gt;Men in Black 2&lt;/li&gt;
+  &lt;li&gt;Michael Clayton&lt;/li&gt;
+  &lt;li&gt;Miss Peregrins Home for Peculiar Children&lt;/li&gt;
+  &lt;li&gt;Mission Impossible&lt;/li&gt;
+  &lt;li&gt;Moana&lt;/li&gt;
+  &lt;li&gt;Monster’s Inc&lt;/li&gt;
+  &lt;li&gt;Monsters vs Aliens&lt;/li&gt;
+  &lt;li&gt;Monty Python and the Holy Grail&lt;/li&gt;
+  &lt;li&gt;Non-Stop&lt;/li&gt;
+  &lt;li&gt;Now You See Me&lt;/li&gt;
+  &lt;li&gt;Ocean’s 11&lt;/li&gt;
+  &lt;li&gt;Ocean’s 12&lt;/li&gt;
+  &lt;li&gt;Ocean’s 13&lt;/li&gt;
+  &lt;li&gt;One Flew Over the Cuckoo’s Nest&lt;/li&gt;
+  &lt;li&gt;Open Season&lt;/li&gt;
+  &lt;li&gt;Over the Hedge&lt;/li&gt;
+  &lt;li&gt;Pacific Rim&lt;/li&gt;
+  &lt;li&gt;Passengers&lt;/li&gt;
+  &lt;li&gt;Pirates of the Caribbean: At Worlds End&lt;/li&gt;
+  &lt;li&gt;Pirates of the Caribbean: Curse of the Black Pearl&lt;/li&gt;
+  &lt;li&gt;Pirates of the Caribbean: Dead Man’s Chest&lt;/li&gt;
+  &lt;li&gt;Pirates of the Caribbean: On Stranger Tides&lt;/li&gt;
+  &lt;li&gt;Pride and Prejudice&lt;/li&gt;
+  &lt;li&gt;Prometheus&lt;/li&gt;
+  &lt;li&gt;Pulp Fiction&lt;/li&gt;
+  &lt;li&gt;Ratatouille&lt;/li&gt;
+  &lt;li&gt;Ready Player One&lt;/li&gt;
+  &lt;li&gt;Red Dog&lt;/li&gt;
+  &lt;li&gt;Richie Rich&lt;/li&gt;
+  &lt;li&gt;Robbin Hood: Men in Tights&lt;/li&gt;
+  &lt;li&gt;Robots&lt;/li&gt;
+  &lt;li&gt;Se7en&lt;/li&gt;
+  &lt;li&gt;Selma&lt;/li&gt;
+  &lt;li&gt;Sherlock Holmes (Robert)&lt;/li&gt;
+  &lt;li&gt;Shrek&lt;/li&gt;
+  &lt;li&gt;Shrek 2&lt;/li&gt;
+  &lt;li&gt;Shrek Forever After&lt;/li&gt;
+  &lt;li&gt;Shrek the Third&lt;/li&gt;
+  &lt;li&gt;Solo: A Star Wars Story&lt;/li&gt;
+  &lt;li&gt;Space Chimps&lt;/li&gt;
+  &lt;li&gt;Spaceballs&lt;/li&gt;
+  &lt;li&gt;Speed&lt;/li&gt;
+  &lt;li&gt;Speed Racer&lt;/li&gt;
+  &lt;li&gt;Spider-Man (Toby Maguire)&lt;/li&gt;
+  &lt;li&gt;Spider-Man 2 (Toby Maguire)&lt;/li&gt;
+  &lt;li&gt;Spider-Man 3 (Toby Maguire)&lt;/li&gt;
+  &lt;li&gt;Spider-Man Far From Home&lt;/li&gt;
+  &lt;li&gt;Spider-Man Homecoming&lt;/li&gt;
+  &lt;li&gt;Spider-Man: Into the Spiderverse&lt;/li&gt;
+  &lt;li&gt;Spy Kids&lt;/li&gt;
+  &lt;li&gt;Star Trek (2009)&lt;/li&gt;
+  &lt;li&gt;Star Trek: Into Darkness&lt;/li&gt;
+  &lt;li&gt;Star Wars: A New Hope&lt;/li&gt;
+  &lt;li&gt;Star Wars: Attack of the Clones&lt;/li&gt;
+  &lt;li&gt;Star Wars: Return of the Jedi&lt;/li&gt;
+  &lt;li&gt;Star Wars: Revenge of the Sith&lt;/li&gt;
+  &lt;li&gt;Star Wars: Rise of Skywalker&lt;/li&gt;
+  &lt;li&gt;Star Wars: The Empire Strikes Back&lt;/li&gt;
+  &lt;li&gt;Star Wars: The Force Awakens&lt;/li&gt;
+  &lt;li&gt;Star Wars: The Last Jedi&lt;/li&gt;
+  &lt;li&gt;Star Wars: The Phantom Menace&lt;/li&gt;
+  &lt;li&gt;Sully&lt;/li&gt;
+  &lt;li&gt;Superman (Christopher Reeve - all 4 of them)&lt;/li&gt;
+  &lt;li&gt;Swiss Army Man&lt;/li&gt;
+  &lt;li&gt;Taken&lt;/li&gt;
+  &lt;li&gt;Taken 2&lt;/li&gt;
+  &lt;li&gt;Taken 3&lt;/li&gt;
+  &lt;li&gt;Tangled&lt;/li&gt;
+  &lt;li&gt;Teenage Mutant Ninja Turtles&lt;/li&gt;
+  &lt;li&gt;Terminator&lt;/li&gt;
+  &lt;li&gt;Terminator 2: Judgement Day&lt;/li&gt;
+  &lt;li&gt;The Avengers&lt;/li&gt;
+  &lt;li&gt;The Avengers - Age of Ultron&lt;/li&gt;
+  &lt;li&gt;The Avengers - Endgame&lt;/li&gt;
+  &lt;li&gt;The Avengers - Infinity War&lt;/li&gt;
+  &lt;li&gt;The BFG&lt;/li&gt;
+  &lt;li&gt;The Big Short&lt;/li&gt;
+  &lt;li&gt;The Black Hole&lt;/li&gt;
+  &lt;li&gt;The Blues Brothers&lt;/li&gt;
+  &lt;li&gt;The Breakfast Club&lt;/li&gt;
+  &lt;li&gt;The Cat in the Hat&lt;/li&gt;
+  &lt;li&gt;The Commuter&lt;/li&gt;
+  &lt;li&gt;The Crucible&lt;/li&gt;
+  &lt;li&gt;The Day the Earth Stood Still (2008)&lt;/li&gt;
+  &lt;li&gt;The Dictator&lt;/li&gt;
+  &lt;li&gt;The Dish&lt;/li&gt;
+  &lt;li&gt;The Dressmaker&lt;/li&gt;
+  &lt;li&gt;The Fast and The Furious&lt;/li&gt;
+  &lt;li&gt;The Fast and the Furious: Tokyo Drift&lt;/li&gt;
+  &lt;li&gt;The Firm&lt;/li&gt;
+  &lt;li&gt;The great Gatsby&lt;/li&gt;
+  &lt;li&gt;The Hunger Games&lt;/li&gt;
+  &lt;li&gt;The Hunger Games: Catching Fire&lt;/li&gt;
+  &lt;li&gt;The Hunger Games: Mockingjay Part 1&lt;/li&gt;
+  &lt;li&gt;The Imitation Game&lt;/li&gt;
+  &lt;li&gt;The Importance of Being Earnest&lt;/li&gt;
+  &lt;li&gt;The Incredible Hulk&lt;/li&gt;
+  &lt;li&gt;The Incredibles&lt;/li&gt;
+  &lt;li&gt;The Intouchables&lt;/li&gt;
+  &lt;li&gt;The Invention of Lying&lt;/li&gt;
+  &lt;li&gt;The Irishman&lt;/li&gt;
+  &lt;li&gt;The Island&lt;/li&gt;
+  &lt;li&gt;The Martian&lt;/li&gt;
+  &lt;li&gt;The Matrix&lt;/li&gt;
+  &lt;li&gt;The Never Ending Story&lt;/li&gt;
+  &lt;li&gt;The Pianist&lt;/li&gt;
+  &lt;li&gt;The Polar Express&lt;/li&gt;
+  &lt;li&gt;The Post&lt;/li&gt;
+  &lt;li&gt;The Prince of Eqypt&lt;/li&gt;
+  &lt;li&gt;The Princess Diaries&lt;/li&gt;
+  &lt;li&gt;The Princess Diaries 2: Royal Engagement&lt;/li&gt;
+  &lt;li&gt;The Room&lt;/li&gt;
+  &lt;li&gt;The Secret Life of Walter Mitty&lt;/li&gt;
+  &lt;li&gt;The Shape of Water&lt;/li&gt;
+  &lt;li&gt;The Shawshank Redemption&lt;/li&gt;
+  &lt;li&gt;The Social Network&lt;/li&gt;
+  &lt;li&gt;The Sound of Music&lt;/li&gt;
+  &lt;li&gt;The Terminal&lt;/li&gt;
+  &lt;li&gt;The Truman Show&lt;/li&gt;
+  &lt;li&gt;The Wizard of Oz&lt;/li&gt;
+  &lt;li&gt;The Wolf of Wall Street&lt;/li&gt;
+  &lt;li&gt;Thor&lt;/li&gt;
+  &lt;li&gt;Thor - Ragnarok&lt;/li&gt;
+  &lt;li&gt;Thor - The Dark World&lt;/li&gt;
+  &lt;li&gt;Thunderbirds&lt;/li&gt;
+  &lt;li&gt;To Kill a Mockingbird (Gregory Peck)&lt;/li&gt;
+  &lt;li&gt;Toy Story&lt;/li&gt;
+  &lt;li&gt;Toy Story 2&lt;/li&gt;
+  &lt;li&gt;Toy Story 3&lt;/li&gt;
+  &lt;li&gt;Toy Story 4&lt;/li&gt;
+  &lt;li&gt;Tron: Legacy (2010)&lt;/li&gt;
+  &lt;li&gt;Uncut Gems&lt;/li&gt;
+  &lt;li&gt;Underdog&lt;/li&gt;
+  &lt;li&gt;Underworld&lt;/li&gt;
+  &lt;li&gt;Up&lt;/li&gt;
+  &lt;li&gt;WALL-E&lt;/li&gt;
+  &lt;li&gt;War of the Worlds&lt;/li&gt;
+  &lt;li&gt;Whiplash&lt;/li&gt;
+  &lt;li&gt;Willy Wonka and the Chocolate Factory&lt;/li&gt;
+  &lt;li&gt;Wonder Woman (Gal Gadot)&lt;/li&gt;
+  &lt;li&gt;Zathura: A Space Adventure&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Nathan McCallum</name></author><category term="lists" /><summary type="html">12 Angry Men 2 Fast 2 Furious 2001: A Space Odyssey 2012 A Beautiful Mind A Bug’s Life A Few Good Men Ad Astra Aladdin Alien Aliens Aliens in the Attic Alvin and the Chipmunks Ant-Man Ant-Man and the Wasp Antz Apollo 13 Avatar Back to the Future Back to the Future 2 Back to the Future 3 Batman v Superman Batman: Begins Batman: The Dark Knight Batman: The Dark Knight Rises Battleship Beauty and the Beast (Emma Watson) Ben Hur (animated) Big Hero 6 Birdman Black Panther Bohemian Rhapsody Bolt Brave Brick Bride and Prejudice Bridge to Terabithia Buzz Light-year of Star Command: The Adventure Begins Captain America - Civil War Captain America - The First Avenger Captain America - The Winter Soldier Captain Marvel Captain Phillips Cars Chappie Charlie and the Chocolate Factory Charlotte’s Web Chicken Run City of Ember Close Encounters of the Third Kind Cloudy with a Chance of Meatballs Coco Day After Tomorrow Dead Poet’s Society Deadpool Deadpool 2 Die Hard Dispicable Me Dispicable Me 2 Doctor Strange Doubt E.T. The Extra-Terrestrial Edge of Tomorrow Fantastic Beasts and Where to Find Them Fantastic Beasts: The Crimes of Grindlewald Fast &amp;amp; Furious 4 Ferris Bueller’s Day Off Fight Club Finding Nemo Flushed Away Forest Gump Free Willy Frozen G-Force Garfield Gattaca Get Smart Ghost Godzilla Gran Torino Gravity Groundhog day Guardians of the Galaxy Guardians of the Galaxy Vol. 2 Happy Feet Harry Potter and the Chamber of Secrets Harry Potter and the Deathly Hallows Part 1 Harry Potter and the Deathly Hallows Part 2 Harry Potter and the Goblet of Fire Harry Potter and the Half-Blood Prince Harry Potter and the Prizoner of Azakaban Harry Potter and the Sourcer’s Stone Hidden Figures How the Grinch Stole Christmas How to Train Your Dragon Igor Inception Incredibles 2 Independence Day Independence Day: Resurgance Indiana Jones: Raiders of the Lost Ark Inside Out Interstellar Iron Man Iron Man 2 Iron Man 3 James Bond: For Your Eyes Only James Bond: License to Kill James Bond: Spectre James Bond: The Spy Who Loved Me John Wick Joker Jumanji Jumanji: The Next Level Jupiter Ascending Jurassic Park Jurassic World Kill Bill: Vol 1 Kung-Fu Panda La La Land Lady Bird Looper Man of Steel Mary Poppins Megamind Men in Black Men in Black 2 Michael Clayton Miss Peregrins Home for Peculiar Children Mission Impossible Moana Monster’s Inc Monsters vs Aliens Monty Python and the Holy Grail Non-Stop Now You See Me Ocean’s 11 Ocean’s 12 Ocean’s 13 One Flew Over the Cuckoo’s Nest Open Season Over the Hedge Pacific Rim Passengers Pirates of the Caribbean: At Worlds End Pirates of the Caribbean: Curse of the Black Pearl Pirates of the Caribbean: Dead Man’s Chest Pirates of the Caribbean: On Stranger Tides Pride and Prejudice Prometheus Pulp Fiction Ratatouille Ready Player One Red Dog Richie Rich Robbin Hood: Men in Tights Robots Se7en Selma Sherlock Holmes (Robert) Shrek Shrek 2 Shrek Forever After Shrek the Third Solo: A Star Wars Story Space Chimps Spaceballs Speed Speed Racer Spider-Man (Toby Maguire) Spider-Man 2 (Toby Maguire) Spider-Man 3 (Toby Maguire) Spider-Man Far From Home Spider-Man Homecoming Spider-Man: Into the Spiderverse Spy Kids Star Trek (2009) Star Trek: Into Darkness Star Wars: A New Hope Star Wars: Attack of the Clones Star Wars: Return of the Jedi Star Wars: Revenge of the Sith Star Wars: Rise of Skywalker Star Wars: The Empire Strikes Back Star Wars: The Force Awakens Star Wars: The Last Jedi Star Wars: The Phantom Menace Sully Superman (Christopher Reeve - all 4 of them) Swiss Army Man Taken Taken 2 Taken 3 Tangled Teenage Mutant Ninja Turtles Terminator Terminator 2: Judgement Day The Avengers The Avengers - Age of Ultron The Avengers - Endgame The Avengers - Infinity War The BFG The Big Short The Black Hole The Blues Brothers The Breakfast Club The Cat in the Hat The Commuter The Crucible The Day the Earth Stood Still (2008) The Dictator The Dish The Dressmaker The Fast and The Furious The Fast and the Furious: Tokyo Drift The Firm The great Gatsby The Hunger Games The Hunger Games: Catching Fire The Hunger Games: Mockingjay Part 1 The Imitation Game The Importance of Being Earnest The Incredible Hulk The Incredibles The Intouchables The Invention of Lying The Irishman The Island The Martian The Matrix The Never Ending Story The Pianist The Polar Express The Post The Prince of Eqypt The Princess Diaries The Princess Diaries 2: Royal Engagement The Room The Secret Life of Walter Mitty The Shape of Water The Shawshank Redemption The Social Network The Sound of Music The Terminal The Truman Show The Wizard of Oz The Wolf of Wall Street Thor Thor - Ragnarok Thor - The Dark World Thunderbirds To Kill a Mockingbird (Gregory Peck) Toy Story Toy Story 2 Toy Story 3 Toy Story 4 Tron: Legacy (2010) Uncut Gems Underdog Underworld Up WALL-E War of the Worlds Whiplash Willy Wonka and the Chocolate Factory Wonder Woman (Gal Gadot) Zathura: A Space Adventure</summary></entry><entry><title type="html">Quotes I Like</title><link href="http://nathan-mccallum.com/quotes/" rel="alternate" type="text/html" title="Quotes I Like" /><published>2020-04-06T00:00:00+10:00</published><updated>2020-04-06T00:00:00+10:00</updated><id>http://nathan-mccallum.com/quotes</id><content type="html" xml:base="http://nathan-mccallum.com/quotes/">&lt;p&gt;As yet, there is no content here.&lt;/p&gt;</content><author><name>Nathan McCallum</name></author><category term="lists" /><summary type="html">As yet, there is no content here.</summary></entry><entry><title type="html">TV Shows I’ve Seen</title><link href="http://nathan-mccallum.com/tv/" rel="alternate" type="text/html" title="TV Shows I’ve Seen" /><published>2020-04-06T00:00:00+10:00</published><updated>2020-04-06T00:00:00+10:00</updated><id>http://nathan-mccallum.com/tv</id><content type="html" xml:base="http://nathan-mccallum.com/tv/">&lt;ul&gt;
+  &lt;li&gt;Black Mirror&lt;/li&gt;
+  &lt;li&gt;Breaking Bad&lt;/li&gt;
+  &lt;li&gt;Downton Abbey&lt;/li&gt;
+  &lt;li&gt;Game of Thrones&lt;/li&gt;
+  &lt;li&gt;House of Cards&lt;/li&gt;
+  &lt;li&gt;Limitless&lt;/li&gt;
+  &lt;li&gt;Making a Murderer&lt;/li&gt;
+  &lt;li&gt;Orange is the New Black&lt;/li&gt;
+  &lt;li&gt;Rick and Morty&lt;/li&gt;
+  &lt;li&gt;Silicon Valley&lt;/li&gt;
+  &lt;li&gt;Star Trek: The Next Generation&lt;/li&gt;
+  &lt;li&gt;The Umbrella Academy&lt;/li&gt;
+  &lt;li&gt;The West Wing&lt;/li&gt;
+  &lt;li&gt;Tiger King&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Nathan McCallum</name></author><category term="lists" /><summary type="html">Black Mirror Breaking Bad Downton Abbey Game of Thrones House of Cards Limitless Making a Murderer Orange is the New Black Rick and Morty Silicon Valley Star Trek: The Next Generation The Umbrella Academy The West Wing Tiger King</summary></entry></feed>
