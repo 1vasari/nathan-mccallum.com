@@ -1,8 +1,8 @@
-FROM ruby:2.6.6
-MAINTAINER Nathan McCallum
+FROM ruby:2.7.2
+LABEL maintainer="Nathan McCallum <hey@nathan-mccallum.com>"
 
 #
-# Add nodejs and yarn
+# Add Node.js and Yarn
 #
 RUN curl -sL https://deb.nodesource.com/setup_14.x | bash -
 RUN apt-get install -y nodejs
@@ -17,5 +17,3 @@ RUN bundle install
 
 COPY package.json yarn.lock ./
 RUN yarn install
-
-COPY . .

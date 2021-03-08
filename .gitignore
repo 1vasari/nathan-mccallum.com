@@ -1,6 +1,5 @@
 .jekyll-cache/
 _site/
-Gemfile.lock
 .DS_Store
 node_modules/
 _drafts/
