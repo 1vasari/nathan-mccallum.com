@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://nathan-mccallum.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://nathan-mccallum.com/" rel="alternate" type="text/html" hreflang="en" /><updated>2021-03-13T17:08:32+10:00</updated><id>http://nathan-mccallum.com/feed.xml</id><entry><title type="html">My Git Setup</title><link href="http://nathan-mccallum.com/git/" rel="alternate" type="text/html" title="My Git Setup" /><published>2021-03-13T00:00:00+10:00</published><updated>2021-03-13T00:00:00+10:00</updated><id>http://nathan-mccallum.com/my-git-setup</id><content type="html" xml:base="http://nathan-mccallum.com/git/">&lt;p&gt;Git is a tool programmers use to track changes to text files over time which can be configured using a special &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.gitconfig&lt;/code&gt; file.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://nathan-mccallum.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://nathan-mccallum.com/" rel="alternate" type="text/html" hreflang="en" /><updated>2021-03-13T20:11:59+10:00</updated><id>http://nathan-mccallum.com/feed.xml</id><title type="html">Nathan McCallum</title><entry><title type="html">My Git Setup</title><link href="http://nathan-mccallum.com/git/" rel="alternate" type="text/html" title="My Git Setup" /><published>2021-03-13T00:00:00+10:00</published><updated>2021-03-13T00:00:00+10:00</updated><id>http://nathan-mccallum.com/my-git-setup</id><content type="html" xml:base="http://nathan-mccallum.com/git/">&lt;p&gt;Git is a tool programmers use to track changes to text files over time which can be configured using a special &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.gitconfig&lt;/code&gt; file.
 The following is my gitconfig.&lt;/p&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[alias]
@@ -476,7 +476,7 @@ You just have to keep going.&lt;/p&gt;
 
 &lt;p&gt;Make sure to set reasonable goals for yourself.&lt;/p&gt;
 
-&lt;p&gt;Stay safe out there everyone.&lt;/p&gt;</content><author><name>Nathan McCallum</name></author><category term="musings" /><summary type="html">I don’t need to cover the story so far. COVID-19 is happening and it’s bad. Many are sick, many have lost their lives. Many are scared. We are seeing tremendous unity whilst also being at our most isolated. Stories of triumph and survival immediately followed by news of more storms. The future cost to us mentally, economically and socially is yet to be determined.</summary></entry><entry><title type="html">Album Review: Le Noise by Neil Young</title><link href="http://nathan-mccallum.com/la-noise/" rel="alternate" type="text/html" title="Album Review: Le Noise by Neil Young" /><published>2020-04-10T12:52:00+10:00</published><updated>2020-04-10T12:52:00+10:00</updated><id>http://nathan-mccallum.com/album-review-le-noise-by-neil-young</id><content type="html" xml:base="http://nathan-mccallum.com/la-noise/">&lt;p&gt;Recently I’ve been reading &lt;em&gt;Waging Heavy Pace&lt;/em&gt; (Neil Young’s autobiography) and a natural part of such a process is to listen to the music that’s mentioned along the way.
+&lt;p&gt;Stay safe out there everyone.&lt;/p&gt;</content><author><name>Nathan McCallum</name></author><category term="musings" /><summary type="html">I don’t need to cover the story so far. COVID-19 is happening and it’s bad. Many are sick, many have lost their lives. Many are scared. We are seeing tremendous unity whilst also being at our most isolated. Stories of triumph and survival immediately followed by news of more storms. The future cost to us mentally, economically and socially is yet to be determined.</summary></entry><entry><title type="html">Le Noise by Neil Young</title><link href="http://nathan-mccallum.com/la-noise/" rel="alternate" type="text/html" title="Le Noise by Neil Young" /><published>2020-04-10T12:52:00+10:00</published><updated>2020-04-10T12:52:00+10:00</updated><id>http://nathan-mccallum.com/le-noise-by-neil-young</id><content type="html" xml:base="http://nathan-mccallum.com/la-noise/">&lt;p&gt;Recently I’ve been reading &lt;em&gt;Waging Heavy Pace&lt;/em&gt; (Neil Young’s autobiography) and a natural part of such a process is to listen to the music that’s mentioned along the way.
 I’d already heard a lot of the classics so we don’t need to go there, but &lt;em&gt;Le Noise&lt;/em&gt; got my attention because it’s pretty different.&lt;/p&gt;
 
 &lt;p&gt;The instrumentation for the whole album is deceptively simple:&lt;/p&gt;
@@ -492,23 +492,17 @@ I’d already heard a lot of the classics so we don’t need to go there, but &l
 
 &lt;h3 id=&quot;1-walk-with-me&quot;&gt;1. Walk With Me&lt;/h3&gt;
 
-&lt;style&gt;.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }&lt;/style&gt;
-&lt;div class=&quot;embed-container&quot;&gt;    &lt;iframe title=&quot;YouTube video player&quot; width=&quot;640&quot; height=&quot;390&quot; src=&quot;//www.youtube.com/embed/XUGej_ofcAQ&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
-
 &lt;p&gt;&lt;em&gt;Walk With Me&lt;/em&gt; opens the album, introducing the distorted guitar sound and heavily delayed vocals that we hear through most of the album.
 The song itself is fairly simple, Neil’s vocals sounding as good as ever.
 The thing that made the song for me however was the lovely ambient electronic breakdown at the end.
-As if to give us a peep into some other world&lt;/p&gt;
+As if to give us a peep into some other world.&lt;/p&gt;
 
 &lt;h3 id=&quot;2-love-and-war&quot;&gt;2. Love and War&lt;/h3&gt;
-
-&lt;style&gt;.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }&lt;/style&gt;
-&lt;div class=&quot;embed-container&quot;&gt;    &lt;iframe title=&quot;YouTube video player&quot; width=&quot;640&quot; height=&quot;390&quot; src=&quot;//www.youtube.com/embed/skJddbSJQjA&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
 
 &lt;p&gt;Fourth track on the album and we finally get a different texture, acoustic guitar and voice.
 On first listening it felt like a long time coming, but well worth it.
 The song is a wonderful ballad, mournful but somewhat hopeful.
-Admitting a lack of knowledge, despite seeing a lot. Hoping for things to be better, know that they may not.&lt;/p&gt;
+Admitting a lack of knowledge, despite seeing a lot. Hoping for things to be better, knowing that they may not.&lt;/p&gt;
 
 &lt;p&gt;I really enjoyed the nice touches with the harmony through the piece.
 The verses are in A minor and choruses in G, with some interesting interplay between the two.
@@ -516,9 +510,6 @@ Particularity the usage of &lt;code class=&quot;language-plaintext highlighter-r
 Music theorists would call this a deceptive resolution but to me it just feels like we’re going back down into the trenches.&lt;/p&gt;
 
 &lt;h3 id=&quot;3-peaceful-valley-boulevard&quot;&gt;3. Peaceful Valley Boulevard&lt;/h3&gt;
-
-&lt;style&gt;.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }&lt;/style&gt;
-&lt;div class=&quot;embed-container&quot;&gt;    &lt;iframe title=&quot;YouTube video player&quot; width=&quot;640&quot; height=&quot;390&quot; src=&quot;//www.youtube.com/embed/4UffjWGMiBQ&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
 
 &lt;p&gt;Lovely, mournful, really nice song.&lt;/p&gt;
 
