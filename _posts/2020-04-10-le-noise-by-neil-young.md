@@ -25,14 +25,14 @@ My favorite tracks:
 *Walk With Me* opens the album, introducing the distorted guitar sound and heavily delayed vocals that we hear through most of the album.
 The song itself is fairly simple, Neil's vocals sounding as good as ever.
 The thing that made the song for me however was the lovely ambient electronic breakdown at the end.
-As if to give us a peep into some other world
+As if to give us a peep into some other world.
 
 ### 2. Love and War
 
 Fourth track on the album and we finally get a different texture, acoustic guitar and voice.
 On first listening it felt like a long time coming, but well worth it.
 The song is a wonderful ballad, mournful but somewhat hopeful.
-Admitting a lack of knowledge, despite seeing a lot. Hoping for things to be better, know that they may not.
+Admitting a lack of knowledge, despite seeing a lot. Hoping for things to be better, knowing that they may not.
 
 I really enjoyed the nice touches with the harmony through the piece.
 The verses are in A minor and choruses in G, with some interesting interplay between the two.
