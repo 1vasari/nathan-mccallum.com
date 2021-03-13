@@ -11,7 +11,7 @@ layout: default
 {% assign posts = site.posts %}
 {% assign tags = site.tags | sort %}
 
-{%- if posts.size > 0 && tags.size > 0 -%}
+{%- if posts.size > 0 and tags.size > 0 -%}
   <h2>Blog</h2>
 
   {% for tag in tags %}
