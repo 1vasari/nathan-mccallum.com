@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Album Review: Le Noise by Neil Young"
+title: "Le Noise by Neil Young"
 date: 2020-04-10 12:52:00 +1000
 tags: album-reviews
 author: Nathan McCallum
