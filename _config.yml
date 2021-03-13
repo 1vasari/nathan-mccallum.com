@@ -4,6 +4,7 @@ timezone: Australia/Brisbane
 encoding: utf-8
 lang: en
 rss: RSS
+title: Nathan McCallum
 
 # Build settings
 plugins:
