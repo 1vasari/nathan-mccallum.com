@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link type="text/plain" rel="author" href="/humans.txt">
-    <title>Blog Topics | Nathan McCallum</title>
+    <title>My Git Setup | Nathan McCallum</title>
     
     <style>
     html { line-height: 1.15; -webkit-text-size-adjust: 100%; }
@@ -147,93 +147,33 @@ ul.contact-list { text-align: center; }
     <a href="/projects">Projects</a> |
     <a href="/topics">Blog Topics</a>
 
-    <h1>Blog Topics</h1>
+    <h2>My Git Setup</h2>
 
+<p>
+  <time datetime="2021-03-13T00:00:00+10:00">
+    Mar 13, 2021
+  </time>•&nbsp;Nathan McCallum</span>&nbsp;•&nbsp;Programming</p>
 
+<p>Git is a tool programmers use to track changes to text files over time which can be configured using a special <code class="language-plaintext highlighter-rouge">.gitconfig</code> file.
+The following is my gitconfig.</p>
 
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[alias]
+  gas = !git add -A &amp;&amp; git status
+  cam = commit -am
+  po = push origin
+  s = status
+  fs = !git fetch &amp;&amp; git status
 
-  <h2>Javascript</h2>
+[pull]
+  ff = only
 
-  <ul>
-    
-    
-      <li><a href="/javascript/fetch/">Quick fetch() cheatsheet</a></li>
-    
-  </ul>
+[init]
+  defaultBranch = main
 
-
-
-  <h2>Album reviews</h2>
-
-  <ul>
-    
-    
-      <li><a href="/la-noise/">Album Review: Le Noise by Neil Young</a></li>
-    
-  </ul>
-
-
-
-  <h2>Lists</h2>
-
-  <ul>
-    
-    
-      <li><a href="/albums/">Albums I've Listened To</a></li>
-    
-      <li><a href="/books/">Books I've Read</a></li>
-    
-      <li><a href="/movies/">Movies I've Seen</a></li>
-    
-      <li><a href="/quotes/">Quotes I Like</a></li>
-    
-      <li><a href="/tv/">TV Shows I've Seen</a></li>
-    
-  </ul>
-
-
-
-  <h2>Musings</h2>
-
-  <ul>
-    
-    
-      <li><a href="/getting-started/">Getting Started</a></li>
-    
-      <li><a href="/isolation-productivity/">The Myth of Isolation Productivity</a></li>
-    
-      <li><a href="/men-need-to-be-better">Men Need to be Better</a></li>
-    
-  </ul>
-
-
-
-  <h2>My music</h2>
-
-  <ul>
-    
-    
-      <li><a href="/a-public-void/">A Public Void</a></li>
-    
-  </ul>
-
-
-
-  <h2>Programming</h2>
-
-  <ul>
-    
-    
-      <li><a href="/github-default-branch/">GitHub Default Branch</a></li>
-    
-      <li><a href="/to-import/">To Import, or Perhaps Not?</a></li>
-    
-      <li><a href="/git/">My Git Setup</a></li>
-    
-      <li><a href="/vim/">My Vim Setup</a></li>
-    
-  </ul>
-
+[user]
+  name = Nathan McCallum
+  email = hey@nathan-mccallum.com
+</code></pre></div></div>
 
 
   </body>
