@@ -9,7 +9,7 @@ layout: default
     {{ page.date | date: "%b %-d, %Y" }}
   </time>
   {%- if page.author -%}
-    •&nbsp;{{ page.author }}</span>
+    •&nbsp;{{ page.author }}
   {%- endif -%}
   {%- if page.tags and page.tags[0] -%}
     &nbsp;•&nbsp;{{ page.tags | first | replace: '-', ' ' | capitalize }}
