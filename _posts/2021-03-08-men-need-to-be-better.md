@@ -2,7 +2,7 @@
 layout: post
 title: Men Need to be Better
 author: Nathan McCallum
-tags: Musings
+tags: musings
 date: 2021-03-08
 preview:
 permalink: /men-need-to-be-better
