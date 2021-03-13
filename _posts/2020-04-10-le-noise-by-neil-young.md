@@ -4,7 +4,6 @@ title: "Le Noise by Neil Young"
 date: 2020-04-10 12:52:00 +1000
 tags: album-reviews
 author: Nathan McCallum
-preview: Reviewing Neil Young's 2010 release
 permalink: /la-noise/
 ---
 

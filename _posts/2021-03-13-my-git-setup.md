@@ -4,7 +4,6 @@ title: My Git Setup
 author: Nathan McCallum
 tags: programming
 date: 2021-03-13
-preview: Git is a tool programmers use to track changes to text files over time. Here's how I have it set it up.
 permalink: /git/
 ---
 

@@ -4,7 +4,6 @@ title: My Vim Setup
 author: Nathan McCallum
 tags: programming
 date: 2021-03-13
-preview: I use vim bindings to program and write. Here's how I set it up.
 permalink: /vim/
 ---
 

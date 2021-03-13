@@ -4,7 +4,6 @@ title: To Import, or Perhaps Not?
 author: Nathan McCallum
 tags: programming
 date: 2020-09-23
-preview: What do you get when you try and move a tiny bit of data from one db to another? Read on to find out.
 permalink: /to-import/
 ---
 

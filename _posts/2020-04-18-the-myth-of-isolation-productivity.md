@@ -4,7 +4,6 @@ layout: post
 author: Nathan McCallum
 date: 2020-04-18 18:00:00 +1000
 tags: musings
-preview: COVID-19 has been bad. Toxic nonsense is worse.
 permalink: /isolation-productivity/
 ---
 

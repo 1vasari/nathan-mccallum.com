@@ -4,7 +4,6 @@ title:  "Getting Started"
 date:   2020-04-05 18:19:00 +1000
 tags: musings
 author: Nathan McCallum
-preview: 'On getting started with new projects. Moving from zero to one with blogging and personal projects.'
 permalink: /getting-started/
 ---
 
