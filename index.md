@@ -10,5 +10,4 @@ In my spare time I like to play guitar and experiment with electronic music prod
 
 - [Consulting](/consulting)
 - [Projects](/projects)
-- [Blog Topics](/topics)
 - [Buy My Music](http://1vasari.bandcamp.com)

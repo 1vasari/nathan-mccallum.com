@@ -9,12 +9,27 @@ layout: default
 {{ content }}
 
 {% assign posts = site.posts %}
+{% assign tags = site.tags | sort %}
 
-{%- if posts.size > 0 -%}
+{%- if posts.size > 0 && tags.size > 0 -%}
   <h2>Blog</h2>
 
-  {%- for post in posts -%}
-    <h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
-    <p><em>{{ post.date | date: "%b %-d, %Y" }}</em>: {{ post.preview }}</p>
-  {%- endfor -%}
+  {% for tag in tags %}
+    {% assign tag_name = tag | first %}
+    <h3>{{ tag_name | replace: '-', ' ' | capitalize }}</h3>
+
+    <ul>
+      {% assign posts = site.tags[tag_name] | sort %}
+      {% for post in posts %}
+        <div>
+          <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          <em style="float: right;">
+            <time datetime="{{ post.date }}">
+              {{ post.date | date: "%b %-d, %Y" }}
+            </time>
+          </em>
+        </div>
+      {% endfor %}
+    </ul>
+  {% endfor %}
 {%- endif -%}
