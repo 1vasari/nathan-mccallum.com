@@ -7,3 +7,15 @@ img {
   margin: 0 auto;
 }
 .embed-container { margin: 1em 0; }
+
+ul.is-dotless {
+  list-style: none;
+
+  //
+  // Accessibility fix per:
+  // https://developer.mozilla.org/en-US/docs/Web/CSS/list-style#accessibility_concerns
+  //
+  li::before {
+    content: "\200B";
+  }
+}

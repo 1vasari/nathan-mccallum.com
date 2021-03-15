@@ -18,17 +18,17 @@ layout: default
     {% assign tag_name = tag | first %}
     <h3>{{ tag_name | replace: '-', ' ' | capitalize }}</h3>
 
-    <ul>
+    <ul class="is-dotless">
       {% assign posts = site.tags[tag_name] | sort %}
       {% for post in posts %}
-        <div>
+        <li>
           <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
           <em style="float: right;">
             <time datetime="{{ post.date }}">
               {{ post.date | date: "%b %-d, %Y" }}
             </time>
           </em>
-        </div>
+        </li>
       {% endfor %}
     </ul>
   {% endfor %}
