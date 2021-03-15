@@ -1,0 +1,6 @@
+[submodule "lacuna-ui-prototype"]
+	path = lacuna-ui-prototype
+	url = https://github.com/1vasari/lacuna-ui-prototype
+[submodule "typester"]
+	path = typester
+	url = https://github.com/1vasari/typester
