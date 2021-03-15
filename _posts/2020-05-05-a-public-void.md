@@ -46,7 +46,7 @@ All Java programs begin with something called the main function, which looks lik
 ```java
 public class MyJavaProgram {
   public static void main(String[] args) {
-    System.out.println('Hello, World');
+    System.out.println("Hello, World");
   }
 }
 ```
