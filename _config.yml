@@ -23,3 +23,10 @@ exclude:
   - Dockerfile
   - package.json
   - yarn.lock
+
+jekyll_compose:
+  default_front_matter:
+    posts:
+      description:
+      tags:
+      permalink:
