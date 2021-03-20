@@ -4,7 +4,7 @@ title: Quick fetch() cheatsheet
 author: Nathan McCallum
 tags: JavaScript
 date: 2021-03-02
-permalink: /javascript/fetch/
+permalink: /javascript/fetch
 ---
 
 Make a fetch request:

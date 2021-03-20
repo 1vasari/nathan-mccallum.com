@@ -1,6 +1,6 @@
 ---
 title: Consulting
-permalink: /consulting/
+permalink: /consulting
 layout: page
 ---
 

@@ -4,7 +4,7 @@ layout: post
 author: Nathan McCallum
 date: 2020-04-18 18:00:00 +1000
 tags: musings
-permalink: /isolation-productivity/
+permalink: /isolation-productivity
 ---
 
 I don't need to cover the story so far. COVID-19 is happening and it's bad.

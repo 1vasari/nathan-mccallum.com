@@ -4,7 +4,7 @@ layout: post
 author: Nathan McCallum
 tags: programming
 date: 2020-06-19
-permalink: /github-default-branch/
+permalink: /github-default-branch
 ---
 
 Two days ago GitHub changed their default branch name from `master` to `main`.

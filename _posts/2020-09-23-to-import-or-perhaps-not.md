@@ -4,7 +4,7 @@ title: To Import, or Perhaps Not?
 author: Nathan McCallum
 tags: programming
 date: 2020-09-23
-permalink: /to-import/
+permalink: /to-import
 ---
 
 I keep a journal using a little Rails app I built. Nothing super fancy.

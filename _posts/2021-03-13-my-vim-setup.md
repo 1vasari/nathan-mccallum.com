@@ -4,7 +4,7 @@ title: My Vim Setup
 author: Nathan McCallum
 tags: programming
 date: 2021-03-13
-permalink: /vim/
+permalink: /vim
 ---
 
 .vimrc:
