@@ -5,6 +5,7 @@ author: Nathan McCallum
 tags: JavaScript
 date: 2021-03-02
 permalink: /javascript/fetch
+description: For those needing a quick reminder of how the fetch() API looks
 ---
 
 Make a fetch request:

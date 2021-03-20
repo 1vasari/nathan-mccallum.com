@@ -5,6 +5,7 @@ author: Nathan McCallum
 tags: programming
 date: 2021-03-13
 permalink: /git
+description: Git is a tool programmers use to track changes to text files over time. Here's how I have it set it up.
 ---
 
 Git is a tool programmers use to track changes to text files over time which can be configured using a special `.gitconfig` file.

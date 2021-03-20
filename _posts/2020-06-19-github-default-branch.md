@@ -5,6 +5,7 @@ author: Nathan McCallum
 tags: programming
 date: 2020-06-19
 permalink: /github-default-branch
+description: GitHub made a technical change due to political issues. I had some thoughts.
 ---
 
 Two days ago GitHub changed their default branch name from `master` to `main`.

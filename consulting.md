@@ -2,6 +2,7 @@
 title: Consulting
 permalink: /consulting
 layout: page
+description: I am available for web development consulting work. Please reach out if you have any projects on!
 ---
 
 I am available for consulting through my sole trader *"1vasari arts & media"* either remotely or on site in Brisbane, Australia.

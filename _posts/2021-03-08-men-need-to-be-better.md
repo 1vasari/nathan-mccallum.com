@@ -4,6 +4,7 @@ title: Men Need to be Better
 author: Nathan McCallum
 tags: musings
 date: 2021-03-08
+description: Today on International Women's Day I call for accountability
 permalink: /men-need-to-be-better
 ---
 

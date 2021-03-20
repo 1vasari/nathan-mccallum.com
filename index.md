@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Welcome
+description: Thoughts on the world, music reviews, photography, computer stuff and my music.
 ---
 
 {% image {"src":"me.webp", "alt":"Hi - I'm Nathan McCallum"} %}

@@ -2,6 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects
+description: An overview of some of the interesting projects I've bee a part of.
 ---
 
 ## Songdown
