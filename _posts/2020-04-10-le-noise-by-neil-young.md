@@ -4,7 +4,7 @@ title: "Le Noise by Neil Young"
 date: 2020-04-10 12:52:00 +1000
 tags: album-reviews
 author: Nathan McCallum
-permalink: /la-noise/
+permalink: /albums/le-noise
 ---
 
 Recently I've been reading *Waging Heavy Pace* (Neil Young's autobiography) and a natural part of such a process is to listen to the music that's mentioned along the way.
