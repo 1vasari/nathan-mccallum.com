@@ -5,22 +5,22 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>Getting Started | Nathan McCallum</title>
+<title>My Git Setup | Nathan McCallum</title>
 <meta name="generator" content="Jekyll v4.2.0" />
-<meta property="og:title" content="Getting Started" />
+<meta property="og:title" content="My Git Setup" />
 <meta name="author" content="Nathan McCallum" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="It is a cool Sunday evening and I am once again experimenting with my personal site. Over the years I’ve run several different “Hello, World - this is me”-type sites and nothing has quite stuck. Given the vast array of options, I’ve never settled on any one thing. I can at least remember trying Wordpress, Ghost, SquareSpace, as well as various things I’ve hacked together and hosted on GitHub Pages." />
-<meta property="og:description" content="It is a cool Sunday evening and I am once again experimenting with my personal site. Over the years I’ve run several different “Hello, World - this is me”-type sites and nothing has quite stuck. Given the vast array of options, I’ve never settled on any one thing. I can at least remember trying Wordpress, Ghost, SquareSpace, as well as various things I’ve hacked together and hosted on GitHub Pages." />
-<link rel="canonical" href="http://nathan-mccallum.com/getting-started/" />
-<meta property="og:url" content="http://nathan-mccallum.com/getting-started/" />
+<meta name="description" content="Git is a tool programmers use to track changes to text files over time. Here’s how I have it set it up." />
+<meta property="og:description" content="Git is a tool programmers use to track changes to text files over time. Here’s how I have it set it up." />
+<link rel="canonical" href="http://nathan-mccallum.com/git" />
+<meta property="og:url" content="http://nathan-mccallum.com/git" />
 <meta property="og:site_name" content="Nathan McCallum" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-04-05T18:19:00+10:00" />
+<meta property="article:published_time" content="2021-03-13T00:00:00+10:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Getting Started" />
+<meta property="twitter:title" content="My Git Setup" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","url":"http://nathan-mccallum.com/getting-started/","headline":"Getting Started","dateModified":"2020-04-05T18:19:00+10:00","datePublished":"2020-04-05T18:19:00+10:00","author":{"@type":"Person","name":"Nathan McCallum"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://nathan-mccallum.com/getting-started/"},"description":"It is a cool Sunday evening and I am once again experimenting with my personal site. Over the years I’ve run several different “Hello, World - this is me”-type sites and nothing has quite stuck. Given the vast array of options, I’ve never settled on any one thing. I can at least remember trying Wordpress, Ghost, SquareSpace, as well as various things I’ve hacked together and hosted on GitHub Pages.","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","headline":"My Git Setup","dateModified":"2021-03-13T00:00:00+10:00","datePublished":"2021-03-13T00:00:00+10:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://nathan-mccallum.com/git"},"author":{"@type":"Person","name":"Nathan McCallum"},"description":"Git is a tool programmers use to track changes to text files over time. Here’s how I have it set it up.","url":"http://nathan-mccallum.com/git","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link type="text/plain" rel="author" href="/humans.txt">
     
@@ -141,13 +141,17 @@ pre > code { padding: 0; background-color: transparent; white-space: pre; }
 
 pre, code { font-family: 'Inconsolata', monospace; }
 
-table { text-align: justify; width: 100%; border-collapse: collapse; }
+table { text-align: left; width: 100%; border-collapse: collapse; }
 
 td, th { padding: 0.5em; border-bottom: 1px solid #373737ad; }
 
 img { border-radius: 1em; width: auto; height: auto; max-height: 500px; display: block; margin: 0 auto; }
 
 .embed-container { margin: 1em 0; }
+
+ul.is-dotless { list-style: none; }
+
+ul.is-dotless li::before { content: "\200B"; }
 
 .highlight .hll { background-color: #49483e; }
 
@@ -370,60 +374,33 @@ img { border-radius: 1em; width: auto; height: auto; max-height: 500px; display:
     <a href="/consulting">Consulting</a> |
     <a href="/projects">Projects</a>
 
-    <h2>Getting Started</h2>
+    <h2>My Git Setup</h2>
 
 <p>
-  <time datetime="2020-04-05T18:19:00+10:00">
-    Apr 5, 2020
-  </time>•&nbsp;Nathan McCallum&nbsp;•&nbsp;Musings</p>
+  <time datetime="2021-03-13T00:00:00+10:00">
+    Mar 13, 2021
+  </time>•&nbsp;Nathan McCallum&nbsp;•&nbsp;Programming</p>
 
-<p>It is a cool Sunday evening and I am once again experimenting with my personal site.
-Over the years I’ve run several different <em>“Hello, World - this is me”</em>-type sites and nothing has quite stuck.
-Given the vast array of options, I’ve never settled on any one thing.
-I can at least remember trying Wordpress, Ghost, SquareSpace, as well as various things I’ve hacked together and hosted on GitHub Pages.</p>
+<p>Git is a tool programmers use to track changes to text files over time which can be configured using a special <code class="language-plaintext highlighter-rouge">.gitconfig</code> file.
+The following is my gitconfig.</p>
 
-<p>This current iteration is a Jekyll site hosted for free on GitHub Pages.
-And I think it’s going to work.
-Why?
-Because I changed my expectation.
-I realized I was chasing a “perfect” option when instead I just needed to find “my” option.
-I’m even using the default Jekyll theme right now.
-Because it doesn’t actually matter.
-I’ve seen many (more successful) blogs that look worse than this.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[alias]
+  gas = !git add -A &amp;&amp; git status
+  cam = commit -am
+  po = push origin
+  s = status
+  fs = !git fetch &amp;&amp; git status
 
-<p>I’ve been pondering recently why I am resistant to change.
-My thoughts so far have been that when I am presented with a new situation, I see an infinity of possibilities, or none at all.
-For instance, I often look at an empty Ableton Live session and feel that I could make any music I want.
-But I do nothing because I can’t find <strong>the thing</strong> (musical, lyrical, emotional, or otherwise) that I’m trying to express.
-In 2016 I tried to start a blog, but never wrote a single post because I felt like I had nothing at all to say.</p>
+[pull]
+  ff = only
 
-<p>I am reminded of a quote from Winston Churchill:</p>
+[init]
+  defaultBranch = main
 
-<blockquote>
-  <p>“To improve is to change; to be perfect is to change often.”</p>
-</blockquote>
-
-<p>Perhaps there’s a middle ground between the two extremes of <code class="language-plaintext highlighter-rouge">Infinity</code> and <code class="language-plaintext highlighter-rouge">0</code>?
-A state where one can keep moving without losing track of what’s important?</p>
-
-<p>My answer is <code class="language-plaintext highlighter-rouge">1</code>.</p>
-
-<p>If there’s too many possibilities, reduce them down until you’re left with one.
-If you have no possibilities, do something stupid until something comes up.</p>
-
-<p>In the case of my personal blog, it doesn’t actually really matter whether I use SquareSpace, Ghost, or something I hacked together.
-I’ve been enjoying my Rails work at <a href="http://thegrantshub.com">The Grants Hub</a> so I chose a Ruby-based static site generator.
-But it could have been anything.
-The point was that I chose.</p>
-
-<p>In the case of my music, I’ve found that I can get better results by writing guitar parts instead of getting stuck in the details of synthesizer design, mixing or drum programming.
-I can then swap the guitars with other sounds or get other people to play the parts, all of which can potentially serve the music better.
-However I wouldn’t have gotten there had I not gone back and reduced the possibilities.</p>
-
-<p>Right now we’re experiencing a pandemic of unprecedented scale.
-On social media I’m seeing many posts saying “use the isolation time to learn new skills”.
-I don’t buy it though. I feel like I’ve got enough going on with reading, music and work.
-But perhaps this is another instance of me seeing <code class="language-plaintext highlighter-rouge">0</code> instead of <code class="language-plaintext highlighter-rouge">1</code>?</p>
+[user]
+  name = Nathan McCallum
+  email = hey@nathan-mccallum.com
+</code></pre></div></div>
 
 
   </body>

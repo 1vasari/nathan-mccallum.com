@@ -5,22 +5,22 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>Quick fetch() cheatsheet | Nathan McCallum</title>
+<title>To Import, or Perhaps Not? | Nathan McCallum</title>
 <meta name="generator" content="Jekyll v4.2.0" />
-<meta property="og:title" content="Quick fetch() cheatsheet" />
+<meta property="og:title" content="To Import, or Perhaps Not?" />
 <meta name="author" content="Nathan McCallum" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="Make a fetch request:" />
-<meta property="og:description" content="Make a fetch request:" />
-<link rel="canonical" href="http://nathan-mccallum.com/javascript/fetch/" />
-<meta property="og:url" content="http://nathan-mccallum.com/javascript/fetch/" />
+<meta name="description" content="What do you get when you try and move a tiny bit of data from one db to another? Read on to find out." />
+<meta property="og:description" content="What do you get when you try and move a tiny bit of data from one db to another? Read on to find out." />
+<link rel="canonical" href="http://nathan-mccallum.com/to-import" />
+<meta property="og:url" content="http://nathan-mccallum.com/to-import" />
 <meta property="og:site_name" content="Nathan McCallum" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-03-02T00:00:00+10:00" />
+<meta property="article:published_time" content="2020-09-23T00:00:00+10:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Quick fetch() cheatsheet" />
+<meta property="twitter:title" content="To Import, or Perhaps Not?" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","url":"http://nathan-mccallum.com/javascript/fetch/","headline":"Quick fetch() cheatsheet","dateModified":"2021-03-02T00:00:00+10:00","datePublished":"2021-03-02T00:00:00+10:00","author":{"@type":"Person","name":"Nathan McCallum"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://nathan-mccallum.com/javascript/fetch/"},"description":"Make a fetch request:","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","headline":"To Import, or Perhaps Not?","dateModified":"2020-09-23T00:00:00+10:00","datePublished":"2020-09-23T00:00:00+10:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://nathan-mccallum.com/to-import"},"author":{"@type":"Person","name":"Nathan McCallum"},"description":"What do you get when you try and move a tiny bit of data from one db to another? Read on to find out.","url":"http://nathan-mccallum.com/to-import","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link type="text/plain" rel="author" href="/humans.txt">
     
@@ -141,13 +141,17 @@ pre > code { padding: 0; background-color: transparent; white-space: pre; }
 
 pre, code { font-family: 'Inconsolata', monospace; }
 
-table { text-align: justify; width: 100%; border-collapse: collapse; }
+table { text-align: left; width: 100%; border-collapse: collapse; }
 
 td, th { padding: 0.5em; border-bottom: 1px solid #373737ad; }
 
 img { border-radius: 1em; width: auto; height: auto; max-height: 500px; display: block; margin: 0 auto; }
 
 .embed-container { margin: 1em 0; }
+
+ul.is-dotless { list-style: none; }
+
+ul.is-dotless li::before { content: "\200B"; }
 
 .highlight .hll { background-color: #49483e; }
 
@@ -370,48 +374,65 @@ img { border-radius: 1em; width: auto; height: auto; max-height: 500px; display:
     <a href="/consulting">Consulting</a> |
     <a href="/projects">Projects</a>
 
-    <h2>Quick fetch() cheatsheet</h2>
+    <h2>To Import, or Perhaps Not?</h2>
 
 <p>
-  <time datetime="2021-03-02T00:00:00+10:00">
-    Mar 2, 2021
-  </time>•&nbsp;Nathan McCallum&nbsp;•&nbsp;Javascript</p>
+  <time datetime="2020-09-23T00:00:00+10:00">
+    Sep 23, 2020
+  </time>•&nbsp;Nathan McCallum&nbsp;•&nbsp;Programming</p>
 
-<p>Make a fetch request:</p>
+<p>I keep a journal using a little Rails app I built. Nothing super fancy.
+It’s just so I can write what I’m thinking and feeling throughout the day.
+Every so often I look back and think about whether I’m okay with how things are going.</p>
 
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">res</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">fetch</span><span class="p">(</span><span class="dl">'</span><span class="s1">/endpoint</span><span class="dl">'</span><span class="p">,</span> <span class="p">{</span> <span class="na">method</span><span class="p">:</span> <span class="dl">'</span><span class="s1">GET</span><span class="dl">'</span> <span class="p">});</span>
-<span class="kd">const</span> <span class="nx">json</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">res</span><span class="p">.</span><span class="nx">json</span><span class="p">();</span>
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">Here is the json response</span><span class="dl">'</span><span class="p">,</span> <span class="nx">json</span><span class="p">);</span>
+<p>Some issues came up and I ended up merging my journalling app functionality into another personal project.
+The application code was really simple but of course the old entries needed to get moved across as well.
+So the objective was to get the entries out of the old Postgres database and into a new one.
+Along the way one column needed to be renamed as well.</p>
+
+<p><em>How hard can it be?</em></p>
+
+<p>Ugh.</p>
+
+<p>I first tried to use <a href="https://github.com/sferik/rails_admin">Rails Admin</a> to export the entries.
+Soon afterward, I discovered that it doesn’t have an import function.
+So it was possible to download the entries but not import them into the new database.</p>
+
+<p>Next I tried to use <a href="https://www.pgadmin.org/">pgAdmin</a> to export the entries as some kind of <code class="language-plaintext highlighter-rouge">csv</code> file and then import them into the new database.
+Was I able to get this to work? Nope!
+The import always failed because of something wrong with the date format in the source file.</p>
+
+<p>(This stunt was made particularly difficult by <a href="https://www.heroku.com/">Heroku</a> hobby datastores, which appear to contain hundreds of databases pertaining to different Heroku user’s applications. Obviously your user can only access your own database table but the performance implications were fascinating. It looked like there were 50-100 reads occurring every second. This is why it’s free and also slow sometimes!)</p>
+
+<p><em>So what worked?</em></p>
+
+<p>Okay, here we go:</p>
+
+<ol>
+  <li>Download a <code class="language-plaintext highlighter-rouge">json</code> file of the entires using Rails Admin</li>
+  <li>Edit the file to make the column changes that were required</li>
+  <li>Upload the file to a private Github Gist</li>
+  <li>Run the following Ruby code in the <code class="language-plaintext highlighter-rouge">rails console</code> of the destination app:</li>
+</ol>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">require</span> <span class="s1">'json'</span>
+<span class="nb">require</span> <span class="s1">'net/http'</span>
+
+<span class="n">url</span> <span class="o">=</span> <span class="no">URI</span><span class="p">(</span><span class="s1">'&lt;Github Gist url here&gt;'</span><span class="p">)</span>
+<span class="n">entries</span> <span class="o">=</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="no">Net</span><span class="o">::</span><span class="no">HTTP</span><span class="p">.</span><span class="nf">get</span><span class="p">(</span><span class="n">url</span><span class="p">))</span>
+
+<span class="n">entries</span><span class="p">.</span><span class="nf">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">entry</span><span class="o">|</span>
+  <span class="n">e</span> <span class="o">=</span> <span class="no">PersonalLog</span><span class="o">::</span><span class="no">Entry</span><span class="p">.</span><span class="nf">new</span>
+  <span class="n">e</span><span class="p">.</span><span class="nf">content</span> <span class="o">=</span> <span class="n">entry</span><span class="p">[</span><span class="s1">'content'</span><span class="p">]</span>
+  <span class="n">e</span><span class="p">.</span><span class="nf">created_at</span> <span class="o">=</span> <span class="no">Time</span><span class="p">.</span><span class="nf">zone</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">entry</span><span class="p">[</span><span class="s1">'created_at'</span><span class="p">])</span>
+  <span class="n">e</span><span class="p">.</span><span class="nf">updated_at</span> <span class="o">=</span> <span class="no">Time</span><span class="p">.</span><span class="nf">zone</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">entry</span><span class="p">[</span><span class="s1">'updated_at'</span><span class="p">])</span>
+  <span class="n">e</span><span class="p">.</span><span class="nf">save!</span>
+<span class="k">end</span>
 </code></pre></div></div>
 
-<p>Send some form fields:</p>
+<p>This worked but I’m convinced that there was a better way eluding me.</p>
 
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">params</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">FormData</span><span class="p">();</span>
-<span class="nx">params</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="dl">'</span><span class="s1">first_name</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">John</span><span class="dl">'</span><span class="p">);</span>
-<span class="nx">params</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="dl">'</span><span class="s1">last_name</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">Smith</span><span class="dl">'</span><span class="p">);</span>
-<span class="kd">const</span> <span class="nx">res</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">fetch</span><span class="p">(</span><span class="dl">'</span><span class="s1">/endpoint</span><span class="dl">'</span><span class="p">,</span> <span class="p">{</span>
-  <span class="na">method</span><span class="p">:</span> <span class="dl">'</span><span class="s1">POST</span><span class="dl">'</span><span class="p">,</span>
-  <span class="na">body</span><span class="p">:</span> <span class="nx">params</span><span class="p">,</span>
-<span class="p">});</span>
-<span class="kd">const</span> <span class="nx">text</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">res</span><span class="p">.</span><span class="nx">text</span><span class="p">();</span>
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">Here is the response</span><span class="dl">'</span><span class="p">,</span> <span class="nx">text</span><span class="p">);</span>
-</code></pre></div></div>
-
-<p>Send some json data:</p>
-
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">data</span> <span class="o">=</span> <span class="p">{</span> <span class="na">username</span><span class="p">:</span> <span class="dl">'</span><span class="s1">foo</span><span class="dl">'</span><span class="p">,</span> <span class="na">password</span><span class="p">:</span> <span class="dl">'</span><span class="s1">secret</span><span class="dl">'</span> <span class="p">};</span>
-<span class="kd">const</span> <span class="nx">res</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">fetch</span><span class="p">(</span><span class="dl">'</span><span class="s1">/endpoint</span><span class="dl">'</span><span class="p">,</span> <span class="p">{</span>
-  <span class="na">method</span><span class="p">:</span> <span class="dl">'</span><span class="s1">POST</span><span class="dl">'</span><span class="p">,</span>
-  <span class="na">headers</span><span class="p">:</span> <span class="p">{</span>
-    <span class="dl">'</span><span class="s1">Content-Type</span><span class="dl">'</span><span class="p">:</span> <span class="dl">'</span><span class="s1">application/json</span><span class="dl">'</span><span class="p">,</span>
-  <span class="p">},</span>
-  <span class="na">body</span><span class="p">:</span> <span class="nx">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">(</span><span class="nx">data</span><span class="p">),</span>
-<span class="p">});</span>
-<span class="k">if</span> <span class="p">(</span><span class="nx">res</span><span class="p">.</span><span class="nx">ok</span><span class="p">)</span> <span class="p">{</span>
-  <span class="kd">const</span> <span class="nx">json</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">res</span><span class="p">.</span><span class="nx">json</span><span class="p">();</span>
-  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">Our session id is</span><span class="dl">'</span><span class="p">,</span> <span class="nx">json</span><span class="p">.</span><span class="nx">session_id</span><span class="p">);</span>
-<span class="p">}</span>
-</code></pre></div></div>
+<p>‘Till next time, I guess.</p>
 
 
   </body>

@@ -5,22 +5,21 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>To Import, or Perhaps Not? | Nathan McCallum</title>
+<title>Reflecting on F1 2020 | Nathan McCallum</title>
 <meta name="generator" content="Jekyll v4.2.0" />
-<meta property="og:title" content="To Import, or Perhaps Not?" />
-<meta name="author" content="Nathan McCallum" />
+<meta property="og:title" content="Reflecting on F1 2020" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="I keep a journal using a little Rails app I built. Nothing super fancy. It’s just so I can write what I’m thinking and feeling throughout the day. Every so often I look back and think about whether I’m okay with how things are going." />
-<meta property="og:description" content="I keep a journal using a little Rails app I built. Nothing super fancy. It’s just so I can write what I’m thinking and feeling throughout the day. Every so often I look back and think about whether I’m okay with how things are going." />
-<link rel="canonical" href="http://nathan-mccallum.com/to-import/" />
-<meta property="og:url" content="http://nathan-mccallum.com/to-import/" />
+<meta name="description" content="Taking a brief look back on the 2020 Formula 1 Work Championship" />
+<meta property="og:description" content="Taking a brief look back on the 2020 Formula 1 Work Championship" />
+<link rel="canonical" href="http://nathan-mccallum.com/f1/reflecting-on-2020" />
+<meta property="og:url" content="http://nathan-mccallum.com/f1/reflecting-on-2020" />
 <meta property="og:site_name" content="Nathan McCallum" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-09-23T00:00:00+10:00" />
+<meta property="article:published_time" content="2021-03-23T18:43:00+10:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="To Import, or Perhaps Not?" />
+<meta property="twitter:title" content="Reflecting on F1 2020" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","url":"http://nathan-mccallum.com/to-import/","headline":"To Import, or Perhaps Not?","dateModified":"2020-09-23T00:00:00+10:00","datePublished":"2020-09-23T00:00:00+10:00","author":{"@type":"Person","name":"Nathan McCallum"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://nathan-mccallum.com/to-import/"},"description":"I keep a journal using a little Rails app I built. Nothing super fancy. It’s just so I can write what I’m thinking and feeling throughout the day. Every so often I look back and think about whether I’m okay with how things are going.","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","headline":"Reflecting on F1 2020","dateModified":"2021-03-23T18:43:00+10:00","datePublished":"2021-03-23T18:43:00+10:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://nathan-mccallum.com/f1/reflecting-on-2020"},"description":"Taking a brief look back on the 2020 Formula 1 Work Championship","url":"http://nathan-mccallum.com/f1/reflecting-on-2020","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link type="text/plain" rel="author" href="/humans.txt">
     
@@ -141,13 +140,17 @@ pre > code { padding: 0; background-color: transparent; white-space: pre; }
 
 pre, code { font-family: 'Inconsolata', monospace; }
 
-table { text-align: justify; width: 100%; border-collapse: collapse; }
+table { text-align: left; width: 100%; border-collapse: collapse; }
 
 td, th { padding: 0.5em; border-bottom: 1px solid #373737ad; }
 
 img { border-radius: 1em; width: auto; height: auto; max-height: 500px; display: block; margin: 0 auto; }
 
 .embed-container { margin: 1em 0; }
+
+ul.is-dotless { list-style: none; }
+
+ul.is-dotless li::before { content: "\200B"; }
 
 .highlight .hll { background-color: #49483e; }
 
@@ -370,65 +373,99 @@ img { border-radius: 1em; width: auto; height: auto; max-height: 500px; display:
     <a href="/consulting">Consulting</a> |
     <a href="/projects">Projects</a>
 
-    <h2>To Import, or Perhaps Not?</h2>
+    <h2>Reflecting on F1 2020</h2>
 
 <p>
-  <time datetime="2020-09-23T00:00:00+10:00">
-    Sep 23, 2020
-  </time>•&nbsp;Nathan McCallum&nbsp;•&nbsp;Programming</p>
+  <time datetime="2021-03-23T18:43:00+10:00">
+    Mar 23, 2021
+  </time>&nbsp;•&nbsp;F1</p>
 
-<p>I keep a journal using a little Rails app I built. Nothing super fancy.
-It’s just so I can write what I’m thinking and feeling throughout the day.
-Every so often I look back and think about whether I’m okay with how things are going.</p>
+<p>It’s race week for 2021’s first Grand Prix so I’m reflecting a bit on the previous season.</p>
 
-<p>Some issues came up and I ended up merging my journalling app functionality into another personal project.
-The application code was really simple but of course the old entries needed to get moved across as well.
-So the objective was to get the entries out of the old Postgres database and into a new one.
-Along the way one column needed to be renamed as well.</p>
+<p>I got interested in Formula 1 during while staying home during 2020.
+In the past I’d watched a few races (my dad was a big fan) as well as playing some of the F1 games.
+It was great to rekindle some of that old fascination in the broader context of today’s Formula 1 landscape.</p>
 
-<p><em>How hard can it be?</em></p>
+<p>Thanks to Drive to Survive and extensive social media campaigning, F1 is more accessible to new fans than ever before.
+Yes, you can only really watch it on streaming services but that just seems to be par for the course in the 21st century.
+Nothing is free, after all.
+On the other end of the spectrum is extensive information available on the technical innovations made by the teams, timing data, driver comparisons, YouTuber expert analysis, and much more available to quench the thirst of diehard fans.</p>
 
-<p>Ugh.</p>
+<p>Towards the end of last year I was watching every practice and qualifying session of all the Grand Prix.
+It was thoroughly addicting.</p>
 
-<p>I first tried to use <a href="https://github.com/sferik/rails_admin">Rails Admin</a> to export the entries.
-Soon afterward, I discovered that it doesn’t have an import function.
-So it was possible to download the entries but not import them into the new database.</p>
+<p>I’ve collected some of my thoughts on the 2020 season below.</p>
 
-<p>Next I tried to use <a href="https://www.pgadmin.org/">pgAdmin</a> to export the entries as some kind of <code class="language-plaintext highlighter-rouge">csv</code> file and then import them into the new database.
-Was I able to get this to work? Nope!
-The import always failed because of something wrong with the date format in the source file.</p>
+<h2 id="mercedes">Mercedes</h2>
 
-<p>(This stunt was made particularly difficult by <a href="https://www.heroku.com/">Heroku</a> hobby datastores, which appear to contain hundreds of databases pertaining to different Heroku user’s applications. Obviously your user can only access your own database table but the performance implications were fascinating. It looked like there were 50-100 reads occurring every second. This is why it’s free and also slow sometimes!)</p>
+<p>Throughout the year I became a huge admirer of Lewis Hamilton.
+Lewis has the Championship winning powerhouse car available to him.
+But I don’t think it’s just that that has now allowed him to claim 7 World Championships.</p>
 
-<p><em>So what worked?</em></p>
+<p>With the exception of a few incidents (for instance, entering the pit lane while it was closed or doing a practice start in the wrong place - both earning heavy penalties), his racecraft has been absolutely beautiful.
+I think that throughout all of 2020 if Lewis was in a situation where he <em>could</em> win, he did.</p>
 
-<p>Okay, here we go:</p>
+<p>Huge respect.</p>
 
-<ol>
-  <li>Download a <code class="language-plaintext highlighter-rouge">json</code> file of the entires using Rails Admin</li>
-  <li>Edit the file to make the column changes that were required</li>
-  <li>Upload the file to a private Github Gist</li>
-  <li>Run the following Ruby code in the <code class="language-plaintext highlighter-rouge">rails console</code> of the destination app:</li>
-</ol>
+<p>While I’m here.. I have felt that Lewis’ political messages and activism have been tremendously valuable and pertinent.</p>
 
-<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">require</span> <span class="s1">'json'</span>
-<span class="nb">require</span> <span class="s1">'net/http'</span>
+<p>Valteri Bottas is a great driver in a great car who had a very unlucky season.
+He came second in 2020 - which is good - but it was by quite a long way, unfortunately.
+I look forward to seeing what he can achieve in 2021.</p>
 
-<span class="n">url</span> <span class="o">=</span> <span class="no">URI</span><span class="p">(</span><span class="s1">'&lt;Github Gist url here&gt;'</span><span class="p">)</span>
-<span class="n">entries</span> <span class="o">=</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="no">Net</span><span class="o">::</span><span class="no">HTTP</span><span class="p">.</span><span class="nf">get</span><span class="p">(</span><span class="n">url</span><span class="p">))</span>
+<h2 id="ferrari">Ferrari</h2>
 
-<span class="n">entries</span><span class="p">.</span><span class="nf">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">entry</span><span class="o">|</span>
-  <span class="n">e</span> <span class="o">=</span> <span class="no">PersonalLog</span><span class="o">::</span><span class="no">Entry</span><span class="p">.</span><span class="nf">new</span>
-  <span class="n">e</span><span class="p">.</span><span class="nf">content</span> <span class="o">=</span> <span class="n">entry</span><span class="p">[</span><span class="s1">'content'</span><span class="p">]</span>
-  <span class="n">e</span><span class="p">.</span><span class="nf">created_at</span> <span class="o">=</span> <span class="no">Time</span><span class="p">.</span><span class="nf">zone</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">entry</span><span class="p">[</span><span class="s1">'created_at'</span><span class="p">])</span>
-  <span class="n">e</span><span class="p">.</span><span class="nf">updated_at</span> <span class="o">=</span> <span class="no">Time</span><span class="p">.</span><span class="nf">zone</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">entry</span><span class="p">[</span><span class="s1">'updated_at'</span><span class="p">])</span>
-  <span class="n">e</span><span class="p">.</span><span class="nf">save!</span>
-<span class="k">end</span>
-</code></pre></div></div>
+<p>There’s no doubt in my mind that Charles Leclerc is the future star of the Scuderia Ferrari Formula 1 Team.
+He’s had such a dramatic rise to fortune over the last few years that from one point of view, you must wonder where it’ll end.
+I find myself wondering, though.. how far can he go?</p>
 
-<p>This worked but I’m convinced that there was a better way eluding me.</p>
+<p>Thanks to the poor performance of the Ferrari SF1000 I don’t think we ever really saw Charles’ true potential.
+There were glimpses, but nothing more.</p>
 
-<p>‘Till next time, I guess.</p>
+<p>It’s impossible to not compare Charles’ success with the team to Sebastian Vettel’s fall from grace.
+Before the season began, it was announced that Vettel would be parting ways with the Prancing Horse.
+Sadly, it was a messy divorce.</p>
+
+<h2 id="red-bull">Red Bull</h2>
+
+<p>Despite the frustratingly good performance of the Mercedes car, Max Verstappen ended up exactly where he should have been.
+Third in the Championship and consistently fighting for podiums.
+Great season from Max.</p>
+
+<p>Alexander Albon was not so lucky.
+Despite what you might imagine just from looking at the results Alex is an excellent racer.
+But unfortunately if you’re the 100th best race driver in the world, you’ll be last in F1.</p>
+
+<p>Ultimately, I feel sorry for Alex.
+He looked promising in 2019 rising up from Toro Rosso to the main Red Bull team.
+He had some good races in 2020, but not enough.
+If not for the fact that Sergio Perez was on the market looking for a drive in ‘21, I think that Alex may have had another chance this year.
+Bad luck.</p>
+
+<h1 id="haas">Haas</h1>
+
+<p>As a team, Haas were really disappointing last year.
+It was <em>somewhat</em> not their fault due to them being a Ferrari customer team.
+(Their power unit was gutted after having been found to be contravening the regulations).
+That said, Haas cars have generally performed poorly over the last few years.</p>
+
+<p>The Grosjean crash at Sakhir was the most disturbing thing I’ve seen in F1 so far.
+It reminded me of Mark Webber flipping his car at Valencia in 2010.
+But worse.</p>
+
+<p>The accident was a tremendous demonstration of how far safety practices have come as well as a timely reminder that the sport is still dangerous.
+I was profoundly moved to see that Romain survived the accident and has been able to get back to racing.</p>
+
+<h1 id="williams">Williams</h1>
+
+<p>It’s interesting to note that from 2019 to 2020 the team that most improved their lap times was actually Williams.
+This is a step in the right direction for the team (now operating under new management) however it didn’t win them anything during the season.</p>
+
+<p>Williams came last again in 2020.</p>
+
+<p>It’s not all bad though.
+We saw at Sakhir that George Russel is a superb driver with immense potential.
+I’m looking forward to seeing what George is able to do in the future.</p>
 
 
   </body>

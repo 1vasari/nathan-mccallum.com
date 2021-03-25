@@ -1,4 +1,89 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://nathan-mccallum.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://nathan-mccallum.com/" rel="alternate" type="text/html" hreflang="en" /><updated>2021-03-15T12:05:34+10:00</updated><id>http://nathan-mccallum.com/feed.xml</id><title type="html">Nathan McCallum</title><entry><title type="html">My Git Setup</title><link href="http://nathan-mccallum.com/git/" rel="alternate" type="text/html" title="My Git Setup" /><published>2021-03-13T00:00:00+10:00</published><updated>2021-03-13T00:00:00+10:00</updated><id>http://nathan-mccallum.com/my-git-setup</id><content type="html" xml:base="http://nathan-mccallum.com/git/">&lt;p&gt;Git is a tool programmers use to track changes to text files over time which can be configured using a special &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.gitconfig&lt;/code&gt; file.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://nathan-mccallum.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://nathan-mccallum.com/" rel="alternate" type="text/html" hreflang="en" /><updated>2021-03-26T09:32:08+10:00</updated><id>http://nathan-mccallum.com/feed.xml</id><title type="html">Nathan McCallum</title><entry><title type="html">Reflecting on F1 2020</title><link href="http://nathan-mccallum.com/f1/reflecting-on-2020" rel="alternate" type="text/html" title="Reflecting on F1 2020" /><published>2021-03-23T18:43:00+10:00</published><updated>2021-03-23T18:43:00+10:00</updated><id>http://nathan-mccallum.com/f1/reflecting-on-f1-2020</id><content type="html" xml:base="http://nathan-mccallum.com/f1/reflecting-on-2020">&lt;p&gt;It’s race week for 2021’s first Grand Prix so I’m reflecting a bit on the previous season.&lt;/p&gt;
+
+&lt;p&gt;I got interested in Formula 1 during while staying home during 2020.
+In the past I’d watched a few races (my dad was a big fan) as well as playing some of the F1 games.
+It was great to rekindle some of that old fascination in the broader context of today’s Formula 1 landscape.&lt;/p&gt;
+
+&lt;p&gt;Thanks to Drive to Survive and extensive social media campaigning, F1 is more accessible to new fans than ever before.
+Yes, you can only really watch it on streaming services but that just seems to be par for the course in the 21st century.
+Nothing is free, after all.
+On the other end of the spectrum is extensive information available on the technical innovations made by the teams, timing data, driver comparisons, YouTuber expert analysis, and much more available to quench the thirst of diehard fans.&lt;/p&gt;
+
+&lt;p&gt;Towards the end of last year I was watching every practice and qualifying session of all the Grand Prix.
+It was thoroughly addicting.&lt;/p&gt;
+
+&lt;p&gt;I’ve collected some of my thoughts on the 2020 season below.&lt;/p&gt;
+
+&lt;h2 id=&quot;mercedes&quot;&gt;Mercedes&lt;/h2&gt;
+
+&lt;p&gt;Throughout the year I became a huge admirer of Lewis Hamilton.
+Lewis has the Championship winning powerhouse car available to him.
+But I don’t think it’s just that that has now allowed him to claim 7 World Championships.&lt;/p&gt;
+
+&lt;p&gt;With the exception of a few incidents (for instance, entering the pit lane while it was closed or doing a practice start in the wrong place - both earning heavy penalties), his racecraft has been absolutely beautiful.
+I think that throughout all of 2020 if Lewis was in a situation where he &lt;em&gt;could&lt;/em&gt; win, he did.&lt;/p&gt;
+
+&lt;p&gt;Huge respect.&lt;/p&gt;
+
+&lt;p&gt;While I’m here.. I have felt that Lewis’ political messages and activism have been tremendously valuable and pertinent.&lt;/p&gt;
+
+&lt;p&gt;Valteri Bottas is a great driver in a great car who had a very unlucky season.
+He came second in 2020 - which is good - but it was by quite a long way, unfortunately.
+I look forward to seeing what he can achieve in 2021.&lt;/p&gt;
+
+&lt;h2 id=&quot;ferrari&quot;&gt;Ferrari&lt;/h2&gt;
+
+&lt;p&gt;There’s no doubt in my mind that Charles Leclerc is the future star of the Scuderia Ferrari Formula 1 Team.
+He’s had such a dramatic rise to fortune over the last few years that from one point of view, you must wonder where it’ll end.
+I find myself wondering, though.. how far can he go?&lt;/p&gt;
+
+&lt;p&gt;Thanks to the poor performance of the Ferrari SF1000 I don’t think we ever really saw Charles’ true potential.
+There were glimpses, but nothing more.&lt;/p&gt;
+
+&lt;p&gt;It’s impossible to not compare Charles’ success with the team to Sebastian Vettel’s fall from grace.
+Before the season began, it was announced that Vettel would be parting ways with the Prancing Horse.
+Sadly, it was a messy divorce.&lt;/p&gt;
+
+&lt;h2 id=&quot;red-bull&quot;&gt;Red Bull&lt;/h2&gt;
+
+&lt;p&gt;Despite the frustratingly good performance of the Mercedes car, Max Verstappen ended up exactly where he should have been.
+Third in the Championship and consistently fighting for podiums.
+Great season from Max.&lt;/p&gt;
+
+&lt;p&gt;Alexander Albon was not so lucky.
+Despite what you might imagine just from looking at the results Alex is an excellent racer.
+But unfortunately if you’re the 100th best race driver in the world, you’ll be last in F1.&lt;/p&gt;
+
+&lt;p&gt;Ultimately, I feel sorry for Alex.
+He looked promising in 2019 rising up from Toro Rosso to the main Red Bull team.
+He had some good races in 2020, but not enough.
+If not for the fact that Sergio Perez was on the market looking for a drive in ‘21, I think that Alex may have had another chance this year.
+Bad luck.&lt;/p&gt;
+
+&lt;h1 id=&quot;haas&quot;&gt;Haas&lt;/h1&gt;
+
+&lt;p&gt;As a team, Haas were really disappointing last year.
+It was &lt;em&gt;somewhat&lt;/em&gt; not their fault due to them being a Ferrari customer team.
+(Their power unit was gutted after having been found to be contravening the regulations).
+That said, Haas cars have generally performed poorly over the last few years.&lt;/p&gt;
+
+&lt;p&gt;The Grosjean crash at Sakhir was the most disturbing thing I’ve seen in F1 so far.
+It reminded me of Mark Webber flipping his car at Valencia in 2010.
+But worse.&lt;/p&gt;
+
+&lt;p&gt;The accident was a tremendous demonstration of how far safety practices have come as well as a timely reminder that the sport is still dangerous.
+I was profoundly moved to see that Romain survived the accident and has been able to get back to racing.&lt;/p&gt;
+
+&lt;h1 id=&quot;williams&quot;&gt;Williams&lt;/h1&gt;
+
+&lt;p&gt;It’s interesting to note that from 2019 to 2020 the team that most improved their lap times was actually Williams.
+This is a step in the right direction for the team (now operating under new management) however it didn’t win them anything during the season.&lt;/p&gt;
+
+&lt;p&gt;Williams came last again in 2020.&lt;/p&gt;
+
+&lt;p&gt;It’s not all bad though.
+We saw at Sakhir that George Russel is a superb driver with immense potential.
+I’m looking forward to seeing what George is able to do in the future.&lt;/p&gt;</content><author><name></name></author><category term="f1" /><summary type="html">It’s race week for 2021’s first Grand Prix so I’m reflecting a bit on the previous season.</summary></entry><entry><title type="html">My Git Setup</title><link href="http://nathan-mccallum.com/git" rel="alternate" type="text/html" title="My Git Setup" /><published>2021-03-13T00:00:00+10:00</published><updated>2021-03-13T00:00:00+10:00</updated><id>http://nathan-mccallum.com/my-git-setup</id><content type="html" xml:base="http://nathan-mccallum.com/git">&lt;p&gt;Git is a tool programmers use to track changes to text files over time which can be configured using a special &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.gitconfig&lt;/code&gt; file.
 The following is my gitconfig.&lt;/p&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[alias]
@@ -17,7 +102,7 @@ The following is my gitconfig.&lt;/p&gt;
 [user]
   name = Nathan McCallum
   email = hey@nathan-mccallum.com
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Nathan McCallum</name></author><category term="programming" /><summary type="html">Git is a tool programmers use to track changes to text files over time which can be configured using a special .gitconfig file. The following is my gitconfig.</summary></entry><entry><title type="html">My Vim Setup</title><link href="http://nathan-mccallum.com/vim/" rel="alternate" type="text/html" title="My Vim Setup" /><published>2021-03-13T00:00:00+10:00</published><updated>2021-03-13T00:00:00+10:00</updated><id>http://nathan-mccallum.com/my-vim-setup</id><content type="html" xml:base="http://nathan-mccallum.com/vim/">&lt;p&gt;.vimrc:&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Nathan McCallum</name></author><category term="programming" /><summary type="html">Git is a tool programmers use to track changes to text files over time which can be configured using a special .gitconfig file. The following is my gitconfig.</summary></entry><entry><title type="html">My Vim Setup</title><link href="http://nathan-mccallum.com/vim" rel="alternate" type="text/html" title="My Vim Setup" /><published>2021-03-13T00:00:00+10:00</published><updated>2021-03-13T00:00:00+10:00</updated><id>http://nathan-mccallum.com/my-vim-setup</id><content type="html" xml:base="http://nathan-mccallum.com/vim">&lt;p&gt;.vimrc:&lt;/p&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&quot; Enable syntax highlighting and force colours in the terminal
 syntax enable
@@ -205,7 +290,7 @@ endif
 &lt;p&gt;Rape can be prevented if you teach boys not to rape.
 Assault can be prevented if you teach boys not to touch girls without consent.&lt;/p&gt;
 
-&lt;p&gt;It’s time to be better.&lt;/p&gt;</content><author><name>Nathan McCallum</name></author><category term="musings" /><summary type="html">I was at a bar one time when a guy came up behind and started touching me. When I turned around and he realized that the long haired beauty was actually a man, he immediately apologised and went off somewhere else. I should have said something but it was the first time something like this had happened to me before and he was gone before I had a chance.</summary></entry><entry><title type="html">Quick fetch() cheatsheet</title><link href="http://nathan-mccallum.com/javascript/fetch/" rel="alternate" type="text/html" title="Quick fetch() cheatsheet" /><published>2021-03-02T00:00:00+10:00</published><updated>2021-03-02T00:00:00+10:00</updated><id>http://nathan-mccallum.com/javascript/quick-fetch-reference</id><content type="html" xml:base="http://nathan-mccallum.com/javascript/fetch/">&lt;p&gt;Make a fetch request:&lt;/p&gt;
+&lt;p&gt;It’s time to be better.&lt;/p&gt;</content><author><name>Nathan McCallum</name></author><category term="musings" /><summary type="html">I was at a bar one time when a guy came up behind and started touching me. When I turned around and he realized that the long haired beauty was actually a man, he immediately apologised and went off somewhere else. I should have said something but it was the first time something like this had happened to me before and he was gone before I had a chance.</summary></entry><entry><title type="html">Quick fetch() cheatsheet</title><link href="http://nathan-mccallum.com/javascript/fetch" rel="alternate" type="text/html" title="Quick fetch() cheatsheet" /><published>2021-03-02T00:00:00+10:00</published><updated>2021-03-02T00:00:00+10:00</updated><id>http://nathan-mccallum.com/javascript/quick-fetch-reference</id><content type="html" xml:base="http://nathan-mccallum.com/javascript/fetch">&lt;p&gt;Make a fetch request:&lt;/p&gt;
 
 &lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;res&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;await&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;fetch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;/endpoint&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;method&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;GET&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
 &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;json&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;await&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
@@ -239,7 +324,7 @@ Assault can be prevented if you teach boys not to touch girls without consent.&l
   &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;json&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;await&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
   &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;Our session id is&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;session_id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Nathan McCallum</name></author><category term="JavaScript" /><summary type="html">Make a fetch request:</summary></entry><entry><title type="html">To Import, or Perhaps Not?</title><link href="http://nathan-mccallum.com/to-import/" rel="alternate" type="text/html" title="To Import, or Perhaps Not?" /><published>2020-09-23T00:00:00+10:00</published><updated>2020-09-23T00:00:00+10:00</updated><id>http://nathan-mccallum.com/to-import-or-perhaps-not</id><content type="html" xml:base="http://nathan-mccallum.com/to-import/">&lt;p&gt;I keep a journal using a little Rails app I built. Nothing super fancy.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Nathan McCallum</name></author><category term="JavaScript" /><summary type="html">Make a fetch request:</summary></entry><entry><title type="html">To Import, or Perhaps Not?</title><link href="http://nathan-mccallum.com/to-import" rel="alternate" type="text/html" title="To Import, or Perhaps Not?" /><published>2020-09-23T00:00:00+10:00</published><updated>2020-09-23T00:00:00+10:00</updated><id>http://nathan-mccallum.com/to-import-or-perhaps-not</id><content type="html" xml:base="http://nathan-mccallum.com/to-import">&lt;p&gt;I keep a journal using a little Rails app I built. Nothing super fancy.
 It’s just so I can write what I’m thinking and feeling throughout the day.
 Every so often I look back and think about whether I’m okay with how things are going.&lt;/p&gt;
 
@@ -290,7 +375,7 @@ The import always failed because of something wrong with the date format in the 
 
 &lt;p&gt;This worked but I’m convinced that there was a better way eluding me.&lt;/p&gt;
 
-&lt;p&gt;‘Till next time, I guess.&lt;/p&gt;</content><author><name>Nathan McCallum</name></author><category term="programming" /><summary type="html">I keep a journal using a little Rails app I built. Nothing super fancy. It’s just so I can write what I’m thinking and feeling throughout the day. Every so often I look back and think about whether I’m okay with how things are going.</summary></entry><entry><title type="html">GitHub Default Branch</title><link href="http://nathan-mccallum.com/github-default-branch/" rel="alternate" type="text/html" title="GitHub Default Branch" /><published>2020-06-19T00:00:00+10:00</published><updated>2020-06-19T00:00:00+10:00</updated><id>http://nathan-mccallum.com/github-default-branch</id><content type="html" xml:base="http://nathan-mccallum.com/github-default-branch/">&lt;p&gt;Two days ago GitHub changed their default branch name from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;master&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;main&lt;/code&gt;.
+&lt;p&gt;‘Till next time, I guess.&lt;/p&gt;</content><author><name>Nathan McCallum</name></author><category term="programming" /><summary type="html">I keep a journal using a little Rails app I built. Nothing super fancy. It’s just so I can write what I’m thinking and feeling throughout the day. Every so often I look back and think about whether I’m okay with how things are going.</summary></entry><entry><title type="html">GitHub Default Branch</title><link href="http://nathan-mccallum.com/github-default-branch" rel="alternate" type="text/html" title="GitHub Default Branch" /><published>2020-06-19T00:00:00+10:00</published><updated>2020-06-19T00:00:00+10:00</updated><id>http://nathan-mccallum.com/github-default-branch</id><content type="html" xml:base="http://nathan-mccallum.com/github-default-branch">&lt;p&gt;Two days ago GitHub changed their default branch name from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;master&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;main&lt;/code&gt;.
 Though this was not mentioned on their &lt;a href=&quot;https://github.blog/&quot;&gt;blog&lt;/a&gt; or &lt;a href=&quot;https://github.blog/changelog/&quot;&gt;changelog&lt;/a&gt; it was &lt;a href=&quot;https://www.bbc.com/news/technology-53050955&quot;&gt;reported on&lt;/a&gt; fairly widely.
 It reached &lt;a href=&quot;https://news.ycombinator.com/item?id=23531032&quot;&gt;Hacker News&lt;/a&gt; wherein many discussions occurred.
 Many response articles have been written, which are worth a read if you’re interested.&lt;/p&gt;
@@ -340,7 +425,7 @@ And they matter differently to different individuals.&lt;/p&gt;
 &lt;p&gt;The idea that you can make references to Orwell and think you’re clever is flippant and misses the point of this discussion.
 Which is that to create a system that is reasonably fair, reasonably safe, and reasonably usable, you must be willing to make changes.&lt;/p&gt;
 
-&lt;p&gt;P.S. Today is Juneteenth. Black Lives Matter. Defund the Police. Have a nice day :)&lt;/p&gt;</content><author><name>Nathan McCallum</name></author><category term="programming" /><summary type="html">Two days ago GitHub changed their default branch name from master to main. Though this was not mentioned on their blog or changelog it was reported on fairly widely. It reached Hacker News wherein many discussions occurred. Many response articles have been written, which are worth a read if you’re interested.</summary></entry><entry><title type="html">A Public Void</title><link href="http://nathan-mccallum.com/a-public-void/" rel="alternate" type="text/html" title="A Public Void" /><published>2020-05-05T13:39:00+10:00</published><updated>2020-05-05T13:39:00+10:00</updated><id>http://nathan-mccallum.com/a-public-void</id><content type="html" xml:base="http://nathan-mccallum.com/a-public-void/">&lt;style&gt;.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }&lt;/style&gt;
+&lt;p&gt;P.S. Today is Juneteenth. Black Lives Matter. Defund the Police. Have a nice day :)&lt;/p&gt;</content><author><name>Nathan McCallum</name></author><category term="programming" /><summary type="html">Two days ago GitHub changed their default branch name from master to main. Though this was not mentioned on their blog or changelog it was reported on fairly widely. It reached Hacker News wherein many discussions occurred. Many response articles have been written, which are worth a read if you’re interested.</summary></entry><entry><title type="html">A Public Void</title><link href="http://nathan-mccallum.com/a-public-void" rel="alternate" type="text/html" title="A Public Void" /><published>2020-05-05T13:39:00+10:00</published><updated>2020-05-05T13:39:00+10:00</updated><id>http://nathan-mccallum.com/a-public-void</id><content type="html" xml:base="http://nathan-mccallum.com/a-public-void">&lt;style&gt;.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }&lt;/style&gt;
 &lt;div class=&quot;embed-container&quot;&gt;    &lt;iframe title=&quot;YouTube video player&quot; width=&quot;640&quot; height=&quot;390&quot; src=&quot;//www.youtube.com/embed/5NbKaZNvsHI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
 
 &lt;p&gt;The recording for this song began in early 2018.
@@ -424,7 +509,7 @@ Uploaded at about 4:30am.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/posts/a-public-void/dead.jpg&quot; alt=&quot;Me, dead&quot; width=&quot;720&quot; height=&quot;1278&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;I then laid on the floor till the sun came up.&lt;/p&gt;</content><author><name>Nathan McCallum</name></author><category term="my-music" /><summary type="html"></summary></entry><entry><title type="html">The Myth of Isolation Productivity</title><link href="http://nathan-mccallum.com/isolation-productivity/" rel="alternate" type="text/html" title="The Myth of Isolation Productivity" /><published>2020-04-18T18:00:00+10:00</published><updated>2020-04-18T18:00:00+10:00</updated><id>http://nathan-mccallum.com/the-myth-of-isolation-productivity</id><content type="html" xml:base="http://nathan-mccallum.com/isolation-productivity/">&lt;p&gt;I don’t need to cover the story so far. COVID-19 is happening and it’s bad.
+&lt;p&gt;I then laid on the floor till the sun came up.&lt;/p&gt;</content><author><name>Nathan McCallum</name></author><category term="my-music" /><summary type="html"></summary></entry><entry><title type="html">The Myth of Isolation Productivity</title><link href="http://nathan-mccallum.com/isolation-productivity" rel="alternate" type="text/html" title="The Myth of Isolation Productivity" /><published>2020-04-18T18:00:00+10:00</published><updated>2020-04-18T18:00:00+10:00</updated><id>http://nathan-mccallum.com/the-myth-of-isolation-productivity</id><content type="html" xml:base="http://nathan-mccallum.com/isolation-productivity">&lt;p&gt;I don’t need to cover the story so far. COVID-19 is happening and it’s bad.
 Many are sick, many have lost their lives. Many are scared.
 We are seeing tremendous unity whilst also being at our most isolated.
 Stories of triumph and survival immediately followed by news of more storms.
@@ -476,7 +561,7 @@ You just have to keep going.&lt;/p&gt;
 
 &lt;p&gt;Make sure to set reasonable goals for yourself.&lt;/p&gt;
 
-&lt;p&gt;Stay safe out there everyone.&lt;/p&gt;</content><author><name>Nathan McCallum</name></author><category term="musings" /><summary type="html">I don’t need to cover the story so far. COVID-19 is happening and it’s bad. Many are sick, many have lost their lives. Many are scared. We are seeing tremendous unity whilst also being at our most isolated. Stories of triumph and survival immediately followed by news of more storms. The future cost to us mentally, economically and socially is yet to be determined.</summary></entry><entry><title type="html">Le Noise by Neil Young</title><link href="http://nathan-mccallum.com/la-noise/" rel="alternate" type="text/html" title="Le Noise by Neil Young" /><published>2020-04-10T12:52:00+10:00</published><updated>2020-04-10T12:52:00+10:00</updated><id>http://nathan-mccallum.com/le-noise-by-neil-young</id><content type="html" xml:base="http://nathan-mccallum.com/la-noise/">&lt;p&gt;Recently I’ve been reading &lt;em&gt;Waging Heavy Pace&lt;/em&gt; (Neil Young’s autobiography) and a natural part of such a process is to listen to the music that’s mentioned along the way.
+&lt;p&gt;Stay safe out there everyone.&lt;/p&gt;</content><author><name>Nathan McCallum</name></author><category term="musings" /><summary type="html">I don’t need to cover the story so far. COVID-19 is happening and it’s bad. Many are sick, many have lost their lives. Many are scared. We are seeing tremendous unity whilst also being at our most isolated. Stories of triumph and survival immediately followed by news of more storms. The future cost to us mentally, economically and socially is yet to be determined.</summary></entry><entry><title type="html">Le Noise by Neil Young</title><link href="http://nathan-mccallum.com/albums/le-noise" rel="alternate" type="text/html" title="Le Noise by Neil Young" /><published>2020-04-10T12:52:00+10:00</published><updated>2020-04-10T12:52:00+10:00</updated><id>http://nathan-mccallum.com/albums/le-noise-by-neil-young</id><content type="html" xml:base="http://nathan-mccallum.com/albums/le-noise">&lt;p&gt;Recently I’ve been reading &lt;em&gt;Waging Heavy Pace&lt;/em&gt; (Neil Young’s autobiography) and a natural part of such a process is to listen to the music that’s mentioned along the way.
 I’d already heard a lot of the classics so we don’t need to go there, but &lt;em&gt;Le Noise&lt;/em&gt; got my attention because it’s pretty different.&lt;/p&gt;
 
 &lt;p&gt;The instrumentation for the whole album is deceptively simple:&lt;/p&gt;
@@ -530,19 +615,4 @@ This was followed by &lt;em&gt;Someone’s Gonna Rescue You&lt;/em&gt; and it to
 
 &lt;p&gt;And in fact that’s the main gripe I have: except for &lt;em&gt;Walk With Me&lt;/em&gt;, the electric tracks all feel the same.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;My overall rating:&lt;/strong&gt; 6/10&lt;/p&gt;</content><author><name>Nathan McCallum</name></author><category term="album-reviews" /><summary type="html">Recently I’ve been reading Waging Heavy Pace (Neil Young’s autobiography) and a natural part of such a process is to listen to the music that’s mentioned along the way. I’d already heard a lot of the classics so we don’t need to go there, but Le Noise got my attention because it’s pretty different.</summary></entry><entry><title type="html">TV Shows I’ve Seen</title><link href="http://nathan-mccallum.com/tv/" rel="alternate" type="text/html" title="TV Shows I’ve Seen" /><published>2020-04-06T00:00:00+10:00</published><updated>2020-04-06T00:00:00+10:00</updated><id>http://nathan-mccallum.com/tv</id><content type="html" xml:base="http://nathan-mccallum.com/tv/">&lt;ul&gt;
-  &lt;li&gt;Black Mirror&lt;/li&gt;
-  &lt;li&gt;Breaking Bad&lt;/li&gt;
-  &lt;li&gt;Downton Abbey&lt;/li&gt;
-  &lt;li&gt;Game of Thrones&lt;/li&gt;
-  &lt;li&gt;House of Cards&lt;/li&gt;
-  &lt;li&gt;Limitless&lt;/li&gt;
-  &lt;li&gt;Making a Murderer&lt;/li&gt;
-  &lt;li&gt;Orange is the New Black&lt;/li&gt;
-  &lt;li&gt;Rick and Morty&lt;/li&gt;
-  &lt;li&gt;Silicon Valley&lt;/li&gt;
-  &lt;li&gt;Star Trek: The Next Generation&lt;/li&gt;
-  &lt;li&gt;The Umbrella Academy&lt;/li&gt;
-  &lt;li&gt;The West Wing&lt;/li&gt;
-  &lt;li&gt;Tiger King&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Nathan McCallum</name></author><category term="lists" /><summary type="html">Black Mirror Breaking Bad Downton Abbey Game of Thrones House of Cards Limitless Making a Murderer Orange is the New Black Rick and Morty Silicon Valley Star Trek: The Next Generation The Umbrella Academy The West Wing Tiger King</summary></entry></feed>
+&lt;p&gt;&lt;strong&gt;My overall rating:&lt;/strong&gt; 6/10&lt;/p&gt;</content><author><name>Nathan McCallum</name></author><category term="album-reviews" /><summary type="html">Recently I’ve been reading Waging Heavy Pace (Neil Young’s autobiography) and a natural part of such a process is to listen to the music that’s mentioned along the way. I’d already heard a lot of the classics so we don’t need to go there, but Le Noise got my attention because it’s pretty different.</summary></entry></feed>
