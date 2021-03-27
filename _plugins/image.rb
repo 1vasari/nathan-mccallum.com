@@ -9,7 +9,7 @@ module Jekyll
     def initialize(tag_name, text, tokens)
       super
       params = OpenStruct.new(JSON.parse(text))
-      file_path = File.join(__dir__, '..', 'assets', params.src)
+      file_path = File.join(__dir__, '..', 'img', params.src)
 
       if File.exist?(file_path)
         size = ImageSize.path(file_path)
