@@ -1,6 +1,7 @@
 require 'image_size'
 require 'ostruct'
 require 'json'
+require 'base64'
 
 
 module Jekyll
@@ -14,13 +15,16 @@ module Jekyll
         size = ImageSize.path(file_path)
         @width = size.width
         @height = size.height
+        ext = File.extname(file_path).gsub(/^\./, '')
+        data = Base64.encode64(File.read(file_path))
+        @src = "data:image/#{ext};charset=utf-8;base64,#{data}"
       else
         puts "WARNING: image file not found: #{file_path}"
         @width = 1
         @height = 1
+        @src = "/assets/#{params.src}"
       end
 
-      @src = "/assets/#{params.src}"
       @alt = params.alt || ''
     end
 
