@@ -1,6 +1,6 @@
 # Nathan-McCallum.com
 
-![Me](/assets/me.jpg)
+![Me](/img/me.jpg)
 
 My personal portfolio site and blog.
 
