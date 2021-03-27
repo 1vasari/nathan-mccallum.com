@@ -20,9 +20,9 @@ module Jekyll
         @src = "data:image/#{ext};charset=utf-8;base64,#{data}"
       else
         puts "WARNING: image file not found: #{file_path}"
-        @width = 1
-        @height = 1
-        @src = "/assets/#{params.src}"
+        @width = 0
+        @height = 0
+        @src = ''
       end
 
       @alt = params.alt || ''

@@ -23,6 +23,7 @@ exclude:
   - Dockerfile
   - package.json
   - yarn.lock
+  - img/
 
 jekyll_compose:
   default_front_matter:
