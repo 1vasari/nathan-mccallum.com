@@ -151,7 +151,19 @@ pre > code {
 }
 
 pre, code {
-  font-family: monospace;
+  //
+  // A list of common coding fonts with mine at the top, of course. ;)
+  // Instead of downloading a font at runtime, we try and use something that might be available on the
+  // user's system instead. If you're a programmer reading my blog, odds are you'll have one of these.
+  //
+  font-family:
+    'Inconsolata',
+    'Fira Mono',
+    'Source Code Pro',
+    'Anonymous Pro',
+    droid-sans-mono,
+    'Ubuntu Mono',
+    monospace;
 }
 
 //
