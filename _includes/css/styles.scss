@@ -4,6 +4,13 @@
 // Project: https://github.com/oxalorg/sakura/
 //
 
+$background: #050f1a;
+$borders: #4a4a4a;
+$code-background: #373737ad;
+$link-hover: #982c2c;
+$links: #d0931e;
+$text: #bdbdbd;
+
 //
 // Body
 //
@@ -13,7 +20,7 @@ html {
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  background-color: #050f1a;
+  background-color: $background;
 }
 
 body {
@@ -21,7 +28,7 @@ body {
   line-height: 1.618;
   max-width: 38em;
   margin: auto;
-  color: #bdbdbd;
+  color: $text;
   padding: 13px;
 }
 
@@ -87,18 +94,18 @@ small, sub, sup {
 }
 
 hr {
-  border-color: #2c8898;
+  border-color: $borders;
 }
 
 a {
   text-decoration: none;
   transition: color 0.1s;
-  color: #d0931e;
+  color: $links;
 }
 
 a:hover {
-  color: #982c2c;
-  border-bottom: 1px solid #4a4a4a;
+  color: $link-hover;
+  border-bottom: 1px solid $borders;
 }
 
 ul {
@@ -115,7 +122,7 @@ blockquote {
   font-style: italic;
   margin-left: 1.5em;
   padding-left: 1em;
-  border-left: 3px solid #d0931e;
+  border-left: 3px solid $links;
 }
 
 img {
@@ -129,7 +136,7 @@ img {
 // Pre and Code
 //
 pre {
-  background-color: #373737ad;
+  background-color: $code-background;
   display: block;
   padding: 1em;
   overflow-x: auto;
@@ -140,7 +147,7 @@ pre {
 code {
   font-size: 0.9em;
   padding: 0 0.5em;
-  background-color: #373737ad;
+  background-color: $code-background;
   white-space: pre-wrap;
 }
 
@@ -177,7 +184,7 @@ table {
 
 td, th {
   padding: 0.5em;
-  border-bottom: 1px solid #373737ad;
+  border-bottom: 1px solid $borders;
 }
 
 //
