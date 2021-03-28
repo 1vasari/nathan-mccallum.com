@@ -5,11 +5,11 @@
 //
 
 $background: #050f1a;
-$borders: #4a4a4a;
+$borders: #353535;
 $code-background: #373737ad;
-$link-hover: #982c2c;
-$links: #d0931e;
-$text: #bdbdbd;
+$link-hover: #23338c;
+$links: #f4a918;
+$text: #dbdbdb;
 
 //
 // Body
@@ -104,8 +104,8 @@ a {
 }
 
 a:hover {
-  color: $link-hover;
-  border-bottom: 1px solid $borders;
+  background-color: $link-hover;
+  color: $text;
 }
 
 ul {
