@@ -3,12 +3,12 @@ layout: post
 title: A Public Void
 author: Nathan McCallum
 tags: my-music
-date: 2020-05-05 13:39:00 +1000
-permalink: /a-public-void
-description: Read about how I wrote, recorded and produced my first song
+date: 2018-04-10
+permalink: /music/a-public-void
+description: How I wrote, recorded and produced my first song
 ---
 
-{% youtube "https://www.youtube.com/watch?v=5NbKaZNvsHI" %}
+{% include youtube-video.html id="5NbKaZNvsHI" %}
 
 The recording for this song began in early 2018.
 I was starting out as a music student at QUT and was keen to be working on new music.
@@ -93,3 +93,23 @@ Uploaded at about 4:30am.
 {% image {"src":"posts/a-public-void/dead.jpg", "alt":"Me, dead"} %}
 
 I then laid on the floor till the sun came up.
+
+## Lyrics
+
+It's 123 but black and white<br>
+How long have you been in here?<br>
+Forever I will miss my chance<br>
+Ticking clocks grind on, and on, and on...
+
+Like,<br>
+Ooooohhhhhh<br>
+Ooooohhhhhh
+
+A public void of fantasy<br>
+Send her down to the central park<br>
+Forever I will have my chance<br>
+But why why why why??
+
+Like,<br>
+Ooooohhhhhh<br>
+Ooooohhhhhh
