@@ -5,7 +5,7 @@ layout: page
 description: I am available for web development consulting work. Please reach out if you have any projects on!
 ---
 
-I am available for consulting through my sole trader *"1vasari arts & media"* either remotely or on site in Brisbane, Australia.
+I am available for consulting through my sole trader *"1vasari arts & media"* either remotely or on site in Brisbane, Australia.<br>
 You can see my [GitHub profile](http://github.com/1vasari) and some of my projects [here](/projects/).
 
 I can help you build your next:
@@ -23,6 +23,6 @@ I can reduce your technical debt, rescue an old system, or start a brand new one
 
 I speak English and have the right to work in Australia.
 
-If you're interested, please reach out to me via [hey@nathan-mccallum.com](mailto:hey@nathan-mccallum.com).
+If you're interested, please reach out to me via [{{ site.email }}](mailto:{{ site.email }}).
 
-{% image {"src":"1vas-logo-white.png", "alt":"1vasari arts & media logo"} %}
+{% image {"src":"1vas-logo-black.png", "alt":"1vasari arts & media logo"} %}

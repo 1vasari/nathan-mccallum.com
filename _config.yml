@@ -5,6 +5,7 @@ encoding: utf-8
 lang: en
 rss: RSS
 title: Nathan McCallum
+email: hey@nathan-mccallum.com
 
 # Build settings
 plugins:
@@ -23,7 +24,6 @@ exclude:
   - Dockerfile
   - package.json
   - yarn.lock
-  - img/
 
 jekyll_compose:
   default_front_matter:

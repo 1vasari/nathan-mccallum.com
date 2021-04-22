@@ -15,21 +15,24 @@ layout: default
   <h2>Blog</h2>
 
   {% for tag in tags %}
-    {% assign tag_name = tag | first %}
-    <h3>{{ tag_name | replace: '-', ' ' | capitalize }}</h3>
+    <fieldset class="fieldset block p-4">
+      {% assign tag_name = tag | first %}
+      <legend class="px-4 mx-4 is-size-4">{{ tag_name | replace: '-', ' ' | capitalize }}</legend>
 
-    <ul class="is-dotless">
       {% assign posts = site.tags[tag_name] | sort %}
       {% for post in posts %}
-        <li>
-          <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-          <em style="float: right;">
-            <time datetime="{{ post.date }}">
-              {{ post.date | date: "%b %-d, %Y" }}
-            </time>
-          </em>
-        </li>
+        <div class="columns is-gapless">
+          <div class="column is-hidden-desktop">
+            <em><time datetime="{{ post.date }}">{{ post.date | date: "%b %-d, %Y" }}</time></em>
+          </div>
+          <div class="column">
+            <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          </div>
+          <div class="column has-text-right is-hidden-touch">
+            <em><time datetime="{{ post.date }}">{{ post.date | date: "%b %-d, %Y" }}</time></em>
+          </div>
+        </div>
       {% endfor %}
-    </ul>
+    </fieldset>
   {% endfor %}
 {%- endif -%}

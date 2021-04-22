@@ -1,3 +1,67 @@
+//
+// Times New Roman, motherfuckers!
+//
+$family-primary: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;
+
+//
+// A list of common coding fonts with mine at the top, of course. ;)
+// Instead of downloading a font at runtime, we try and use something that might be available on the
+// user's system instead. If you're a programmer reading my blog, odds are you'll have one of these.
+//
+$family-monospace:
+  'Inconsolata',
+  'Fira Mono',
+  'Source Code Pro',
+  'Anonymous Pro',
+  droid-sans-mono,
+  'Ubuntu Mono',
+  monospace;
+
+$body-size: 22px;
+$weight-semibold: 400;
+$weight-bold: 500;
+$fullhd-enabled: false;
+$widescreen-enabled: false;
+
 @import '_includes/css/monokai.scss';
-@import '_includes/css/normalize.scss';
-@import '_includes/css/styles.scss';
+@import 'node_modules/bulma/bulma';
+
+fieldset.fieldset {
+  border: 1px solid grey;
+}
+
+legend.legend {
+  margin: 0 2em;
+  padding: 0 1em;
+}
+
+img.img {
+  width: auto;
+  height: auto;
+  max-height: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
+.highlighter-rouge {
+  margin-bottom: 1em;
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  margin-bottom: 1em;
+ }
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

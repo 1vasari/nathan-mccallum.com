@@ -26,10 +26,11 @@ module Jekyll
       end
 
       @alt = params.alt || ''
+      @class_names = params.class_names || 'img'
     end
 
     def render(context)
-      %Q{<img src="#{@src}" alt="#{@alt}" width="#{@width}" height="#{@height}" loading="lazy">}
+      %Q{<img src="#{@src}" alt="#{@alt}" width="#{@width}" height="#{@height}" loading="lazy" class="#{@class_names}">}
     end
   end
 end

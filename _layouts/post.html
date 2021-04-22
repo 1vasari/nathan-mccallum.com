@@ -1,19 +1,42 @@
 ---
-layout: default
+layout: base
 ---
 
-<h2>{{ page.title | escape }}</h2>
+<section class="section">
+  <div class="container">
+    <div class="content">
+      {%- if page.tags and page.tags[0] -%}
+        <div class="tag is-info is-light">
+          {{ page.tags | first | replace: '-', ' ' | capitalize }}
+        </div>
+      {%- endif -%}
 
-<p>
-  <time datetime="{{ page.date | date_to_xmlschema }}">
-    {{ page.date | date: "%b %-d, %Y" }}
-  </time>
-  {%- if page.author -%}
-    •&nbsp;{{ page.author }}
-  {%- endif -%}
-  {%- if page.tags and page.tags[0] -%}
-    &nbsp;•&nbsp;{{ page.tags | first | replace: '-', ' ' | capitalize }}
-  {%- endif -%}
-</p>
+      <h2 class="title is-size-3 m-0">{{ page.title | escape }}</h2>
 
-{{ content | smartify }}
+      <div class="block">
+        <time datetime="{{ page.date | date_to_xmlschema }}">
+          {{ page.date | date: "%b %-d, %Y" }}
+        </time>
+      </div>
+
+      {{ content | smartify }}
+    </div>
+  </div>
+</section>
+
+<footer class="footer has-background-light">
+  <div class="container">
+    <div class="columns is-vcentered">
+      <div class="column is-one-quarter">
+        <figure class="image is-square">
+          <img src="/img/me.webp" alt="Photo of Nathan McCallum" class="is-rounded">
+        </figure>
+      </div>
+      <div class="column">
+        Thanks for reading!
+        My name's Nathan McCallum and I'm a guitar-playing web developer based in Australia.
+        If you have any thoughts or feedback, please reach out to me via my email: <a href="{{ site.email }}">{{ site.email }}</a>
+      </div>
+    </div>
+  </div>
+</footer>
