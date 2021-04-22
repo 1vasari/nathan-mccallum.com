@@ -6,8 +6,8 @@
 
 /* SITE */
 
-  Last update: April, 2020
-  Standards: HTML5, CSS3, No-JavaScript
+  Last updated: April, 2021
+  Standards: HTML5, CSS3, Minimal JavaScript, Accessible for all humans
   Components: Jekyll, Sakura.css
-  Software: VS Code, macOS Catalina, git, GitHub Pages
+  Software: Visual Studio Code, git, GitHub Pages
   Source code: http://github.com/1vasari/nathan-mccallum.com
